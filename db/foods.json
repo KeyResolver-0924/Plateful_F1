@@ -1,0 +1,3646 @@
+{
+  "metadata": {
+    "title": "Complete Food Learning Modules for Children",
+    "version": "3.0",
+    "target_audience": "Elementary school children",
+    "total_categories": 6,
+    "total_foods": 67,
+    "difficulty_level": "Beginner to Intermediate"
+  },
+  "categories": {
+    "proteins": {
+      "name": "Proteins",
+      "description": "Foods that help build strong muscles and give your body energy",
+      "color": "#FF8A65",
+      "foods": {
+        "chicken": {
+          "name": "Chicken",
+          "video" : "assets/videos/Protein/chicken.mp4",
+          "learning": {
+            "summary": "Chicken is lean white meat that provides complete protein with all essential amino acids. Chickens are raised on farms where they're fed grain-based diets and cared for safely.",
+            "key_facts": [
+              "Lean white meat with complete protein",
+              "Raised on farms with grain-based diets", 
+              "Helps build and repair muscles",
+              "Provides all essential amino acids",
+              "Versatile and can be cooked many ways"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What type of meat is chicken?",
+              "options": ["Red meat", "White meat", "Pink meat", "Brown meat"],
+              "correct_answer": "B",
+              "explanation": "White meat",
+              "hint": "Think about the color you see when chicken is cooked - it's the color of snow!"
+            },
+            {
+              "id": 2,
+              "question": "What do chickens also provide besides meat?",
+              "options": ["Milk", "Wool", "Eggs", "Honey"],
+              "correct_answer": "C",
+              "explanation": "Eggs",
+              "hint": "Chickens lay something round that we eat for breakfast!"
+            },
+            {
+              "id": 3,
+              "question": "What do chickens eat on farms?",
+              "options": ["Only grass", "Grain-based diets", "Only meat", "Nothing"],
+              "correct_answer": "B",
+              "explanation": "Grain-based diets",
+              "hint": "Chickens eat the same kinds of seeds and grains that are used to make bread!"
+            },
+            {
+              "id": 4,
+              "question": "Why is chicken good protein?",
+              "options": ["It has no protein", "It's incomplete protein", "It has all essential amino acids", "It only has vitamins"],
+              "correct_answer": "C",
+              "explanation": "It has all essential amino acids",
+              "hint": "Chicken protein is 'complete' - it has all the building blocks your body needs!"
+            }
+          ],
+          "level": "beginner",
+          "category": "proteins"
+        },
+        "egg": {
+          "name": "Eggs",
+          "learning": {
+            "summary": "Eggs are complete protein packages from chickens! They have two main parts - the white provides protein while the yolk contains healthy fats and vitamins.",
+            "key_facts": [
+              "Complete protein from chickens",
+              "Two parts: protein-rich white and vitamin-rich yolk",
+              "Laid daily by hens on farms",
+              "Contains all essential amino acids", 
+              "Can be cooked in many different ways"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What animal lays the eggs we eat?",
+              "options": ["Cows", "Chickens", "Fish", "Pigs"],
+              "correct_answer": "B",
+              "explanation": "Chickens",
+              "hint": "These farm birds say 'cluck cluck' and have feathers!"
+            },
+            {
+              "id": 2,
+              "question": "What are the two main parts of an egg?",
+              "options": ["Shell and inside", "Top and bottom", "White and yolk", "Big and small"],
+              "correct_answer": "C",
+              "explanation": "White and yolk",
+              "hint": "One part is clear and becomes white when cooked, the other is round and yellow!"
+            },
+            {
+              "id": 3,
+              "question": "Which part of the egg has more fat?",
+              "options": ["The white", "The yolk", "The shell", "Both have the same"],
+              "correct_answer": "B",
+              "explanation": "The yolk",
+              "hint": "The yellow, round part in the center has all the healthy fats!"
+            },
+            {
+              "id": 4,
+              "question": "Why are eggs called complete proteins?",
+              "options": ["They're round", "They have all amino acids", "They're white", "They come in dozens"],
+              "correct_answer": "B", 
+              "explanation": "They have all amino acids",
+              "hint": "Eggs have all the building blocks your body needs - nothing is missing!"
+            }
+          ],
+          "level": "beginner",
+          "category": "proteins"
+        },
+        "fish": {
+          "name": "Fish",
+          "learning": {
+            "summary": "Fish provides excellent lean protein and healthy omega-3 fatty acids! Different types offer varying flavors from mild to rich. Fish can be caught wild or farm-raised.",
+            "key_facts": [
+              "Excellent source of lean protein",
+              "Rich in healthy omega-3 fatty acids",
+              "Can be wild-caught or farm-raised",
+              "Good for brain and heart health",
+              "Many varieties with different flavors"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do fish live?",
+              "options": ["On land", "In trees", "In water", "In caves"],
+              "correct_answer": "C",
+              "explanation": "In water",
+              "hint": "Fish need to swim in the same thing we drink!"
+            },
+            {
+              "id": 2,
+              "question": "What healthy fats do fish provide?",
+              "options": ["Omega-3 fatty acids", "Sugar", "Starch", "Fiber"],
+              "correct_answer": "A",
+              "explanation": "Omega-3 fatty acids",
+              "hint": "These special fats are great for your brain and heart!"
+            },
+            {
+              "id": 3,
+              "question": "How can fish be obtained?",
+              "options": ["Only from farms", "Wild-caught or farm-raised", "Only from the wild", "They catch themselves"],
+              "correct_answer": "B",
+              "explanation": "Wild-caught or farm-raised",
+              "hint": "Fish can come from natural waters or be grown by people!"
+            },
+            {
+              "id": 4,
+              "question": "What makes fish a good protein?",
+              "options": ["It has lots of fat", "It has little protein", "It's lean with good fats", "It has no nutrients"],
+              "correct_answer": "C",
+              "explanation": "It's lean with good fats",
+              "hint": "Fish gives you muscle-building protein without too much bad fat!"
+            }
+          ],
+          "level": "beginner",
+          "category": "proteins"
+        },
+        "almond": {
+          "name": "Almonds",
+          "learning": {
+            "summary": "Almonds are crunchy nuts that grow on trees with beautiful pink spring blossoms! They're packed with plant protein, healthy fats, and vitamin E for healthy skin.",
+            "key_facts": [
+              "Grow on trees with pink spring blossoms",
+              "High in plant protein and healthy fats",
+              "Rich in vitamin E for healthy skin",
+              "Need bees for pollination",
+              "Can be eaten raw or made into almond butter"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do almonds grow?",
+              "options": ["Underground", "On trees", "In water", "On bushes"],
+              "correct_answer": "B",
+              "explanation": "On trees",
+              "hint": "Almonds grow high up where you'd need a ladder to reach them!"
+            },
+            {
+              "id": 2,
+              "question": "What color are almond tree flowers?",
+              "options": ["White", "Pink", "Yellow", "Purple"],
+              "correct_answer": "B",
+              "explanation": "Pink",
+              "hint": "The flowers are the same color as cotton candy!"
+            },
+            {
+              "id": 3,
+              "question": "What vitamin are almonds rich in?",
+              "options": ["Vitamin A", "Vitamin C", "Vitamin E", "Vitamin K"],
+              "correct_answer": "C",
+              "explanation": "Vitamin E",
+              "hint": "This vitamin is great for keeping your skin healthy and soft!"
+            },
+            {
+              "id": 4,
+              "question": "What helps almond trees make nuts?",
+              "options": ["Wind", "Bees", "Rain", "Snow"],
+              "correct_answer": "B",
+              "explanation": "Bees",
+              "hint": "These buzzing insects fly from flower to flower!"
+            }
+          ],
+          "level": "beginner",
+          "category": "proteins"
+        },
+        "pea": {
+          "name": "Peas",
+          "video" : "assets/videos/Protein/pea.mp4",
+          "learning": {
+            "summary": "Peas are small, round green vegetables that grow in pods! They're sweet, provide good plant protein, and their plants climb up supports with white or purple flowers.",
+            "key_facts": [
+              "Small, round seeds that grow in pods",
+              "Good source of plant protein",
+              "High in fiber for digestive health", 
+              "Plants climb and need support",
+              "Sweet taste that kids love"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What shape are peas?",
+              "options": ["Square", "Triangle", "Round", "Star-shaped"],
+              "correct_answer": "C",
+              "explanation": "Round",
+              "hint": "Peas are the same shape as marbles or small balls!"
+            },
+            {
+              "id": 2,
+              "question": "Where do peas grow?",
+              "options": ["In pods", "On the ground", "Under the soil", "In trees"],
+              "correct_answer": "A",
+              "explanation": "In pods",
+              "hint": "Peas grow inside green containers that split open when ready!"
+            },
+            {
+              "id": 3,
+              "question": "What do pea plants need to climb?",
+              "options": ["Nothing", "Support like poles", "Other plants", "Rocks"],
+              "correct_answer": "B",
+              "explanation": "Support like poles",
+              "hint": "Pea plants are like climbers who need something to hold onto!"
+            },
+            {
+              "id": 4,
+              "question": "What do peas taste like?",
+              "options": ["Bitter and sour", "Sweet and fresh", "Spicy and hot", "Tasteless"],
+              "correct_answer": "B",
+              "explanation": "Sweet and fresh",
+              "hint": "Peas have a naturally sweet taste that makes them fun to eat!"
+            }
+          ],
+          "level": "beginner",
+          "category": "proteins"
+        },
+        "tofu": {
+          "name": "Tofu",
+          "learning": {
+            "summary": "Tofu is made from soybeans and has a mild flavor that absorbs other tastes! It's a complete plant protein that comes in different textures from soft to extra-firm.",
+            "key_facts": [
+              "Made from soybeans",
+              "Complete plant protein with all amino acids",
+              "Mild flavor that absorbs seasonings",
+              "Comes in soft, firm, and extra-firm textures",
+              "Made by curdling soy milk"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What is tofu made from?",
+              "options": ["Milk", "Soybeans", "Rice", "Wheat"],
+              "correct_answer": "B",
+              "explanation": "Soybeans",
+              "hint": "Tofu is made from beans that make a white liquid like milk!"
+            },
+            {
+              "id": 2,
+              "question": "What does tofu taste like on its own?",
+              "options": ["Very spicy", "Very sweet", "Mild and absorbs flavors", "Very salty"],
+              "correct_answer": "C",
+              "explanation": "Mild and absorbs flavors",
+              "hint": "Tofu is like a sponge - it soaks up the flavors around it!"
+            },
+            {
+              "id": 3,
+              "question": "What textures can tofu come in?",
+              "options": ["Only hard", "Soft to extra-firm", "Only soft", "Only liquid"],
+              "correct_answer": "B",
+              "explanation": "Soft to extra-firm",
+              "hint": "Tofu comes in different firmness levels, like cheese!"
+            },
+            {
+              "id": 4,
+              "question": "What type of protein is tofu?",
+              "options": ["Incomplete protein", "Complete plant protein", "No protein", "Only animal protein"],
+              "correct_answer": "B",
+              "explanation": "Complete plant protein",
+              "hint": "Even though it's from plants, tofu has all the protein building blocks!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "proteins"
+        },
+        "beef": {
+          "name": "Beef",
+          "learning": {
+            "summary": "Beef comes from cattle and provides complete protein with essential nutrients like iron and B vitamins! Choose lean cuts for the healthiest option.",
+            "key_facts": [
+              "Comes from cattle raised on farms",
+              "High in complete protein and iron",
+              "Rich in B vitamins for energy",
+              "Different cuts have varying fat content",
+              "Important source of zinc and iron"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What animal does beef come from?",
+              "options": ["Chickens", "Pigs", "Cattle", "Sheep"],
+              "correct_answer": "C",
+              "explanation": "Cattle",
+              "hint": "These large farm animals say 'moo' and eat grass!"
+            },
+            {
+              "id": 2,
+              "question": "What important mineral does beef provide?",
+              "options": ["Gold", "Iron", "Silver", "Copper"],
+              "correct_answer": "B",
+              "explanation": "Iron",
+              "hint": "This mineral helps carry oxygen in your blood!"
+            },
+            {
+              "id": 3,
+              "question": "What makes some beef cuts healthier?",
+              "options": ["More fat", "Less protein", "Being lean", "More sugar"],
+              "correct_answer": "C",
+              "explanation": "Being lean",
+              "hint": "The healthiest beef has less visible white fat!"
+            },
+            {
+              "id": 4,
+              "question": "What vitamins does beef provide?",
+              "options": ["Only vitamin C", "B vitamins", "Only vitamin A", "No vitamins"],
+              "correct_answer": "B",
+              "explanation": "B vitamins",
+              "hint": "These vitamins help your body make energy from food!"
+            }
+          ],
+          "level": "beginner",
+          "category": "proteins"
+        }
+      }
+    },
+    "carbohydrates": {
+      "name": "Carbohydrates",
+      "description": "Foods that give your body energy to run, play, and learn",
+      "color": "#FFD93D",
+      "foods": {
+        "butternut": {
+          "name": "Butternut Squash",
+          "video" : "../assets/videos/Carbohydrate/Butternut.mp4",
+          "learning": {
+            "summary": "Butternut squash is a winter squash with sweet, orange flesh that's rich in complex carbohydrates. It grows on vines and has a creamy, nutty flavor when cooked.",
+            "key_facts": [
+              "Winter squash with orange flesh",
+              "Rich in complex carbohydrates",
+              "Sweet, nutty flavor when cooked",
+              "High in vitamin A for eye health",
+              "Grows on long vines"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color is butternut squash inside?",
+              "options": ["White", "Orange", "Green", "Purple"],
+              "correct_answer": "B",
+              "explanation": "Orange",
+              "hint": "The inside is the same color as a carrot or pumpkin!"
+            },
+            {
+              "id": 2,
+              "question": "What type of carbohydrates does butternut squash have?",
+              "options": ["Simple sugars", "Complex carbohydrates", "No carbohydrates", "Only fiber"],
+              "correct_answer": "B",
+              "explanation": "Complex carbohydrates",
+              "hint": "These carbs give you long-lasting energy!"
+            },
+            {
+              "id": 3,
+              "question": "How does butternut squash grow?",
+              "options": ["On trees", "On vines", "Underground", "On bushes"],
+              "correct_answer": "B",
+              "explanation": "On vines",
+              "hint": "Like pumpkins, butternut squash grows on long, trailing plants!"
+            },
+            {
+              "id": 4,
+              "question": "What does butternut squash taste like?",
+              "options": ["Sour and bitter", "Sweet and nutty", "Spicy and hot", "Salty"],
+              "correct_answer": "B",
+              "explanation": "Sweet and nutty",
+              "hint": "It has a naturally sweet taste with a hint of nuts!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "carbohydrates"
+        },
+        "corn": {
+          "name": "Corn",
+          "video" : "assets/videos/Carbohydrate/corn.mp4",
+          "learning": {
+            "summary": "Corn grows on tall stalks with kernels arranged on cobs! Each kernel is a seed packed with starch and natural sugars for energy. Corn comes in yellow, white, and colorful varieties.",
+            "key_facts": [
+              "Grows on tall stalks with large leaves",
+              "Kernels are arranged on cobs",
+              "High in starch for sustained energy",
+              "Each kernel is actually a seed",
+              "Comes in many colors and varieties"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do corn kernels grow?",
+              "options": ["On trees", "On cobs", "Underground", "In pods"],
+              "correct_answer": "B",
+              "explanation": "On cobs",
+              "hint": "Corn kernels are arranged in rows on a central core!"
+            },
+            {
+              "id": 2,
+              "question": "What is each corn kernel?",
+              "options": ["A flower", "A seed", "A leaf", "A root"],
+              "correct_answer": "B",
+              "explanation": "A seed",
+              "hint": "Each yellow kernel could grow into a whole new corn plant!"
+            },
+            {
+              "id": 3,
+              "question": "What gives corn its energy?",
+              "options": ["Protein", "Starch and natural sugars", "Fat", "Water"],
+              "correct_answer": "B",
+              "explanation": "Starch and natural sugars",
+              "hint": "Corn has stored energy in the form of natural starches!"
+            },
+            {
+              "id": 4,
+              "question": "How tall do corn stalks grow?",
+              "options": ["Short like grass", "Very tall", "Medium height", "They don't grow up"],
+              "correct_answer": "B",
+              "explanation": "Very tall",
+              "hint": "Corn stalks can grow taller than most people!"
+            }
+          ],
+          "level": "beginner",
+          "category": "carbohydrates"
+        },
+        "rice": {
+          "name": "Rice",
+          "video" : "assets/videos/Carbohydrate/rice.mp4",
+          "learning": {
+            "summary": "Rice is a grain that grows in flooded fields called paddies. It's a staple food providing energy-rich carbohydrates for billions of people worldwide.",
+            "key_facts": [
+              "Grows in water-flooded fields called paddies",
+              "Staple food for much of the world",
+              "Rich in energy-giving carbohydrates",
+              "Comes in white, brown, and wild varieties",
+              "Each grain is actually a seed"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where does rice grow?",
+              "options": ["In dry fields", "In flooded paddies", "On trees", "Underground"],
+              "correct_answer": "B",
+              "explanation": "In flooded paddies",
+              "hint": "Rice grows in fields covered with water like shallow ponds!"
+            },
+            {
+              "id": 2,
+              "question": "What does rice provide for your body?",
+              "options": ["Only protein", "Energy from carbohydrates", "Only fat", "Only vitamins"],
+              "correct_answer": "B",
+              "explanation": "Energy from carbohydrates",
+              "hint": "Rice gives you the fuel your body needs to run and play!"
+            },
+            {
+              "id": 3,
+              "question": "What varieties does rice come in?",
+              "options": ["Only white", "White, brown, and wild", "Only brown", "Only wild"],
+              "correct_answer": "B",
+              "explanation": "White, brown, and wild",
+              "hint": "Rice comes in different colors and types, just like bread!"
+            },
+            {
+              "id": 4,
+              "question": "What is each grain of rice?",
+              "options": ["A flower", "A seed", "A leaf", "A root"],
+              "correct_answer": "B",
+              "explanation": "A seed",
+              "hint": "Each tiny grain could potentially grow into a new rice plant!"
+            }
+          ],
+          "level": "beginner",
+          "category": "carbohydrates"
+        },
+        "pasta": {
+          "name": "Pasta",
+          "learning": {
+            "summary": "Pasta is made from wheat flour and water, formed into hundreds of different shapes! It provides energy-rich carbohydrates and is cooked in boiling water until tender.",
+            "key_facts": [
+              "Made from wheat flour and water",
+              "Comes in hundreds of different shapes",
+              "Rich in energy-giving carbohydrates",
+              "Cooked in boiling water",
+              "Can be served with many different sauces"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What is pasta made from?",
+              "options": ["Rice flour", "Wheat flour and water", "Corn flour", "Potato starch"],
+              "correct_answer": "B",
+              "explanation": "Wheat flour and water",
+              "hint": "Pasta is made from the same flour used to make bread!"
+            },
+            {
+              "id": 2,
+              "question": "How is pasta cooked?",
+              "options": ["In cold water", "In boiling water", "In the oven", "Raw"],
+              "correct_answer": "B",
+              "explanation": "In boiling water",
+              "hint": "Pasta needs very hot, bubbling water to become soft!"
+            },
+            {
+              "id": 3,
+              "question": "How many shapes does pasta come in?",
+              "options": ["Only one", "A few", "Hundreds", "Just ten"],
+              "correct_answer": "C",
+              "explanation": "Hundreds",
+              "hint": "There are more pasta shapes than you could count!"
+            },
+            {
+              "id": 4,
+              "question": "What does pasta give your body?",
+              "options": ["Energy from carbohydrates", "Only protein", "Only vitamins", "Only fat"],
+              "correct_answer": "A",
+              "explanation": "Energy from carbohydrates",
+              "hint": "Pasta provides fuel for your body to run and play!"
+            }
+          ],
+          "level": "beginner",
+          "category": "carbohydrates"
+        },
+        "pumpkin": {
+          "name": "Pumpkin",
+          "learning": {
+            "summary": "Pumpkins are large, orange winter squashes that grow on vines! They're rich in carbohydrates and beta-carotene. Pumpkins can be carved for Halloween or cooked for food.",
+            "key_facts": [
+              "Large, orange winter squashes",
+              "Rich in carbohydrates and beta-carotene",
+              "Grow on long trailing vines",
+              "Seeds are edible when roasted",
+              "Used for decoration and food"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color are most pumpkins?",
+              "options": ["Green", "Orange", "Purple", "Blue"],
+              "correct_answer": "B",
+              "explanation": "Orange",
+              "hint": "Pumpkins are the same color as a basketball or carrots!"
+            },
+            {
+              "id": 2,
+              "question": "How do pumpkins grow?",
+              "options": ["On trees", "On vines", "Underground", "On bushes"],
+              "correct_answer": "B",
+              "explanation": "On vines",
+              "hint": "Pumpkins grow on long, trailing plants that spread along the ground!"
+            },
+            {
+              "id": 3,
+              "question": "What makes pumpkins orange?",
+              "options": ["Food coloring", "Beta-carotene", "Sugar", "Water"],
+              "correct_answer": "B",
+              "explanation": "Beta-carotene",
+              "hint": "This nutrient is the same thing that makes carrots orange!"
+            },
+            {
+              "id": 4,
+              "question": "What can you do with pumpkin seeds?",
+              "options": ["Nothing", "Roast and eat them", "Use as decorations", "Plant them only"],
+              "correct_answer": "B",
+              "explanation": "Roast and eat them",
+              "hint": "Pumpkin seeds make a crunchy, healthy snack when cooked!"
+            }
+          ],
+          "level": "beginner",
+          "category": "carbohydrates"
+        },
+        "potato": {
+          "name": "Potato",
+          "learning": {
+            "summary": "Potatoes grow underground as tubers and are packed with starchy carbohydrates for energy! They have skin on the outside and can be cooked in many different ways.",
+            "key_facts": [
+              "Grow underground as tubers",
+              "High in starchy carbohydrates",
+              "Have skin on outside, flesh inside",
+              "Come in many varieties",
+              "Can be cooked many different ways"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do potatoes grow?",
+              "options": ["On trees", "Above ground", "Underground", "In water"],
+              "correct_answer": "C",
+              "explanation": "Underground",
+              "hint": "Potatoes hide below the soil while green leaves grow above!"
+            },
+            {
+              "id": 2,
+              "question": "What type of carbohydrates do potatoes have?",
+              "options": ["Simple sugars", "Starchy carbohydrates", "No carbohydrates", "Only fiber"],
+              "correct_answer": "B",
+              "explanation": "Starchy carbohydrates",
+              "hint": "Potatoes store energy in the form of starch!"
+            },
+            {
+              "id": 3,
+              "question": "What part of the potato do we usually eat?",
+              "options": ["The leaves", "The flowers", "The tuber", "The roots"],
+              "correct_answer": "C",
+              "explanation": "The tuber",
+              "hint": "We eat the part that grows underground and stores energy!"
+            },
+            {
+              "id": 4,
+              "question": "How can potatoes be cooked?",
+              "options": ["Only baked", "Only fried", "Many different ways", "Only boiled"],
+              "correct_answer": "C",
+              "explanation": "Many different ways",
+              "hint": "Think about french fries, mashed potatoes, baked potatoes!"
+            }
+          ],
+          "level": "beginner",
+          "category": "carbohydrates"
+        },
+        "oats": {
+          "name": "Oats",
+          "learning": {
+            "summary": "Oats are whole grains that provide sustained energy from complex carbohydrates! They're often eaten as oatmeal for breakfast and are high in fiber.",
+            "key_facts": [
+              "Whole grains rich in complex carbohydrates",
+              "High in fiber for digestive health",
+              "Often eaten as oatmeal for breakfast",
+              "Provide sustained, long-lasting energy",
+              "Grow in fields like wheat"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What type of carbohydrates do oats provide?",
+              "options": ["Simple sugars", "Complex carbohydrates", "No carbohydrates", "Only starch"],
+              "correct_answer": "B",
+              "explanation": "Complex carbohydrates",
+              "hint": "These carbs give you long-lasting energy, not quick sugar rushes!"
+            },
+            {
+              "id": 2,
+              "question": "When are oats most commonly eaten?",
+              "options": ["For dinner", "For breakfast", "For lunch", "As a snack"],
+              "correct_answer": "B",
+              "explanation": "For breakfast",
+              "hint": "Think about a warm, creamy bowl that starts your day!"
+            },
+            {
+              "id": 3,
+              "question": "What makes oats good for your tummy?",
+              "options": ["Sugar", "Fiber", "Fat", "Salt"],
+              "correct_answer": "B",
+              "explanation": "Fiber",
+              "hint": "This nutrient helps food move through your system smoothly!"
+            },
+            {
+              "id": 4,
+              "question": "How do oats give you energy?",
+              "options": ["Quick burst then crash", "Sustained, long-lasting energy", "No energy", "Only at night"],
+              "correct_answer": "B",
+              "explanation": "Sustained, long-lasting energy",
+              "hint": "Oats keep you energized for hours, not just minutes!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "carbohydrates"
+        },
+        "quinoa": {
+          "name": "Quinoa",
+          "learning": {
+            "summary": "Quinoa is a special seed that's cooked like a grain and provides both carbohydrates and complete protein! It comes from South America and has a nutty flavor.",
+            "key_facts": [
+              "Actually a seed, not a true grain",
+              "Provides both carbohydrates and protein",
+              "Complete protein with all amino acids",
+              "Naturally gluten-free",
+              "Has a nutty flavor and fluffy texture"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What is quinoa actually?",
+              "options": ["A grain", "A seed", "A vegetable", "A fruit"],
+              "correct_answer": "B",
+              "explanation": "A seed",
+              "hint": "Even though it's cooked like rice, quinoa is actually a tiny seed!"
+            },
+            {
+              "id": 2,
+              "question": "What makes quinoa special for protein?",
+              "options": ["No protein", "Incomplete protein", "Complete protein", "Only carbohydrates"],
+              "correct_answer": "C",
+              "explanation": "Complete protein",
+              "hint": "Quinoa has all the protein building blocks your body needs!"
+            },
+            {
+              "id": 3,
+              "question": "What does quinoa taste like?",
+              "options": ["Very sweet", "Nutty", "Very sour", "Spicy"],
+              "correct_answer": "B",
+              "explanation": "Nutty",
+              "hint": "Quinoa has a mild flavor that reminds people of nuts!"
+            },
+            {
+              "id": 4,
+              "question": "Where does quinoa originally come from?",
+              "options": ["North America", "Europe", "South America", "Asia"],
+              "correct_answer": "C",
+              "explanation": "South America",
+              "hint": "Quinoa comes from the same continent as the Andes Mountains!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "carbohydrates"
+        },
+        "sweet_potato": {
+          "name": "Sweet Potato",
+          "video" : "assets/videos/Carbohydrate/Sweetpotato.mp4",
+          "learning": {
+            "summary": "Sweet potatoes are orange root vegetables that grow underground and are naturally sweet! They're rich in complex carbohydrates and very high in vitamin A.",
+            "key_facts": [
+              "Orange root vegetables that grow underground",
+              "Naturally sweet with complex carbohydrates",
+              "Very high in vitamin A for eye health",
+              "Creamy texture when cooked",
+              "Different from regular potatoes"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do sweet potatoes grow?",
+              "options": ["On trees", "Above ground", "Underground", "In water"],
+              "correct_answer": "C",
+              "explanation": "Underground",
+              "hint": "Like regular potatoes, sweet potatoes hide below the soil!"
+            },
+            {
+              "id": 2,
+              "question": "What color are sweet potatoes inside?",
+              "options": ["White", "Orange", "Purple", "Green"],
+              "correct_answer": "B",
+              "explanation": "Orange",
+              "hint": "The inside is the same color as a carrot or pumpkin!"
+            },
+            {
+              "id": 3,
+              "question": "What vitamin are sweet potatoes rich in?",
+              "options": ["Vitamin C", "Vitamin A", "Vitamin K", "Vitamin D"],
+              "correct_answer": "B",
+              "explanation": "Vitamin A",
+              "hint": "This vitamin helps you see well and keeps your eyes healthy!"
+            },
+            {
+              "id": 4,
+              "question": "How do sweet potatoes taste?",
+              "options": ["Sour", "Naturally sweet", "Bitter", "Salty"],
+              "correct_answer": "B",
+              "explanation": "Naturally sweet",
+              "hint": "These potatoes taste like they already have sugar in them!"
+            }
+          ],
+          "level": "beginner",
+          "category": "carbohydrates"
+        }
+      }
+    },
+    "vegetables": {
+      "name": "Vegetables",
+      "description": "Nutritious plants that we eat, including roots, leaves, stems, and flowers",
+      "color": "#4ECDC4",
+      "foods": {
+        "asparagus": {
+          "name": "Asparagus",
+          "video" : "assets/videos/Vegetable/Asparagus.mp4",
+          "learning": {
+            "summary": "Asparagus are green spears that emerge from the ground in spring! They're young shoots that take 2-3 years to grow before first harvest. Asparagus comes in green, purple, and white varieties.",
+            "key_facts": [
+              "Green spears that emerge in spring",
+              "Actually young plant shoots",
+              "Takes 2-3 years before first harvest",
+              "Comes in green, purple, and white varieties",
+              "High in vitamins K and folate"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What does asparagus look like?",
+              "options": ["Round orange fruit", "Pointy and green", "Purple flower", "Yellow and leafy"],
+              "correct_answer": "B",
+              "explanation": "Pointy and green",
+              "hint": "Asparagus spears are shaped like green pencils or arrows!"
+            },
+            {
+              "id": 2,
+              "question": "How long before asparagus can be harvested?",
+              "options": ["1 week", "1-3 days", "2-3 years", "10 years"],
+              "correct_answer": "C",
+              "explanation": "2-3 years",
+              "hint": "Asparagus needs time to grow strong roots before harvesting!"
+            },
+            {
+              "id": 3,
+              "question": "What colors can asparagus be?",
+              "options": ["Red and blue", "Black and brown", "Pink and orange", "Green, purple, and white"],
+              "correct_answer": "D",
+              "explanation": "Green, purple, and white",
+              "hint": "Asparagus comes in more colors than just green!"
+            },
+            {
+              "id": 4,
+              "question": "When do asparagus spears emerge?",
+              "options": ["Winter", "Fall", "Spring", "Never"],
+              "correct_answer": "C",
+              "explanation": "Spring",
+              "hint": "Asparagus pops up when the weather gets warm after winter!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "vegetables"
+        },
+        "beet": {
+          "name": "Beet",
+          "video" : "assets/videos/Vegetable/Beet.mp4",
+          "learning": {
+            "summary": "Beets are round root vegetables with deep red color and leafy green tops! They grow underground and have a sweet, earthy flavor. Both the root and leaves are edible.",
+            "key_facts": [
+              "Round root vegetables with red color",
+              "Grow underground with leafy tops above",
+              "Sweet, earthy flavor",
+              "Both roots and leaves are edible",
+              "High in folate and nitrates"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color are most beets?",
+              "options": ["Yellow", "Deep red", "Green", "White"],
+              "correct_answer": "B",
+              "explanation": "Deep red",
+              "hint": "Beets are the same color as a fire truck!"
+            },
+            {
+              "id": 2,
+              "question": "Where do beets grow?",
+              "options": ["On trees", "Above ground", "Underground", "In water"],
+              "correct_answer": "C",
+              "explanation": "Underground",
+              "hint": "Like carrots, beets hide their colorful roots below the soil!"
+            },
+            {
+              "id": 3,
+              "question": "What parts of a beet can you eat?",
+              "options": ["Only the root", "Only the leaves", "Both root and leaves", "Neither part"],
+              "correct_answer": "C",
+              "explanation": "Both root and leaves",
+              "hint": "Nothing goes to waste with beets!"
+            },
+            {
+              "id": 4,
+              "question": "How do beets taste?",
+              "options": ["Very sour", "Sweet and earthy", "Very spicy", "Bitter"],
+              "correct_answer": "B",
+              "explanation": "Sweet and earthy",
+              "hint": "Beets have natural sweetness with a taste that reminds you of soil!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "vegetables"
+        },
+        "broccoli": {
+          "name": "Broccoli",
+          "video" : "assets/videos/Vegetable/Broccoli.mp4",
+          "learning": {
+            "summary": "Broccoli looks like tiny green trees and is actually flowers we eat before they bloom! It grows in cool weather and is packed with vitamins C and K.",
+            "key_facts": [
+              "Looks like tiny green trees",
+              "Actually flowers we eat before blooming",
+              "Grows best in cool weather",
+              "High in vitamins C and K",
+              "Turns into yellow flowers if not harvested"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What does broccoli look like?",
+              "options": ["Tiny green trees", "Long orange sticks", "Round red balls", "Flat leaves"],
+              "correct_answer": "A",
+              "explanation": "Tiny green trees",
+              "hint": "Think about miniature forests!"
+            },
+            {
+              "id": 2,
+              "question": "What part of the plant is broccoli?",
+              "options": ["The roots", "Flowers before they bloom", "The seeds", "The bark"],
+              "correct_answer": "B",
+              "explanation": "Flowers before they bloom",
+              "hint": "We eat the part that would turn into colorful blossoms!"
+            },
+            {
+              "id": 3,
+              "question": "What weather does broccoli prefer?",
+              "options": ["Very hot", "Cool weather", "Freezing cold", "Desert heat"],
+              "correct_answer": "B",
+              "explanation": "Cool weather",
+              "hint": "Broccoli likes sweater weather!"
+            },
+            {
+              "id": 4,
+              "question": "What happens if broccoli isn't harvested?",
+              "options": ["It turns red", "It disappears", "Yellow flowers open", "It becomes poisonous"],
+              "correct_answer": "C",
+              "explanation": "Yellow flowers open",
+              "hint": "The green part opens up to reveal sunny-colored blossoms!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "bell_pepper": {
+          "name": "Bell Pepper",
+          "video" : "assets/videos/Vegetable/Bellpepper.mp4",
+          "learning": {
+            "summary": "Bell peppers are colorful, sweet peppers shaped like bells! They start green and change to red, yellow, or orange as they ripen. They're very high in vitamin C.",
+            "key_facts": [
+              "Shaped like bells",
+              "Start green, change colors when ripe",
+              "Sweet and crunchy, not spicy",
+              "Very high in vitamin C",
+              "Come in many colors"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What shape are bell peppers?",
+              "options": ["Like a ball", "Like a bell", "Like a star", "Like a square"],
+              "correct_answer": "B",
+              "explanation": "Like a bell",
+              "hint": "Think about what rings in a church tower!"
+            },
+            {
+              "id": 2,
+              "question": "What color do bell peppers start as?",
+              "options": ["Red", "Orange", "Green", "Yellow"],
+              "correct_answer": "C",
+              "explanation": "Green",
+              "hint": "Young bell peppers are the same color as grass!"
+            },
+            {
+              "id": 3,
+              "question": "How do bell peppers taste?",
+              "options": ["Very spicy", "Sweet and crunchy", "Very bitter", "Sour"],
+              "correct_answer": "B",
+              "explanation": "Sweet and crunchy",
+              "hint": "Bell peppers are mild and pleasant, not hot!"
+            },
+            {
+              "id": 4,
+              "question": "What vitamin are bell peppers rich in?",
+              "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+              "correct_answer": "C",
+              "explanation": "Vitamin C",
+              "hint": "This vitamin helps keep you healthy and fight colds!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "carrot": {
+          "name": "Carrot",
+          "video" : "assets/videos/Vegetable/Carrot.mp4",
+          "learning": {
+            "summary": "Carrots are orange root vegetables that grow underground with green leafy tops above! They're crunchy, sweet, and packed with beta-carotene for healthy eyes.",
+            "key_facts": [
+              "Orange root vegetables growing underground",
+              "Green leafy tops grow above ground",
+              "High in beta-carotene for eye health",
+              "Crunchy and naturally sweet",
+              "Help with night vision"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do carrots grow?",
+              "options": ["On trees", "Above ground", "Underground", "In water"],
+              "correct_answer": "C",
+              "explanation": "Underground",
+              "hint": "You only see the green tops - the orange part is below!"
+            },
+            {
+              "id": 2,
+              "question": "What color are most carrots?",
+              "options": ["Red", "Orange", "Purple", "Blue"],
+              "correct_answer": "B",
+              "explanation": "Orange",
+              "hint": "Carrots are the same color as a basketball!"
+            },
+            {
+              "id": 3,
+              "question": "What part of your body do carrots help?",
+              "options": ["Your ears", "Your eyes", "Your nose", "Your hair"],
+              "correct_answer": "B",
+              "explanation": "Your eyes",
+              "hint": "Think about the part of your body that helps you see!"
+            },
+            {
+              "id": 4,
+              "question": "What grows above ground from carrots?",
+              "options": ["Nothing", "Orange tops", "Green leafy tops", "Flowers only"],
+              "correct_answer": "C",
+              "explanation": "Green leafy tops",
+              "hint": "The part above ground is green like grass!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "cabbage": {
+          "name": "Cabbage",
+          "video" : "assets/videos/Vegetable/Cabbage.mp4",
+          "learning": {
+            "summary": "Cabbage forms tight, round heads of layered leaves! It comes in green, purple, and white varieties and can be eaten raw or cooked. The leaves grow in tight layers.",
+            "key_facts": [
+              "Forms tight, round heads of leaves",
+              "Comes in green, purple, and white",
+              "Leaves are arranged in tight layers",
+              "Can be eaten raw or cooked",
+              "High in vitamin C and fiber"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What shape does cabbage grow in?",
+              "options": ["Long and thin", "Flat and wide", "Round tight heads", "Triangle shaped"],
+              "correct_answer": "C",
+              "explanation": "Round tight heads",
+              "hint": "Cabbage forms ball-shaped bundles of leaves!"
+            },
+            {
+              "id": 2,
+              "question": "What colors can cabbage be?",
+              "options": ["Only green", "Green, purple, and white", "Only red", "Yellow and blue"],
+              "correct_answer": "B",
+              "explanation": "Green, purple, and white",
+              "hint": "Cabbage comes in several different colors!"
+            },
+            {
+              "id": 3,
+              "question": "How are cabbage leaves arranged?",
+              "options": ["Randomly scattered", "In tight layers", "Hanging down", "Standing straight up"],
+              "correct_answer": "B",
+              "explanation": "In tight layers",
+              "hint": "Cabbage leaves wrap around each other like layers of an onion!"
+            },
+            {
+              "id": 4,
+              "question": "How can you eat cabbage?",
+              "options": ["Only raw", "Only cooked", "Both raw and cooked", "You can't eat it"],
+              "correct_answer": "C",
+              "explanation": "Both raw and cooked",
+              "hint": "Think about coleslaw (raw) and cooked cabbage in soups!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "cauliflower": {
+          "name": "Cauliflower",
+          "video" : "assets/videos/Vegetable/Cauliflower.mp4",
+          "learning": {
+            "summary": "Cauliflower looks like white broccoli and is also a flower we eat before it blooms! It grows in cool weather and has a mild, slightly sweet flavor. It can be white, purple, or orange.",
+            "key_facts": [
+              "Looks like white broccoli",
+              "Also flowers we eat before blooming",
+              "Grows in cool weather",
+              "Mild, slightly sweet flavor",
+              "Comes in white, purple, and orange varieties"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What does cauliflower look like?",
+              "options": ["Green trees", "White broccoli", "Red flowers", "Yellow corn"],
+              "correct_answer": "B",
+              "explanation": "White broccoli",
+              "hint": "Cauliflower is broccoli's white cousin!"
+            },
+            {
+              "id": 2,
+              "question": "What part of the plant is cauliflower?",
+              "options": ["Roots", "Flowers before blooming", "Seeds", "Leaves"],
+              "correct_answer": "B",
+              "explanation": "Flowers before blooming",
+              "hint": "Just like broccoli, we eat the flower part!"
+            },
+            {
+              "id": 3,
+              "question": "What weather does cauliflower like?",
+              "options": ["Very hot", "Cool weather", "Freezing", "Desert heat"],
+              "correct_answer": "B",
+              "explanation": "Cool weather",
+              "hint": "Cauliflower likes the same weather as broccoli!"
+            },
+            {
+              "id": 4,
+              "question": "What colors can cauliflower be?",
+              "options": ["Only white", "White, purple, and orange", "Only purple", "Only green"],
+              "correct_answer": "B",
+              "explanation": "White, purple, and orange",
+              "hint": "Cauliflower comes in more colors than just white!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "cucumber": {
+          "name": "Cucumber",
+          "video" : "assets/videos/Vegetable/Cucumber.mp4",
+          "learning": {
+            "summary": "Cucumbers are cool, refreshing vegetables that are mostly water! They grow on vines and have a mild flavor with crunchy texture. Perfect for hot summer days!",
+            "key_facts": [
+              "Cool, refreshing and mostly water",
+              "Grow on climbing vines",
+              "Mild flavor and crunchy texture",
+              "Perfect for hot days",
+              "High water content keeps you hydrated"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What are cucumbers mostly made of?",
+              "options": ["Sugar", "Fat", "Water", "Protein"],
+              "correct_answer": "C",
+              "explanation": "Water",
+              "hint": "Cucumbers are like nature's water bottles!"
+            },
+            {
+              "id": 2,
+              "question": "Where do cucumbers grow?",
+              "options": ["On trees", "On vines", "Underground", "On bushes"],
+              "correct_answer": "B",
+              "explanation": "On vines",
+              "hint": "Cucumbers grow on climbing plants that need support!"
+            },
+            {
+              "id": 3,
+              "question": "What do cucumbers taste like?",
+              "options": ["Very sweet", "Mild and refreshing", "Very spicy", "Very sour"],
+              "correct_answer": "B",
+              "explanation": "Mild and refreshing",
+              "hint": "Cucumbers have a cool, clean taste!"
+            },
+            {
+              "id": 4,
+              "question": "When are cucumbers most refreshing?",
+              "options": ["Cold winter days", "Hot summer days", "Rainy days", "Snowy days"],
+              "correct_answer": "B",
+              "explanation": "Hot summer days",
+              "hint": "Think about when you'd most want something cool and watery!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "eggplant": {
+          "name": "Eggplant",
+          "video" : "assets/videos/Vegetable/Eggplant.mp4",
+          "learning": {
+            "summary": "Eggplants are purple, egg-shaped vegetables that grow on plants! They have a spongy texture that absorbs flavors well when cooking. Eggplants need warm weather to grow.",
+            "key_facts": [
+              "Purple, egg-shaped vegetables",
+              "Grow on bushy plants",
+              "Spongy texture that absorbs flavors",
+              "Need warm weather to grow",
+              "Popular in Mediterranean and Asian cooking"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color are most eggplants?",
+              "options": ["Green", "Purple", "Red", "Yellow"],
+              "correct_answer": "B",
+              "explanation": "Purple",
+              "hint": "Eggplants are the same color as grapes!"
+            },
+            {
+              "id": 2,
+              "question": "What shape are eggplants?",
+              "options": ["Round like balls", "Long like carrots", "Egg-shaped", "Flat like pancakes"],
+              "correct_answer": "C",
+              "explanation": "Egg-shaped",
+              "hint": "The name 'eggplant' gives you a clue about the shape!"
+            },
+            {
+              "id": 3,
+              "question": "What is eggplant's texture like?",
+              "options": ["Very hard", "Spongy", "Crispy", "Liquid"],
+              "correct_answer": "B",
+              "explanation": "Spongy",
+              "hint": "Eggplant soaks up flavors like a kitchen sponge!"
+            },
+            {
+              "id": 4,
+              "question": "What kind of weather do eggplants need?",
+              "options": ["Cold weather", "Warm weather", "Snow", "Ice"],
+              "correct_answer": "B",
+              "explanation": "Warm weather",
+              "hint": "Eggplants like the same warm weather that tomatoes need!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "vegetables"
+        },
+        "garlic": {
+          "name": "Garlic",
+          "video" : "assets/videos/Vegetable/Garlic.mp4",
+          "learning": {
+            "summary": "Garlic grows underground as bulbs made up of individual cloves! It has a strong, pungent flavor and is used to add taste to many dishes. Garlic is also known for its health benefits.",
+            "key_facts": [
+              "Grows underground as bulbs",
+              "Made up of individual cloves",
+              "Strong, pungent flavor",
+              "Used to flavor many dishes",
+              "Known for health benefits"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where does garlic grow?",
+              "options": ["On trees", "Above ground", "Underground", "In water"],
+              "correct_answer": "C",
+              "explanation": "Underground",
+              "hint": "Like onions, garlic bulbs grow below the soil!"
+            },
+            {
+              "id": 2,
+              "question": "What is a garlic bulb made of?",
+              "options": ["One big piece", "Individual cloves", "Many layers", "Nothing inside"],
+              "correct_answer": "B",
+              "explanation": "Individual cloves",
+              "hint": "When you peel garlic, it separates into small pieces!"
+            },
+            {
+              "id": 3,
+              "question": "How does garlic taste?",
+              "options": ["Very sweet", "Very mild", "Strong and pungent", "Tasteless"],
+              "correct_answer": "C",
+              "explanation": "Strong and pungent",
+              "hint": "Garlic has a powerful taste that you can really notice!"
+            },
+            {
+              "id": 4,
+              "question": "Why is garlic used in cooking?",
+              "options": ["For color", "To add flavor", "To make food cold", "For decoration"],
+              "correct_answer": "B",
+              "explanation": "To add flavor",
+              "hint": "Garlic makes food taste more interesting and delicious!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "vegetables"
+        },
+        "mushroom": {
+          "name": "Mushroom",
+          "video" : "assets/videos/Vegetable/Mushroom.mp4",
+          "learning": {
+            "summary": "Mushrooms are actually fungi, not plants! They grow in dark, moist places and come in many varieties. Some mushrooms are safe to eat while others are not, so only eat store-bought ones!",
+            "key_facts": [
+              "Actually fungi, not plants",
+              "Grow in dark, moist places",
+              "Come in many varieties",
+              "Some are safe to eat, others are not",
+              "Only eat store-bought mushrooms"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What are mushrooms actually?",
+              "options": ["Plants", "Animals", "Fungi", "Rocks"],
+              "correct_answer": "C",
+              "explanation": "Fungi",
+              "hint": "Mushrooms are in their own special group, not plants or animals!"
+            },
+            {
+              "id": 2,
+              "question": "Where do mushrooms like to grow?",
+              "options": ["Bright sunny places", "Dark, moist places", "Very dry areas", "In the ocean"],
+              "correct_answer": "B",
+              "explanation": "Dark, moist places",
+              "hint": "Mushrooms like shady, damp spots like forests!"
+            },
+            {
+              "id": 3,
+              "question": "Are all wild mushrooms safe to eat?",
+              "options": ["Yes, all are safe", "No, some are dangerous", "Only red ones", "Only big ones"],
+              "correct_answer": "B",
+              "explanation": "No, some are dangerous",
+              "hint": "This is why you should only eat mushrooms from the store!"
+            },
+            {
+              "id": 4,
+              "question": "Where should you get mushrooms to eat?",
+              "options": ["From the forest", "From your yard", "From the store", "From anywhere"],
+              "correct_answer": "C",
+              "explanation": "From the store",
+              "hint": "Store-bought mushrooms are safe because experts have checked them!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "vegetables"
+        },
+        "onion": {
+          "name": "Onion",
+          "video" : "assets/videos/Vegetable/Onion.mp4",
+          "learning": {
+            "summary": "Onions grow underground as bulbs made of many layers! They have a strong flavor and are used in cooking all over the world. Onions can make you cry when you cut them!",
+            "key_facts": [
+              "Grow underground as layered bulbs",
+              "Strong flavor used worldwide in cooking",
+              "Made of many layers",
+              "Can make you cry when cutting them",
+              "Come in different colors and sizes"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do onions grow?",
+              "options": ["On trees", "Above ground", "Underground", "In water"],
+              "correct_answer": "C",
+              "explanation": "Underground",
+              "hint": "Like garlic, onion bulbs grow below the soil!"
+            },
+            {
+              "id": 2,
+              "question": "What are onions made of?",
+              "options": ["One solid piece", "Many layers", "Hollow inside", "Individual cloves"],
+              "correct_answer": "B",
+              "explanation": "Many layers",
+              "hint": "When you peel an onion, you remove layer after layer!"
+            },
+            {
+              "id": 3,
+              "question": "What happens when you cut onions?",
+              "options": ["Nothing", "They make you cry", "They turn blue", "They disappear"],
+              "correct_answer": "B",
+              "explanation": "They make you cry",
+              "hint": "Onions release something that makes your eyes water!"
+            },
+            {
+              "id": 4,
+              "question": "Why are onions used in cooking?",
+              "options": ["For color only", "To add flavor", "To make food cold", "They aren't used"],
+              "correct_answer": "B",
+              "explanation": "To add flavor",
+              "hint": "Onions make food taste better in cuisines around the world!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "pumpkin_veg": {
+          "name": "Pumpkin",
+          "video" : "assets/videos/Vegetable/Pumpkin.mp4",
+          "learning": {
+            "summary": "Pumpkins are large orange vegetables that grow on vines! They're rich in vitamins and can be used for both food and decoration. Pumpkin seeds are also nutritious and edible.",
+            "key_facts": [
+              "Large orange vegetables on vines",
+              "Rich in vitamins A and C",
+              "Used for food and decoration",
+              "Seeds are nutritious and edible",
+              "Symbol of fall and Halloween"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color are pumpkins?",
+              "options": ["Green", "Orange", "Purple", "Blue"],
+              "correct_answer": "B",
+              "explanation": "Orange",
+              "hint": "Pumpkins are the same color as carrots and basketballs!"
+            },
+            {
+              "id": 2,
+              "question": "How do pumpkins grow?",
+              "options": ["On trees", "On vines", "Underground", "On bushes"],
+              "correct_answer": "B",
+              "explanation": "On vines",
+              "hint": "Pumpkins grow on long, trailing plants along the ground!"
+            },
+            {
+              "id": 3,
+              "question": "What can you do with pumpkin seeds?",
+              "options": ["Nothing", "Eat them", "Use as decorations", "Both eat and plant them"],
+              "correct_answer": "D",
+              "explanation": "Both eat and plant them",
+              "hint": "Pumpkin seeds are nutritious snacks and can grow new pumpkins!"
+            },
+            {
+              "id": 4,
+              "question": "What holiday are pumpkins associated with?",
+              "options": ["Christmas", "Easter", "Halloween", "Valentine's Day"],
+              "correct_answer": "C",
+              "explanation": "Halloween",
+              "hint": "Think about jack-o'-lanterns and fall decorations!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "pepper": {
+          "name": "Pepper",
+          "learning": {
+            "summary": "Peppers come in many varieties from sweet to very hot! They grow on plants and change colors as they ripen. Hot peppers contain capsaicin which makes them spicy.",
+            "key_facts": [
+              "Come in varieties from sweet to very hot",
+              "Grow on bushy plants",
+              "Change colors as they ripen",
+              "Hot peppers contain capsaicin",
+              "Used in cuisines worldwide"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What makes hot peppers spicy?",
+              "options": ["Sugar", "Salt", "Capsaicin", "Water"],
+              "correct_answer": "C",
+              "explanation": "Capsaicin",
+              "hint": "This special compound creates the burning sensation!"
+            },
+            {
+              "id": 2,
+              "question": "Where do peppers grow?",
+              "options": ["Underground", "On plants", "In water", "On trees"],
+              "correct_answer": "B",
+              "explanation": "On plants",
+              "hint": "Peppers grow on small, bushy plants in gardens!"
+            },
+            {
+              "id": 3,
+              "question": "What happens to peppers as they ripen?",
+              "options": ["They shrink", "They change colors", "They disappear", "They turn white"],
+              "correct_answer": "B",
+              "explanation": "They change colors",
+              "hint": "Many peppers start green and turn red, yellow, or other colors!"
+            },
+            {
+              "id": 4,
+              "question": "What varieties do peppers come in?",
+              "options": ["Only sweet", "Only hot", "Sweet to very hot", "Only medium"],
+              "correct_answer": "C",
+              "explanation": "Sweet to very hot",
+              "hint": "From mild bell peppers to super hot ghost peppers!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "vegetables"
+        },
+        "radish": {
+          "name": "Radish",
+          "video" : "assets/videos/Vegetable/Radish.mp4",
+          "learning": {
+            "summary": "Radishes are small, round root vegetables with a peppery, spicy taste! They grow quickly underground and come in red, white, and purple varieties. They're crunchy and often eaten raw.",
+            "key_facts": [
+              "Small, round root vegetables",
+              "Peppery, spicy taste",
+              "Grow quickly underground",
+              "Come in red, white, and purple",
+              "Crunchy and often eaten raw"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do radishes grow?",
+              "options": ["On trees", "Above ground", "Underground", "In water"],
+              "correct_answer": "C",
+              "explanation": "Underground",
+              "hint": "Like carrots, radishes are root vegetables that grow below soil!"
+            },
+            {
+              "id": 2,
+              "question": "How do radishes taste?",
+              "options": ["Very sweet", "Peppery and spicy", "Very sour", "Tasteless"],
+              "correct_answer": "B",
+              "explanation": "Peppery and spicy",
+              "hint": "Radishes have a sharp, zesty bite to them!"
+            },
+            {
+              "id": 3,
+              "question": "How quickly do radishes grow?",
+              "options": ["Very slowly", "Quickly", "Never", "Only in winter"],
+              "correct_answer": "B",
+              "explanation": "Quickly",
+              "hint": "Radishes are some of the fastest vegetables to grow!"
+            },
+            {
+              "id": 4,
+              "question": "How are radishes usually eaten?",
+              "options": ["Always cooked", "Usually raw", "Only dried", "Only juiced"],
+              "correct_answer": "B",
+              "explanation": "Usually raw",
+              "hint": "People often eat radishes fresh and crunchy in salads!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "vegetables"
+        },
+        "spinach": {
+          "name": "Spinach",
+          "learning": {
+            "summary": "Spinach has dark green leaves packed with iron and vitamins! It grows quickly in cool weather and can be harvested as baby leaves or full-size. Great for strong muscles!",
+            "key_facts": [
+              "Dark green leaves packed with iron",
+              "Grows quickly in cool weather",
+              "Can harvest as baby or full-size leaves",
+              "High in iron for energy",
+              "Great for building strong muscles"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color are spinach leaves?",
+              "options": ["Light green", "Dark green", "Yellow", "Red"],
+              "correct_answer": "B",
+              "explanation": "Dark green",
+              "hint": "Spinach leaves are the deepest, richest green color!"
+            },
+            {
+              "id": 2,
+              "question": "What mineral is spinach famous for?",
+              "options": ["Gold", "Silver", "Iron", "Copper"],
+              "correct_answer": "C",
+              "explanation": "Iron",
+              "hint": "This mineral helps make you strong, like the metal tools!"
+            },
+            {
+              "id": 3,
+              "question": "How fast does spinach grow?",
+              "options": ["Very slowly", "Quickly", "Only in summer", "Never grows"],
+              "correct_answer": "B",
+              "explanation": "Quickly",
+              "hint": "Spinach is like the speed racer of vegetables!"
+            },
+            {
+              "id": 4,
+              "question": "What does iron in spinach help with?",
+              "options": ["Hair color", "Making you strong", "Changing your height", "Eye color"],
+              "correct_answer": "B",
+              "explanation": "Making you strong",
+              "hint": "Think about what Popeye the sailor was famous for!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "tomato": {
+          "name": "Tomato",
+          "video" : "assets/videos/Vegetable/Tomato.mp4",
+          "learning": {
+            "summary": "Tomatoes are actually fruits, not vegetables, because they have seeds inside! They start green and turn red when ripe. Tomatoes need lots of sunlight and warm weather to grow.",
+            "key_facts": [
+              "Actually fruits, not vegetables",
+              "Have seeds inside",
+              "Start green, turn red when ripe",
+              "Need lots of sunlight",
+              "Grow on vines or bushes"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Are tomatoes fruits or vegetables?",
+              "options": ["Vegetables", "Fruits because they have seeds", "Neither", "Both"],
+              "correct_answer": "B",
+              "explanation": "Fruits because they have seeds",
+              "hint": "If it has seeds inside, it's technically a fruit!"
+            },
+            {
+              "id": 2,
+              "question": "What color do tomatoes turn when ripe?",
+              "options": ["Green", "Blue", "Red", "Purple"],
+              "correct_answer": "C",
+              "explanation": "Red",
+              "hint": "Ripe tomatoes are the color of fire trucks!"
+            },
+            {
+              "id": 3,
+              "question": "What do tomato plants need lots of?",
+              "options": ["Darkness", "Cold weather", "Sunlight", "Snow"],
+              "correct_answer": "C",
+              "explanation": "Sunlight",
+              "hint": "Tomatoes love to soak up the sun's rays!"
+            },
+            {
+              "id": 4,
+              "question": "What color are tomatoes before they ripen?",
+              "options": ["Red", "Yellow", "Green", "Orange"],
+              "correct_answer": "C",
+              "explanation": "Green",
+              "hint": "Young tomatoes start the same color as leaves!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        },
+        "zucchini": {
+          "name": "Zucchini",
+          "video" : "assets/videos/Vegetable/Zucchini.mp4",
+          "learning": {
+            "summary": "Zucchini is a summer squash that grows on large plants with big leaves! It has green skin and white flesh inside. Zucchini grows very quickly and can become quite large if left on the plant.",
+            "key_facts": [
+              "Summer squash with green skin",
+              "White flesh inside",
+              "Grows on large plants with big leaves",
+              "Grows very quickly",
+              "Can become very large if not harvested"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color is zucchini on the outside?",
+              "options": ["Red", "Orange", "Green", "Purple"],
+              "correct_answer": "C",
+              "explanation": "Green",
+              "hint": "Zucchini is the same color as grass and leaves!"
+            },
+            {
+              "id": 2,
+              "question": "What color is zucchini on the inside?",
+              "options": ["Green", "Orange", "White", "Purple"],
+              "correct_answer": "C",
+              "explanation": "White",
+              "hint": "The flesh inside is the color of snow!"
+            },
+            {
+              "id": 3,
+              "question": "How fast does zucchini grow?",
+              "options": ["Very slowly", "Very quickly", "Never grows", "Only in winter"],
+              "correct_answer": "B",
+              "explanation": "Very quickly",
+              "hint": "Zucchini can grow so fast it surprises gardeners!"
+            },
+            {
+              "id": 4,
+              "question": "What happens if you don't harvest zucchini?",
+              "options": ["It disappears", "It becomes very large", "It turns red", "It stops growing"],
+              "correct_answer": "B",
+              "explanation": "It becomes very large",
+              "hint": "Some zucchini can grow as big as baseball bats!"
+            }
+          ],
+          "level": "beginner",
+          "category": "vegetables"
+        }
+      }
+    },
+    "fruits": {
+      "name": "Fruits",
+      "description": "Sweet and nutritious foods that grow on trees, bushes, or vines",
+      "color": "#FF6B6B",
+      "foods": {
+        "apple": {
+          "name": "Apple",
+          "video" : "assets/videos/Fruit/Apple.mp4",
+          "learning": {
+            "summary": "Apples are crunchy fruits that grow on trees in orchards! They bloom with flowers in spring and ripen in fall. Apples come in many varieties and are packed with fiber and vitamin C.",
+            "key_facts": [
+              "Grow on trees in orchards",
+              "Bloom in spring, ripen in fall",
+              "Many varieties and colors",
+              "High in fiber and vitamin C",
+              "Can be eaten fresh or cooked"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "When do apple trees bloom?",
+              "options": ["Fall", "Winter", "Spring", "Summer"],
+              "correct_answer": "C",
+              "explanation": "Spring",
+              "hint": "Apple flowers appear when many flowers bloom after winter!"
+            },
+            {
+              "id": 2,
+              "question": "When are apples ready to pick?",
+              "options": ["Spring", "Summer", "Fall", "Winter"],
+              "correct_answer": "C",
+              "explanation": "Fall",
+              "hint": "Apples are harvested during Halloween season!"
+            },
+            {
+              "id": 3,
+              "question": "What vitamin do apples provide?",
+              "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+              "correct_answer": "B",
+              "explanation": "Vitamin C",
+              "hint": "This vitamin starts with 'C' and helps fight colds!"
+            },
+            {
+              "id": 4,
+              "question": "What helps your digestion in apples?",
+              "options": ["Sugar", "Water", "Fiber", "Salt"],
+              "correct_answer": "C",
+              "explanation": "Fiber",
+              "hint": "This nutrient helps food move smoothly through your system!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "apricot": {
+          "name": "Apricot",
+          "video" : "assets/videos/Fruit/Apricot.mp4",
+          "learning": {
+            "summary": "Apricots are small, orange fruits with smooth skin and sweet-tart flavor! They grow on trees and are like tiny peaches without fuzz. Apricots are high in vitamin A and beta-carotene.",
+            "key_facts": [
+              "Small, orange fruits with smooth skin",
+              "Sweet-tart flavor like tiny peaches",
+              "High in vitamin A and beta-carotene",
+              "Grow on trees in warm climates",
+              "Can be eaten fresh or dried"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What do apricots look like compared to peaches?",
+              "options": ["Bigger and fuzzier", "Smaller with no fuzz", "Same size", "Much larger"],
+              "correct_answer": "B",
+              "explanation": "Smaller with no fuzz",
+              "hint": "Apricots are like peaches' small, smooth cousins!"
+            },
+            {
+              "id": 2,
+              "question": "What color are apricots?",
+              "options": ["Red", "Green", "Orange", "Purple"],
+              "correct_answer": "C",
+              "explanation": "Orange",
+              "hint": "Apricots are the same color as carrots and pumpkins!"
+            },
+            {
+              "id": 3,
+              "question": "What vitamin are apricots rich in?",
+              "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+              "correct_answer": "A",
+              "explanation": "Vitamin A",
+              "hint": "This vitamin is great for your eyes and skin!"
+            },
+            {
+              "id": 4,
+              "question": "How do apricots taste?",
+              "options": ["Very sour", "Sweet-tart", "Very spicy", "Bitter"],
+              "correct_answer": "B",
+              "explanation": "Sweet-tart",
+              "hint": "Apricots have a mix of sweet and tangy flavors!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "banana": {
+  "name": "Banana",
+  "video" : "assets/videos/Fruit/Banana.mp4",
+  "learning": {
+    "summary": "Bananas are sweet, soft fruits that grow in tropical places around the world! They grow in bunches on tall plants that look like trees. Bananas are yellow when ripe and are packed with potassium and natural energy.",
+    "key_facts": [
+      "Grow in bunches on banana plants",
+      "Yellow when ripe, green when unripe",
+      "High in potassium and energy",
+      "Grow in warm, tropical climates",
+      "Have a peel you remove before eating"
+    ]
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What color are ripe bananas?",
+      "options": ["Red", "Yellow", "Blue", "Purple"],
+      "correct_answer": "B",
+      "explanation": "Yellow",
+      "hint": "Ripe bananas are the same color as the sun!"
+    },
+    {
+      "id": 2,
+      "question": "What important nutrient are bananas famous for?",
+      "options": ["Vitamin D", "Potassium", "Iron", "Calcium"],
+      "correct_answer": "B",
+      "explanation": "Potassium",
+      "hint": "This nutrient is great for your muscles and heart!"
+    },
+    {
+      "id": 3,
+      "question": "How do bananas grow?",
+      "options": ["Underground", "In bunches on plants", "On vines", "In the ocean"],
+      "correct_answer": "B",
+      "explanation": "In bunches on plants",
+      "hint": "Many bananas grow together like a bunch of grapes!"
+    },
+    {
+      "id": 4,
+      "question": "Where do bananas grow best?",
+      "options": ["Cold, snowy places", "Warm, tropical places", "Desert areas", "Underground caves"],
+      "correct_answer": "B",
+      "explanation": "Warm, tropical places",
+      "hint": "Bananas love hot, humid weather near the equator!"
+    }
+  ],
+  "level": "beginner",
+  "category": "fruits"
+},
+        "blueberry": {
+          "name": "Blueberry",
+          "video" : "assets/videos/Fruit/Blueberry.mp4",
+          "learning": {
+            "summary": "Blueberries are small, round blue fruits that grow on bushes! They're considered a superfood because they're packed with antioxidants that help your brain stay sharp.",
+            "key_facts": [
+              "Small, round blue fruits on bushes",
+              "Superfood packed with antioxidants",
+              "Great for brain health",
+              "Need bees for pollination",
+              "Start green, turn blue when ripe"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do blueberries grow?",
+              "options": ["Under the sea", "On big trees", "On bushes", "In caves"],
+              "correct_answer": "C",
+              "explanation": "On bushes",
+              "hint": "Blueberries grow on plants shorter than trees but taller than grass!"
+            },
+            {
+              "id": 2,
+              "question": "What color are ripe blueberries?",
+              "options": ["Green", "Purple", "Red", "Blue"],
+              "correct_answer": "D",
+              "explanation": "Blue",
+              "hint": "The answer is right in their name!"
+            },
+            {
+              "id": 3,
+              "question": "What makes blueberries a superfood?",
+              "options": ["Sugar", "Antioxidants", "Salt", "Fat"],
+              "correct_answer": "B",
+              "explanation": "Antioxidants",
+              "hint": "These special compounds fight things that can harm your cells!"
+            },
+            {
+              "id": 4,
+              "question": "What do blueberries help with?",
+              "options": ["Hair growth", "Brain health", "Changing eye color", "Growing taller"],
+              "correct_answer": "B",
+              "explanation": "Brain health",
+              "hint": "Blueberries help the organ you use for thinking!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "blackberry": {
+          "name": "Blackberry",
+          "video" : "assets/videos/Fruit/Blackberry.mp4",
+          "learning": {
+            "summary": "Blackberries are dark purple-black berries that grow on thorny bushes! They're made up of many tiny drupelets clustered together. Blackberries are high in vitamin C and fiber.",
+            "key_facts": [
+              "Dark purple-black berries",
+              "Grow on thorny bushes",
+              "Made of many tiny drupelets",
+              "High in vitamin C and fiber",
+              "Sweet-tart flavor when ripe"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color are ripe blackberries?",
+              "options": ["Red", "Dark purple-black", "Green", "White"],
+              "correct_answer": "B",
+              "explanation": "Dark purple-black",
+              "hint": "Despite their name, blackberries are actually very dark purple!"
+            },
+            {
+              "id": 2,
+              "question": "What are blackberries made of?",
+              "options": ["One solid berry", "Many tiny drupelets", "Just juice", "Seeds only"],
+              "correct_answer": "B",
+              "explanation": "Many tiny drupelets",
+              "hint": "Look closely at a blackberry - it's like many mini berries stuck together!"
+            },
+            {
+              "id": 3,
+              "question": "What do blackberry bushes have?",
+              "options": ["Smooth stems", "Thorns", "Flowers only", "No leaves"],
+              "correct_answer": "B",
+              "explanation": "Thorns",
+              "hint": "Be careful when picking blackberries - the bushes are prickly!"
+            },
+            {
+              "id": 4,
+              "question": "What nutrients are blackberries high in?",
+              "options": ["Only sugar", "Vitamin C and fiber", "Only fat", "Only protein"],
+              "correct_answer": "B",
+              "explanation": "Vitamin C and fiber",
+              "hint": "Blackberries give you vitamins for health and fiber for digestion!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "cantaloupe": {
+          "name": "Cantaloupe",
+          "video" : "assets/videos/Fruit/Canta.mp4",
+          "learning": {
+            "summary": "Cantaloupe is a sweet, orange melon with a netted skin! It grows on vines along the ground and is very high in vitamin A and C. The flesh is juicy and refreshing.",
+            "key_facts": [
+              "Sweet, orange melon with netted skin",
+              "Grows on vines along the ground",
+              "Very high in vitamins A and C",
+              "Juicy and refreshing flesh",
+              "Perfect for hot summer days"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color is cantaloupe inside?",
+              "options": ["Green", "Orange", "Red", "Purple"],
+              "correct_answer": "B",
+              "explanation": "Orange",
+              "hint": "The inside is the same color as carrots and pumpkins!"
+            },
+            {
+              "id": 2,
+              "question": "What does cantaloupe skin look like?",
+              "options": ["Smooth", "Netted", "Spiky", "Fuzzy"],
+              "correct_answer": "B",
+              "explanation": "Netted",
+              "hint": "The outside looks like it's covered with a fishing net pattern!"
+            },
+            {
+              "id": 3,
+              "question": "How does cantaloupe grow?",
+              "options": ["On trees", "On vines", "Underground", "On bushes"],
+              "correct_answer": "B",
+              "explanation": "On vines",
+              "hint": "Like pumpkins, cantaloupe grows on trailing plants along the ground!"
+            },
+            {
+              "id": 4,
+              "question": "When is cantaloupe most refreshing?",
+              "options": ["Cold winter days", "Hot summer days", "Rainy days", "Snowy days"],
+              "correct_answer": "B",
+              "explanation": "Hot summer days",
+              "hint": "Think about when you'd most want something cool and juicy!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "cherry": {
+          "name": "Cherry",
+          "video" : "assets/videos/Fruit/Cherry.mp4",
+          "learning": {
+            "summary": "Cherries are small, round fruits that can be sweet or tart! They grow on trees with beautiful white or pink blossoms in spring. Cherries have a hard pit in the center.",
+            "key_facts": [
+              "Small, round fruits that can be sweet or tart",
+              "Grow on trees with spring blossoms",
+              "Have a hard pit in the center",
+              "Come in red, dark red, or yellow varieties",
+              "High in antioxidants"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What's inside every cherry?",
+              "options": ["Seeds", "A hard pit", "Nothing", "Liquid"],
+              "correct_answer": "B",
+              "explanation": "A hard pit",
+              "hint": "There's a hard stone in the center that you can't eat!"
+            },
+            {
+              "id": 2,
+              "question": "When do cherry trees bloom?",
+              "options": ["Fall", "Winter", "Spring", "Summer"],
+              "correct_answer": "C",
+              "explanation": "Spring",
+              "hint": "Cherry blossoms are famous spring flowers!"
+            },
+            {
+              "id": 3,
+              "question": "What colors can cherries be?",
+              "options": ["Only red", "Red, dark red, or yellow", "Only yellow", "Only green"],
+              "correct_answer": "B",
+              "explanation": "Red, dark red, or yellow",
+              "hint": "Cherries come in several different colors!"
+            },
+            {
+              "id": 4,
+              "question": "How do cherries taste?",
+              "options": ["Always bitter", "Sweet or tart", "Always sour", "Spicy"],
+              "correct_answer": "B",
+              "explanation": "Sweet or tart",
+              "hint": "Some cherries are sweet while others have a tangy taste!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "fig": {
+          "name": "Fig",
+          "video" : "assets/videos/Fruit/Figs.mp4",
+          "learning": {
+            "summary": "Figs are unique fruits with soft, sweet flesh and tiny seeds inside! They grow on trees and have been eaten for thousands of years. Figs can be eaten fresh or dried.",
+            "key_facts": [
+              "Unique fruits with soft, sweet flesh",
+              "Contain many tiny edible seeds",
+              "Grow on trees in warm climates",
+              "Been eaten for thousands of years",
+              "Can be eaten fresh or dried"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What's inside a fig?",
+              "options": ["Nothing", "Tiny edible seeds", "One big pit", "Liquid"],
+              "correct_answer": "B",
+              "explanation": "Tiny edible seeds",
+              "hint": "Figs are full of very small seeds you can eat!"
+            },
+            {
+              "id": 2,
+              "question": "What is fig flesh like?",
+              "options": ["Hard and crunchy", "Soft and sweet", "Sour and bitter", "Spicy"],
+              "correct_answer": "B",
+              "explanation": "Soft and sweet",
+              "hint": "Fig flesh is tender and has a natural sweetness!"
+            },
+            {
+              "id": 3,
+              "question": "How long have people been eating figs?",
+              "options": ["10 years", "100 years", "Thousands of years", "Never"],
+              "correct_answer": "C",
+              "explanation": "Thousands of years",
+              "hint": "Figs are one of the oldest fruits that humans have enjoyed!"
+            },
+            {
+              "id": 4,
+              "question": "How can figs be eaten?",
+              "options": ["Only fresh", "Only dried", "Fresh or dried", "Only cooked"],
+              "correct_answer": "C",
+              "explanation": "Fresh or dried",
+              "hint": "You can enjoy figs both fresh from the tree or dried as a snack!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "fruits"
+        },
+        "grape": {
+          "name": "Grapes",
+          "video" : "assets/videos/Fruit/Grapes.mp4",
+          "learning": {
+            "summary": "Grapes are small, round fruits that grow in clusters on climbing vines! They come in green, red, and purple colors and can be sweet or tart. Grapes are great for heart health.",
+            "key_facts": [
+              "Small, round fruits in clusters",
+              "Grow on climbing vines",
+              "Come in green, red, and purple colors",
+              "Can be sweet or tart",
+              "Good for heart health"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "How do grapes grow?",
+              "options": ["One at a time", "In clusters", "Underground", "In pods"],
+              "correct_answer": "B",
+              "explanation": "In clusters",
+              "hint": "Think about how grapes are sold - they stick together in bunches!"
+            },
+            {
+              "id": 2,
+              "question": "Where do grapes grow?",
+              "options": ["On vines", "On bushes", "On big trees", "In water"],
+              "correct_answer": "A",
+              "explanation": "On vines",
+              "hint": "Grapes grow on long, climbing plants that need support!"
+            },
+            {
+              "id": 3,
+              "question": "What colors can grapes be?",
+              "options": ["Only purple", "Only green", "Green, red, and purple", "Only red"],
+              "correct_answer": "C",
+              "explanation": "Green, red, and purple",
+              "hint": "Think about all the different colored grapes at the store!"
+            },
+            {
+              "id": 4,
+              "question": "What do grapes become when dried?",
+              "options": ["Juice", "Raisins", "Wine", "Jam"],
+              "correct_answer": "B",
+              "explanation": "Raisins",
+              "hint": "These wrinkled, sweet snacks are popular in trail mix!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "grapefruit": {
+          "name": "Grapefruit",
+          "video" : "assets/videos/Fruit/Grapefruit.mp4",
+          "learning": {
+            "summary": "Grapefruit is a large citrus fruit with a slightly bitter, tart taste! It has pink or white flesh inside and is very high in vitamin C. Grapefruit grows on trees in warm climates.",
+            "key_facts": [
+              "Large citrus fruit with tart taste",
+              "Pink or white flesh inside",
+              "Very high in vitamin C",
+              "Grows on trees in warm climates",
+              "Slightly bitter flavor"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What family does grapefruit belong to?",
+              "options": ["Apple family", "Citrus family", "Berry family", "Stone fruit family"],
+              "correct_answer": "B",
+              "explanation": "Citrus family",
+              "hint": "Grapefruit is related to oranges and lemons!"
+            },
+            {
+              "id": 2,
+              "question": "What colors can grapefruit flesh be?",
+              "options": ["Only white", "Pink or white", "Only pink", "Green"],
+              "correct_answer": "B",
+              "explanation": "Pink or white",
+              "hint": "Grapefruit comes in two main flesh colors!"
+            },
+            {
+              "id": 3,
+              "question": "How does grapefruit taste?",
+              "options": ["Very sweet", "Tart and slightly bitter", "Very spicy", "Tasteless"],
+              "correct_answer": "B",
+              "explanation": "Tart and slightly bitter",
+              "hint": "Grapefruit has a sharper, more complex taste than oranges!"
+            },
+            {
+              "id": 4,
+              "question": "What vitamin is grapefruit rich in?",
+              "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+              "correct_answer": "B",
+              "explanation": "Vitamin C",
+              "hint": "Like other citrus fruits, grapefruit is full of this immune-boosting vitamin!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "fruits"
+        },
+        "kiwi": {
+          "name": "Kiwi",
+          "video" : "assets/videos/Fruit/Kiwi.mp4",
+          "learning": {
+            "summary": "Kiwi fruits are small, brown, fuzzy fruits with bright green flesh inside dotted with tiny black seeds! They have a sweet-tart flavor and are packed with vitamin C.",
+            "key_facts": [
+              "Small, brown, fuzzy fruits",
+              "Bright green flesh with tiny black seeds",
+              "Sweet-tart flavor",
+              "Very high in vitamin C",
+              "Grow on woody vines"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color is kiwi inside?",
+              "options": ["Brown", "Green", "Red", "Yellow"],
+              "correct_answer": "B",
+              "explanation": "Green",
+              "hint": "The inside is bright green like grass!"
+            },
+            {
+              "id": 2,
+              "question": "What does kiwi skin look like?",
+              "options": ["Smooth", "Fuzzy", "Spiky", "Wet"],
+              "correct_answer": "B",
+              "explanation": "Fuzzy",
+              "hint": "Kiwi skin feels like a fuzzy peach!"
+            },
+            {
+              "id": 3,
+              "question": "What are the tiny black dots in kiwi?",
+              "options": ["Dirt", "Seeds", "Holes", "Bugs"],
+              "correct_answer": "B",
+              "explanation": "Seeds",
+              "hint": "Those tiny black specks are actually edible seeds!"
+            },
+            {
+              "id": 4,
+              "question": "How does kiwi taste?",
+              "options": ["Very bitter", "Sweet-tart", "Very salty", "Spicy"],
+              "correct_answer": "B",
+              "explanation": "Sweet-tart",
+              "hint": "Kiwi has a mix of sweet and tangy flavors!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "lemon": {
+          "name": "Lemon",
+          "video" : "assets/videos/Fruit/Lemon.mp4",
+          "learning": {
+            "summary": "Lemons are bright yellow citrus fruits with very tart, acidic flavor! They're packed with vitamin C and are essential for cooking and beverages. Lemon trees bloom with fragrant white flowers.",
+            "key_facts": [
+              "Bright yellow citrus fruits",
+              "Very tart, acidic flavor",
+              "Packed with vitamin C",
+              "Essential for cooking and beverages",
+              "Trees have fragrant white flowers"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What can you make with lemon juice?",
+              "options": ["Peanut butter", "Lemonade", "Ice cream", "Cheese"],
+              "correct_answer": "B",
+              "explanation": "Lemonade",
+              "hint": "A sweet and sour summer drink made with lemon juice!"
+            },
+            {
+              "id": 2,
+              "question": "What color are ripe lemons?",
+              "options": ["Green", "Orange", "Yellow", "Red"],
+              "correct_answer": "C",
+              "explanation": "Yellow",
+              "hint": "Lemons are bright yellow like the sun!"
+            },
+            {
+              "id": 3,
+              "question": "How do lemons taste?",
+              "options": ["Very sweet", "Very tart", "Spicy", "Bitter"],
+              "correct_answer": "B",
+              "explanation": "Very tart",
+              "hint": "Lemons are so sour they make your mouth pucker!"
+            },
+            {
+              "id": 4,
+              "question": "What vitamin do lemons have lots of?",
+              "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+              "correct_answer": "B",
+              "explanation": "Vitamin C",
+              "hint": "Like other citrus fruits, lemons are full of this vitamin!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "lime": {
+          "name": "Lime",
+          "video" : "assets/videos/Fruit/Limes.mp4",
+          "learning": {
+            "summary": "Limes are small, green citrus fruits with a tart, acidic flavor! They're used in cooking and drinks around the world. Limes are high in vitamin C and citric acid.",
+            "key_facts": [
+              "Small, green citrus fruits",
+              "Tart, acidic flavor",
+              "Used in cooking and drinks worldwide",
+              "High in vitamin C and citric acid",
+              "Essential in many cuisines"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color are limes?",
+              "options": ["Yellow", "Green", "Orange", "Red"],
+              "correct_answer": "B",
+              "explanation": "Green",
+              "hint": "Limes are green like grass and leaves!"
+            },
+            {
+              "id": 2,
+              "question": "How do limes taste?",
+              "options": ["Very sweet", "Tart and acidic", "Spicy", "Bitter"],
+              "correct_answer": "B",
+              "explanation": "Tart and acidic",
+              "hint": "Limes have a sharp, sour taste like lemons!"
+            },
+            {
+              "id": 3,
+              "question": "What family do limes belong to?",
+              "options": ["Apple family", "Citrus family", "Berry family", "Stone fruit"],
+              "correct_answer": "B",
+              "explanation": "Citrus family",
+              "hint": "Limes are cousins to lemons and oranges!"
+            },
+            {
+              "id": 4,
+              "question": "What vitamin are limes rich in?",
+              "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin E"],
+              "correct_answer": "B",
+              "explanation": "Vitamin C",
+              "hint": "Like all citrus fruits, limes are full of this immune-boosting vitamin!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "mango": {
+          "name": "Mango",
+          "video" : "assets/videos/Fruit/Mango.mp4",
+          "learning": {
+            "summary": "Mangoes are tropical fruits called the 'king of fruits'! They have sweet, creamy orange flesh and grow on tall trees in warm climates. Mangoes are very high in vitamins A and C.",
+            "key_facts": [
+              "Called the 'king of fruits'",
+              "Sweet, creamy orange flesh",
+              "Grow on tall trees in tropical climates",
+              "Very high in vitamins A and C",
+              "Large, flat pit inside"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What are mangoes sometimes called?",
+              "options": ["Queen of fruits", "King of fruits", "Prince of fruits", "Duke of fruits"],
+              "correct_answer": "B",
+              "explanation": "King of fruits",
+              "hint": "Think about the royal title for a male ruler!"
+            },
+            {
+              "id": 2,
+              "question": "What color is mango flesh?",
+              "options": ["Green", "Orange", "Purple", "White"],
+              "correct_answer": "B",
+              "explanation": "Orange",
+              "hint": "The inside is the same color as carrots and pumpkins!"
+            },
+            {
+              "id": 3,
+              "question": "Where do mangoes grow?",
+              "options": ["On small bushes", "Underground", "On tall trees", "In cold places"],
+              "correct_answer": "C",
+              "explanation": "On tall trees",
+              "hint": "Mangoes grow high up where you'd need a ladder!"
+            },
+            {
+              "id": 4,
+              "question": "What climate do mangoes need?",
+              "options": ["Cold and snowy", "Tropical and warm", "Desert and dry", "Windy and cool"],
+              "correct_answer": "B",
+              "explanation": "Tropical and warm",
+              "hint": "Think about places like islands and warm countries!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "nectarine": {
+          "name": "Nectarine",
+          "video" : "assets/videos/Fruit/Nectarine.mp4",
+          "learning": {
+            "summary": "Nectarines are like peaches but with smooth skin instead of fuzzy! They have sweet, juicy flesh and a hard pit in the center. Nectarines are high in vitamins A and C.",
+            "key_facts": [
+              "Like peaches but with smooth skin",
+              "Sweet, juicy flesh",
+              "Hard pit in the center",
+              "High in vitamins A and C",
+              "Come in yellow and white varieties"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "How are nectarines different from peaches?",
+              "options": ["They're bigger", "They have smooth skin", "They're sour", "They're green"],
+              "correct_answer": "B",
+              "explanation": "They have smooth skin",
+              "hint": "Nectarines don't have the fuzzy feeling that peaches do!"
+            },
+            {
+              "id": 2,
+              "question": "What's in the center of a nectarine?",
+              "options": ["Seeds", "A hard pit", "Nothing", "Liquid"],
+              "correct_answer": "B",
+              "explanation": "A hard pit",
+              "hint": "Like peaches, nectarines have a hard stone in the middle!"
+            },
+            {
+              "id": 3,
+              "question": "How do nectarines taste?",
+              "options": ["Very sour", "Sweet and juicy", "Bitter", "Spicy"],
+              "correct_answer": "B",
+              "explanation": "Sweet and juicy",
+              "hint": "Nectarines have a delicious, sweet flavor like peaches!"
+            },
+            {
+              "id": 4,
+              "question": "What vitamins are nectarines high in?",
+              "options": ["Vitamins A and C", "Only vitamin B", "Only vitamin D", "No vitamins"],
+              "correct_answer": "A",
+              "explanation": "Vitamins A and C",
+              "hint": "Nectarines give you vitamins for healthy eyes and immune system!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "orange": {
+          "name": "Orange",
+          "video" : "assets/videos/Fruit/Orange.mp4",
+          "learning": {
+            "summary": "Oranges are citrus fruits packed with vitamin C! They have bright orange skin and juicy segments inside. Oranges grow on trees in warm, sunny places and are famous for their immune-boosting properties.",
+            "key_facts": [
+              "Citrus fruits packed with vitamin C",
+              "Bright orange skin and juicy segments",
+              "Grow on trees in warm, sunny climates",
+              "Famous for immune-boosting properties",
+              "Sweet and tangy flavor"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What vitamin are oranges famous for?",
+              "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+              "correct_answer": "C",
+              "explanation": "Vitamin C",
+              "hint": "This vitamin starts with 'C' like 'citrus'!"
+            },
+            {
+              "id": 2,
+              "question": "How is the inside of an orange organized?",
+              "options": ["In segments", "One big piece", "In layers", "In cubes"],
+              "correct_answer": "A",
+              "explanation": "In segments",
+              "hint": "When you peel an orange, it naturally breaks into wedge-shaped pieces!"
+            },
+            {
+              "id": 3,
+              "question": "What climate do orange trees need?",
+              "options": ["Cold and snowy", "Warm and sunny", "Rainy and cool", "Dry desert"],
+              "correct_answer": "B",
+              "explanation": "Warm and sunny",
+              "hint": "Think about places like Florida and California!"
+            },
+            {
+              "id": 4,
+              "question": "How do oranges taste?",
+              "options": ["Very bitter", "Sweet and tangy", "Very spicy", "Sour only"],
+              "correct_answer": "B",
+              "explanation": "Sweet and tangy",
+              "hint": "Oranges have a perfect balance of sweetness and citrus tang!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "olive": {
+          "name": "Olive",
+          "video" : "assets/videos/Fruit/Olive.mp4",
+          "learning": {
+            "summary": "Olives are small fruits that grow on trees and are processed to be edible! They're high in healthy fats and are pressed to make olive oil. Olives come in green and black varieties.",
+            "key_facts": [
+              "Small fruits that grow on trees",
+              "High in healthy monounsaturated fats",
+              "Pressed to make olive oil",
+              "Come in green and black varieties",
+              "Must be processed to be edible"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What colors do olives come in?",
+              "options": ["Only green", "Only black", "Green and black", "Red and blue"],
+              "correct_answer": "C",
+              "explanation": "Green and black",
+              "hint": "Olives come in two main colors!"
+            },
+            {
+              "id": 2,
+              "question": "What is made from pressed olives?",
+              "options": ["Juice", "Olive oil", "Butter", "Milk"],
+              "correct_answer": "B",
+              "explanation": "Olive oil",
+              "hint": "This healthy cooking oil comes from squeezed olives!"
+            },
+            {
+              "id": 3,
+              "question": "What healthy fats do olives contain?",
+              "options": ["Saturated fats", "Monounsaturated fats", "No fats", "Bad fats"],
+              "correct_answer": "B",
+              "explanation": "Monounsaturated fats",
+              "hint": "Olives contain heart-healthy fats!"
+            },
+            {
+              "id": 4,
+              "question": "Can you eat olives straight from the tree?",
+              "options": ["Yes, always", "No, they need processing", "Only green ones", "Only black ones"],
+              "correct_answer": "B",
+              "explanation": "No, they need processing",
+              "hint": "Raw olives are too bitter - they need special treatment first!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "fruits"
+        },
+        "papaya": {
+          "name": "Papaya",
+          "video" : "assets/videos/Fruit/Papaya.mp4",
+          "learning": {
+            "summary": "Papaya is a tropical fruit with bright orange flesh and black seeds in the center! It's very sweet and soft when ripe. Papayas grow on trees and are high in vitamins A and C.",
+            "key_facts": [
+              "Tropical fruit with bright orange flesh",
+              "Black seeds in the center cavity",
+              "Very sweet and soft when ripe",
+              "Grows on trees in tropical climates",
+              "High in vitamins A and C"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color is papaya flesh?",
+              "options": ["Green", "Bright orange", "Purple", "White"],
+              "correct_answer": "B",
+              "explanation": "Bright orange",
+              "hint": "The inside is the same color as carrots!"
+            },
+            {
+              "id": 2,
+              "question": "What color are papaya seeds?",
+              "options": ["White", "Green", "Black", "Red"],
+              "correct_answer": "C",
+              "explanation": "Black",
+              "hint": "The seeds in the center are dark like pepper!"
+            },
+            {
+              "id": 3,
+              "question": "How does ripe papaya feel?",
+              "options": ["Very hard", "Soft and tender", "Crunchy", "Dry"],
+              "correct_answer": "B",
+              "explanation": "Soft and tender",
+              "hint": "Ripe papaya is gentle and easy to eat!"
+            },
+            {
+              "id": 4,
+              "question": "What climate do papayas need?",
+              "options": ["Cold climate", "Tropical climate", "Desert climate", "Arctic climate"],
+              "correct_answer": "B",
+              "explanation": "Tropical climate",
+              "hint": "Papayas need warm, humid weather like pineapples!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "fruits"
+        },
+        "pomegranate": {
+          "name": "Pomegranate",
+          "video" : "assets/videos/Fruit/Pom.mp4",
+          "learning": {
+            "summary": "Pomegranates are round fruits filled with hundreds of tiny seeds surrounded by juicy, ruby-red sacs called arils! They're very high in antioxidants and have been eaten for thousands of years.",
+            "key_facts": [
+              "Round fruits filled with hundreds of seeds",
+              "Seeds surrounded by juicy ruby-red arils",
+              "Very high in antioxidants",
+              "Eaten for thousands of years",
+              "Sweet-tart flavor"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What's inside a pomegranate?",
+              "options": ["One big seed", "Hundreds of tiny seeds", "Liquid only", "Nothing"],
+              "correct_answer": "B",
+              "explanation": "Hundreds of tiny seeds",
+              "hint": "Pomegranates are packed full of tiny seeds!"
+            },
+            {
+              "id": 2,
+              "question": "What are the juicy parts around pomegranate seeds called?",
+              "options": ["Arils", "Shells", "Peels", "Cores"],
+              "correct_answer": "A",
+              "explanation": "Arils",
+              "hint": "These are the juicy, red parts you eat!"
+            },
+            {
+              "id": 3,
+              "question": "What color are pomegranate arils?",
+              "options": ["Green", "Yellow", "Ruby-red", "Purple"],
+              "correct_answer": "C",
+              "explanation": "Ruby-red",
+              "hint": "The juicy parts are red like precious gems!"
+            },
+            {
+              "id": 4,
+              "question": "What makes pomegranates special for health?",
+              "options": ["High sugar", "High antioxidants", "High fat", "High salt"],
+              "correct_answer": "B",
+              "explanation": "High antioxidants",
+              "hint": "Pomegranates are super high in compounds that fight cell damage!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "fruits"
+        },
+        "peach": {
+          "name": "Peach",
+          "video" : "assets/videos/Fruit/Peach.mp4",
+          "learning": {
+            "summary": "Peaches are fuzzy, soft fruits with sweet, juicy flesh and a hard pit in the center! Their skin feels like velvet and they smell amazing when ripe. Peaches are high in vitamins A and C.",
+            "key_facts": [
+              "Fuzzy, soft fruits with sweet flesh",
+              "Hard pit in the center",
+              "Skin feels like velvet",
+              "Amazing smell when ripe",
+              "High in vitamins A and C"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What does peach skin feel like?",
+              "options": ["Smooth", "Fuzzy like velvet", "Rough", "Wet"],
+              "correct_answer": "B",
+              "explanation": "Fuzzy like velvet",
+              "hint": "Peach skin has a soft, fuzzy texture!"
+            },
+            {
+              "id": 2,
+              "question": "What's in the center of a peach?",
+              "options": ["Seeds", "A hard pit", "Nothing", "Liquid"],
+              "correct_answer": "B",
+              "explanation": "A hard pit",
+              "hint": "There's a hard stone in the middle that you can't eat!"
+            },
+            {
+              "id": 3,
+              "question": "How do ripe peaches smell?",
+              "options": ["Bad", "Amazing", "Like nothing", "Like vegetables"],
+              "correct_answer": "B",
+              "explanation": "Amazing",
+              "hint": "Ripe peaches have one of the best smells of any fruit!"
+            },
+            {
+              "id": 4,
+              "question": "What vitamins do peaches provide?",
+              "options": ["Vitamins A and C", "Only vitamin B", "Only vitamin D", "No vitamins"],
+              "correct_answer": "A",
+              "explanation": "Vitamins A and C",
+              "hint": "Peaches give you vitamins for healthy eyes and immune system!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "pear": {
+          "name": "Pear",
+          "video": "assets/videos/Fruit/Pear.mp4",
+          "learning": {
+            "summary": "Pears are sweet, juicy fruits with a unique teardrop shape! They have a grainy texture when ripe and come in green and red varieties. Pears are high in fiber and vitamin C.",
+            "key_facts": [
+              "Sweet, juicy fruits with teardrop shape",
+              "Grainy texture when ripe",
+              "Come in green and red varieties",
+              "High in fiber and vitamin C",
+              "Get softer as they ripen"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What shape are pears?",
+              "options": ["Round like balls", "Square", "Teardrop shaped", "Long like bananas"],
+              "correct_answer": "C",
+              "explanation": "Teardrop shaped",
+              "hint": "Pears are wider at the bottom and narrow at the top!"
+            },
+            {
+              "id": 2,
+              "question": "What texture do ripe pears have?",
+              "options": ["Smooth like apples", "Grainy and soft", "Very hard", "Crunchy"],
+              "correct_answer": "B",
+              "explanation": "Grainy and soft",
+              "hint": "Pears have a unique, slightly gritty texture!"
+            },
+            {
+              "id": 3,
+              "question": "What colors can pears be?",
+              "options": ["Only green", "Green and red", "Only yellow", "Blue and purple"],
+              "correct_answer": "B",
+              "explanation": "Green and red",
+              "hint": "Pears come in different colors like apples do!"
+            },
+            {
+              "id": 4,
+              "question": "What happens to pears as they ripen?",
+              "options": ["They get harder", "They get softer", "They turn blue", "They shrink"],
+              "correct_answer": "B",
+              "explanation": "They get softer",
+              "hint": "Ripe pears are gentle to touch!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "plum": {
+          "name": "Plum",
+          "video": "assets/videos/Fruit/Plum.mp4",
+          "learning": {
+            "summary": "Plums are smooth-skinned fruits with sweet, juicy flesh and a hard pit in the center! They come in purple, red, and yellow varieties. Plums are high in vitamins and antioxidants.",
+            "key_facts": [
+              "Smooth-skinned fruits with sweet flesh",
+              "Hard pit in the center",
+              "Come in purple, red, and yellow varieties",
+              "High in vitamins and antioxidants",
+              "Can be eaten fresh or dried as prunes"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What kind of skin do plums have?",
+              "options": ["Fuzzy", "Smooth", "Rough", "Bumpy"],
+              "correct_answer": "B",
+              "explanation": "Smooth",
+              "hint": "Unlike peaches, plums have smooth skin!"
+            },
+            {
+              "id": 2,
+              "question": "What colors can plums be?",
+              "options": ["Only purple", "Purple, red, and yellow", "Only red", "Only green"],
+              "correct_answer": "B",
+              "explanation": "Purple, red, and yellow",
+              "hint": "Plums come in several beautiful colors!"
+            },
+            {
+              "id": 3,
+              "question": "What's in the center of a plum?",
+              "options": ["Seeds", "A hard pit", "Nothing", "Liquid"],
+              "correct_answer": "B",
+              "explanation": "A hard pit",
+              "hint": "Like peaches, plums have a hard stone in the middle!"
+            },
+            {
+              "id": 4,
+              "question": "What are dried plums called?",
+              "options": ["Raisins", "Prunes", "Dates", "Figs"],
+              "correct_answer": "B",
+              "explanation": "Prunes",
+              "hint": "When plums are dried, they get a special name!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "strawberry": {
+          "name": "Strawberry",
+          "video": "assets/videos/Fruit/Strawberry.mp4",
+          "learning": {
+            "summary": "Strawberries are heart-shaped red berries with seeds on the outside! They grow on low plants and are packed with vitamin C and antioxidants. Strawberries bloom with white flowers in spring.",
+            "key_facts": [
+              "Heart-shaped red berries",
+              "Seeds on the outside surface",
+              "Grow on low spreading plants",
+              "Packed with vitamin C and antioxidants",
+              "White flowers bloom in spring"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What shape are strawberries?",
+              "options": ["Round", "Square", "Heart-shaped", "Triangle"],
+              "correct_answer": "C",
+              "explanation": "Heart-shaped",
+              "hint": "Strawberries look like the symbol we use for love!"
+            },
+            {
+              "id": 2,
+              "question": "Where are strawberry seeds located?",
+              "options": ["Inside the fruit", "On the outside", "In the stem", "Underground"],
+              "correct_answer": "B",
+              "explanation": "On the outside",
+              "hint": "Look closely - you can see tiny dots all over the strawberry!"
+            },
+            {
+              "id": 3,
+              "question": "When do strawberries usually ripen?",
+              "options": ["Winter", "Fall", "Early summer", "Late autumn"],
+              "correct_answer": "C",
+              "explanation": "Early summer",
+              "hint": "Strawberries are ready when school ends!"
+            },
+            {
+              "id": 4,
+              "question": "What color are strawberry flowers?",
+              "options": ["Red", "Pink", "White", "Yellow"],
+              "correct_answer": "C",
+              "explanation": "White",
+              "hint": "The flowers are the opposite color of the fruit!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "tangerine": {
+          "name": "Tangerine",
+          "video": "assets/videos/Fruit/Tangerine.mp4",
+          "learning": {
+            "summary": "Tangerines are small, sweet citrus fruits that are easy to peel! They're similar to oranges but smaller and sweeter. Tangerines are high in vitamin C and perfect for snacking.",
+            "key_facts": [
+              "Small, sweet citrus fruits",
+              "Easy to peel skin",
+              "Similar to oranges but smaller and sweeter",
+              "High in vitamin C",
+              "Perfect portable snack"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "How are tangerines different from oranges?",
+              "options": ["They're bigger", "They're smaller and sweeter", "They're sour", "They're green"],
+              "correct_answer": "B",
+              "explanation": "They're smaller and sweeter",
+              "hint": "Tangerines are like oranges' little sweet cousins!"
+            },
+            {
+              "id": 2,
+              "question": "What makes tangerines good for snacking?",
+              "options": ["Hard to peel", "Easy to peel", "Very large", "Very sour"],
+              "correct_answer": "B",
+              "explanation": "Easy to peel",
+              "hint": "The skin comes off easily, making them perfect for lunch boxes!"
+            },
+            {
+              "id": 3,
+              "question": "What family do tangerines belong to?",
+              "options": ["Apple family", "Citrus family", "Berry family", "Stone fruit"],
+              "correct_answer": "B",
+              "explanation": "Citrus family",
+              "hint": "Tangerines are relatives of oranges and lemons!"
+            },
+            {
+              "id": 4,
+              "question": "What vitamin do tangerines provide?",
+              "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+              "correct_answer": "B",
+              "explanation": "Vitamin C",
+              "hint": "Like all citrus fruits, tangerines are full of this immune-boosting vitamin!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "watermelon": {
+          "name": "Watermelon",
+          "video": "assets/videos/Fruit/Watermelon.mp4",
+          "learning": {
+            "summary": "Watermelons are huge, round fruits with green rinds and juicy red flesh inside! They're mostly water and perfect for hot summer days. Watermelon seeds can be black or white.",
+            "key_facts": [
+              "Huge, round fruits with green rinds",
+              "Juicy red flesh that's mostly water",
+              "Perfect for hot summer days",
+              "Seeds can be black or white",
+              "Very refreshing and hydrating"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What is watermelon mostly made of?",
+              "options": ["Sugar", "Water", "Protein", "Fat"],
+              "correct_answer": "B",
+              "explanation": "Water",
+              "hint": "The name gives you a big clue!"
+            },
+            {
+              "id": 2,
+              "question": "What color is watermelon flesh?",
+              "options": ["Green", "Yellow", "Red", "Purple"],
+              "correct_answer": "C",
+              "explanation": "Red",
+              "hint": "The inside is bright red like fire trucks!"
+            },
+            {
+              "id": 3,
+              "question": "When is watermelon most refreshing?",
+              "options": ["Cold winter days", "Hot summer days", "Rainy days", "Snowy days"],
+              "correct_answer": "B",
+              "explanation": "Hot summer days",
+              "hint": "Think about when you'd most want something cool and watery!"
+            },
+            {
+              "id": 4,
+              "question": "How big are watermelons?",
+              "options": ["Small like grapes", "Medium like apples", "Large and heavy", "Tiny like berries"],
+              "correct_answer": "C",
+              "explanation": "Large and heavy",
+              "hint": "Watermelons are some of the biggest fruits!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        }
+      }
+    },
+    "dairy": {
+      "name": "Dairy",
+      "description": "Foods that come from milk and help build strong bones and teeth",
+      "color": "#A8E6CF",
+      "foods": {
+        "butter": {
+          "name": "Butter",
+          "learning": {
+            "summary": "Butter is made from cream that's churned until it becomes thick and creamy! It's rich in fat and adds flavor to foods. Butter is used for cooking, baking, and spreading on bread.",
+            "key_facts": [
+              "Made from churned cream",
+              "Rich in fats for energy",
+              "Adds flavor to foods",
+              "Used for cooking and baking",
+              "Creamy, spreadable texture"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What is butter made from?",
+              "options": ["Water", "Cream", "Oil", "Sugar"],
+              "correct_answer": "B",
+              "explanation": "Cream",
+              "hint": "Butter comes from the fatty part of milk!"
+            },
+            {
+              "id": 2,
+              "question": "How is butter made?",
+              "options": ["By heating", "By churning cream", "By freezing", "By adding sugar"],
+              "correct_answer": "B",
+              "explanation": "By churning cream",
+              "hint": "Making butter involves mixing cream until it gets thick!"
+            },
+            {
+              "id": 3,
+              "question": "What does butter add to food?",
+              "options": ["Color only", "Flavor and richness", "Water", "Vitamins only"],
+              "correct_answer": "B",
+              "explanation": "Flavor and richness",
+              "hint": "Butter makes food taste richer and more delicious!"
+            },
+            {
+              "id": 4,
+              "question": "What is butter's texture like?",
+              "options": ["Hard like ice", "Creamy and spreadable", "Liquid like water", "Crunchy"],
+              "correct_answer": "B",
+              "explanation": "Creamy and spreadable",
+              "hint": "Butter is soft enough to spread on toast!"
+            }
+          ],
+          "level": "beginner",
+          "category": "dairy"
+        },
+        "cheese": {
+            "name": "Cheese",
+            "learning": {
+              "summary": "Cheese is made from milk that's been curdled and aged! It comes in many varieties like cheddar, mozzarella, and swiss. Cheese is rich in protein and calcium, making it both delicious and nutritious.",
+              "key_facts": [
+                "Made from curdled milk",
+                "High in protein and calcium",
+                "Comes in many varieties",
+                "Can be soft or hard",
+                "Great for cooking and eating"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What is cheese made from?",
+                "options": ["Water", "Milk", "Eggs", "Flour"],
+                "correct_answer": "B",
+                "explanation": "Milk",
+                "hint": "Cheese starts with the white liquid we get from cows!"
+              },
+              {
+                "id": 2,
+                "question": "What nutrients is cheese rich in?",
+                "options": ["Sugar and fat", "Protein and calcium", "Water and salt", "Vitamins only"],
+                "correct_answer": "B",
+                "explanation": "Protein and calcium",
+                "hint": "Cheese helps build strong muscles and bones!"
+              },
+              {
+                "id": 3,
+                "question": "Which is a type of cheese?",
+                "options": ["Apple", "Cheddar", "Bread", "Rice"],
+                "correct_answer": "B",
+                "explanation": "Cheddar",
+                "hint": "This orange cheese is very popular!"
+              },
+              {
+                "id": 4,
+                "question": "How is milk turned into cheese?",
+                "options": ["By freezing", "By curdling", "By boiling", "By mixing with sugar"],
+                "correct_answer": "B",
+                "explanation": "By curdling",
+                "hint": "The milk gets thick and chunky before becoming cheese!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "cream": {
+            "name": "Cream",
+            "learning": {
+              "summary": "Cream is the rich, fatty part of milk that rises to the top! It's thick and smooth, perfect for making desserts, coffee drinks, and sauces. Cream comes in different types like heavy cream and light cream.",
+              "key_facts": [
+                "Fatty part of milk",
+                "Rises to the top naturally",
+                "Thick and smooth texture",
+                "Used in desserts and cooking",
+                "Comes in heavy and light varieties"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What part of milk is cream?",
+                "options": ["The water part", "The fatty part", "The protein part", "The sugar part"],
+                "correct_answer": "B",
+                "explanation": "The fatty part",
+                "hint": "Cream is the richest part of milk!"
+              },
+              {
+                "id": 2,
+                "question": "Where does cream naturally go in milk?",
+                "options": ["Sinks to bottom", "Rises to the top", "Stays in middle", "Disappears"],
+                "correct_answer": "B",
+                "explanation": "Rises to the top",
+                "hint": "Fat is lighter than water, so it floats up!"
+              },
+              {
+                "id": 3,
+                "question": "What is cream's texture like?",
+                "options": ["Thin like water", "Thick and smooth", "Crunchy", "Fizzy"],
+                "correct_answer": "B",
+                "explanation": "Thick and smooth",
+                "hint": "Cream is much thicker than regular milk!"
+              },
+              {
+                "id": 4,
+                "question": "What can cream be used for?",
+                "options": ["Only drinking", "Making desserts and coffee", "Building houses", "Cleaning"],
+                "correct_answer": "B",
+                "explanation": "Making desserts and coffee",
+                "hint": "Cream makes things taste rich and creamy!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "cottage_cheese": {
+            "name": "Cottage Cheese",
+            "learning": {
+              "summary": "Cottage cheese is a soft, white cheese with small curds that look like tiny lumps! It's made from milk that's been curdled gently. Cottage cheese is high in protein and has a mild, creamy taste.",
+              "key_facts": [
+                "Soft cheese with small curds",
+                "Made from gently curdled milk",
+                "High in protein",
+                "Mild, creamy taste",
+                "White color with lumpy texture"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What does cottage cheese look like?",
+                "options": ["Smooth and yellow", "Small white lumps", "Hard and orange", "Liquid"],
+                "correct_answer": "B",
+                "explanation": "Small white lumps",
+                "hint": "The lumps are called curds!"
+              },
+              {
+                "id": 2,
+                "question": "How is cottage cheese made?",
+                "options": ["By freezing milk", "By gently curdling milk", "By boiling eggs", "By mixing flour"],
+                "correct_answer": "B",
+                "explanation": "By gently curdling milk",
+                "hint": "The milk is curdled more gently than for hard cheeses!"
+              },
+              {
+                "id": 3,
+                "question": "What nutrient is cottage cheese high in?",
+                "options": ["Sugar", "Protein", "Salt only", "Water"],
+                "correct_answer": "B",
+                "explanation": "Protein",
+                "hint": "This nutrient helps build strong muscles!"
+              },
+              {
+                "id": 4,
+                "question": "What does cottage cheese taste like?",
+                "options": ["Very sour", "Mild and creamy", "Spicy hot", "Very sweet"],
+                "correct_answer": "B",
+                "explanation": "Mild and creamy",
+                "hint": "Cottage cheese has a gentle, not strong flavor!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "ice_cream": {
+            "name": "Ice Cream",
+            "learning": {
+              "summary": "Ice cream is a frozen treat made from milk, cream, and sugar! It's churned while freezing to make it smooth and creamy. Ice cream comes in many flavors like vanilla, chocolate, and strawberry.",
+              "key_facts": [
+                "Frozen dessert made from dairy",
+                "Contains milk, cream, and sugar",
+                "Churned while freezing",
+                "Smooth and creamy texture",
+                "Comes in many flavors"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What is ice cream made from?",
+                "options": ["Only water", "Milk, cream, and sugar", "Only eggs", "Only flour"],
+                "correct_answer": "B",
+                "explanation": "Milk, cream, and sugar",
+                "hint": "Ice cream is made from dairy products plus something sweet!"
+              },
+              {
+                "id": 2,
+                "question": "How is ice cream different from just frozen milk?",
+                "options": ["It's not churned", "It's churned while freezing", "It has no sugar", "It's not cold"],
+                "correct_answer": "B",
+                "explanation": "It's churned while freezing",
+                "hint": "Churning makes ice cream smooth instead of icy!"
+              },
+              {
+                "id": 3,
+                "question": "What temperature is ice cream served at?",
+                "options": ["Hot", "Room temperature", "Frozen/cold", "Warm"],
+                "correct_answer": "C",
+                "explanation": "Frozen/cold",
+                "hint": "Ice cream needs to stay cold or it melts!"
+              },
+              {
+                "id": 4,
+                "question": "Name a common ice cream flavor:",
+                "options": ["Vanilla", "Onion", "Pepper", "Garlic"],
+                "correct_answer": "A",
+                "explanation": "Vanilla",
+                "hint": "This flavor is white and very popular!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "milk": {
+            "name": "Milk",
+            "video": "assets/videos/Dairy/Milk.mp4",
+            "learning": {
+              "summary": "Milk is a white liquid that comes from cows and other animals! It's full of important nutrients like protein, calcium, and vitamins. Milk helps us grow strong bones and teeth, and we use it for drinking, cereal, and making other dairy products.",
+              "key_facts": [
+                "White liquid from cows",
+                "Rich in protein and calcium",
+                "Helps build strong bones and teeth",
+                "Contains important vitamins",
+                "Used to make other dairy products"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What color is milk?",
+                "options": ["Blue", "White", "Green", "Red"],
+                "correct_answer": "B",
+                "explanation": "White",
+                "hint": "Milk is the color of snow!"
+              },
+              {
+                "id": 2,
+                "question": "What animal commonly gives us milk?",
+                "options": ["Fish", "Cows", "Birds", "Cats"],
+                "correct_answer": "B",
+                "explanation": "Cows",
+                "hint": "This big farm animal says 'moo'!"
+              },
+              {
+                "id": 3,
+                "question": "What does milk help make strong?",
+                "options": ["Hair only", "Bones and teeth", "Clothes", "Shoes"],
+                "correct_answer": "B",
+                "explanation": "Bones and teeth",
+                "hint": "Milk has calcium which is great for your skeleton!"
+              },
+              {
+                "id": 4,
+                "question": "What can milk be used for?",
+                "options": ["Only washing", "Drinking and making cereal", "Painting walls", "Cleaning cars"],
+                "correct_answer": "B",
+                "explanation": "Drinking and making cereal",
+                "hint": "Think about breakfast time!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "yogurt": {
+            "name": "Yogurt",
+            "learning": {
+              "summary": "Yogurt is made from milk that has been fermented with good bacteria! These helpful bacteria make the milk thick and tangy. Yogurt is creamy, healthy, and comes in many flavors. It's great for your digestive system!",
+              "key_facts": [
+                "Made from fermented milk",
+                "Contains good bacteria",
+                "Thick and tangy taste",
+                "Creamy texture",
+                "Good for digestive health"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "How is yogurt made?",
+                "options": ["By freezing milk", "By fermenting milk with bacteria", "By boiling water", "By mixing sugar"],
+                "correct_answer": "B",
+                "explanation": "By fermenting milk with bacteria",
+                "hint": "Good bacteria help turn milk into yogurt!"
+              },
+              {
+                "id": 2,
+                "question": "What does yogurt taste like?",
+                "options": ["Very sweet", "Tangy and creamy", "Spicy hot", "Like water"],
+                "correct_answer": "B",
+                "explanation": "Tangy and creamy",
+                "hint": "Yogurt has a slightly sour but pleasant taste!"
+              },
+              {
+                "id": 3,
+                "question": "What makes yogurt good for you?",
+                "options": ["Bad bacteria", "Good bacteria", "No bacteria", "Sugar only"],
+                "correct_answer": "B",
+                "explanation": "Good bacteria",
+                "hint": "These helpful bacteria are called probiotics!"
+              },
+              {
+                "id": 4,
+                "question": "What part of your body does yogurt help?",
+                "options": ["Only your hair", "Your digestive system", "Only your feet", "Only your hands"],
+                "correct_answer": "B",
+                "explanation": "Your digestive system",
+                "hint": "Yogurt helps your stomach and intestines work better!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        }
+      }
+    },
+    "fats": {
+      "name": "Healthy Fats",
+      "description": "Foods with good fats that give you energy and help your body work properly",
+      "color": "#FFB347",
+      "foods": {
+        "coconut": {
+          "name": "Coconut",
+          "video": "assets/videos/Fruit/Coconut.mp4",
+          "learning": {
+            "summary": "Coconuts are large, brown, fibrous fruits that grow on palm trees! Inside is white coconut meat and coconut water. Coconuts are high in healthy fats and can be eaten fresh or dried.",
+            "key_facts": [
+              "Large, brown, fibrous fruits",
+              "Grow on tall palm trees",
+              "Contain white meat and coconut water",
+              "High in healthy saturated fats",
+              "Can be eaten fresh or dried"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "Where do coconuts grow?",
+              "options": ["On bushes", "On palm trees", "Underground", "On vines"],
+              "correct_answer": "B",
+              "explanation": "On palm trees",
+              "hint": "Coconuts grow on tall tropical trees!"
+            },
+            {
+              "id": 2,
+              "question": "What's inside a coconut?",
+              "options": ["Only water", "White meat and water", "Only meat", "Nothing"],
+              "correct_answer": "B",
+              "explanation": "White meat and water",
+              "hint": "Coconuts have both solid and liquid parts inside!"
+            },
+            {
+              "id": 3,
+              "question": "What does coconut meat look like?",
+              "options": ["Brown", "White", "Green", "Red"],
+              "correct_answer": "B",
+              "explanation": "White",
+              "hint": "The meat inside is white like snow!"
+            },
+            {
+              "id": 4,
+              "question": "What nutrients are coconuts high in?",
+              "options": ["Protein", "Healthy fats", "Carbohydrates", "Vitamins only"],
+              "correct_answer": "B",
+              "explanation": "Healthy fats",
+              "hint": "Coconuts are one of the few fruits that are high in good fats!"
+            }
+          ],
+          "level": "intermediate",
+          "category": "fruits"
+        },
+        "butter": {
+            "name": "Butter",
+            "learning": {
+              "summary": "Butter is made from cream that's churned until it becomes thick and creamy. It's rich in saturated fats and adds delicious flavor to foods. Butter is used for cooking, baking, and spreading on bread. It's solid at room temperature but melts easily when heated.",
+              "key_facts": [
+                "Made from churned cream",
+                "Rich in saturated fats",
+                "Adds flavor to foods",
+                "Solid at room temperature",
+                "Used for cooking and baking"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What is butter made from?",
+                "options": [
+                  "Water",
+                  "Cream",
+                  "Oil",
+                  "Sugar"
+                ],
+                "correct_answer": "B",
+                "explanation": "Cream"
+              },
+              {
+                "id": 2,
+                "question": "How is butter made?",
+                "options": [
+                  "By heating",
+                  "By churning cream",
+                  "By freezing",
+                  "By adding sugar"
+                ],
+                "correct_answer": "B",
+                "explanation": "By churning cream"
+              },
+              {
+                "id": 3,
+                "question": "What happens to butter when heated?",
+                "options": [
+                  "It gets harder",
+                  "It melts",
+                  "It changes color only",
+                  "Nothing happens"
+                ],
+                "correct_answer": "B",
+                "explanation": "It melts"
+              },
+              {
+                "id": 4,
+                "question": "What type of fats does butter contain?",
+                "options": [
+                  "No fats",
+                  "Saturated fats",
+                  "Only water",
+                  "Only protein"
+                ],
+                "correct_answer": "B",
+                "explanation": "Saturated fats"
+              }
+            ],
+            "level": "beginner",
+            "category": "fats"
+        },
+        "chocolate": {
+            "name": "Chocolate",
+            "learning": {
+              "summary": "Chocolate comes from cacao beans that grow in pods on cacao trees. The beans are processed and mixed with sugar and milk to make different types of chocolate. Dark chocolate has healthy antioxidants and some fats, while milk chocolate is sweeter and creamier.",
+              "key_facts": [
+                "Made from cacao beans",
+                "Grows on cacao trees in warm climates",
+                "Contains natural fats from cacao",
+                "Dark chocolate has antioxidants",
+                "Comes in milk, dark, and white varieties"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "Where does chocolate come from?",
+                "options": [
+                  "Milk",
+                  "Cacao beans",
+                  "Sugar only",
+                  "Wheat"
+                ],
+                "correct_answer": "B",
+                "explanation": "Cacao beans"
+              },
+              {
+                "id": 2,
+                "question": "What do cacao beans grow on?",
+                "options": [
+                  "Bushes",
+                  "Cacao trees",
+                  "Underground",
+                  "Vines"
+                ],
+                "correct_answer": "B",
+                "explanation": "Cacao trees"
+              },
+              {
+                "id": 3,
+                "question": "Which type of chocolate has the most antioxidants?",
+                "options": [
+                  "White chocolate",
+                  "Dark chocolate",
+                  "Milk chocolate",
+                  "All have the same"
+                ],
+                "correct_answer": "B",
+                "explanation": "Dark chocolate"
+              },
+              {
+                "id": 4,
+                "question": "What makes chocolate sweet and creamy?",
+                "options": [
+                  "Only water",
+                  "Sugar and milk",
+                  "Salt",
+                  "Nothing"
+                ],
+                "correct_answer": "B",
+                "explanation": "Sugar and milk"
+              }
+            ],
+            "level": "beginner",
+            "category": "fats"
+        },
+        "nut": {
+            "name": "Nut",
+            "learning": {
+              "summary": "Nuts are seeds with hard shells that grow on trees and plants. They include almonds, walnuts, cashews, and peanuts. Nuts are packed with healthy fats, protein, and vitamins that give your body energy and help your brain work well. They make great snacks and can be used in cooking.",
+              "key_facts": [
+                "Seeds with hard shells",
+                "Grow on trees and plants",
+                "High in healthy fats and protein",
+                "Include almonds, walnuts, cashews",
+                "Good for brain health and energy"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What are nuts?",
+                "options": [
+                  "Fruits with soft skin",
+                  "Seeds with hard shells",
+                  "Vegetables",
+                  "Dairy products"
+                ],
+                "correct_answer": "B",
+                "explanation": "Seeds with hard shells"
+              },
+              {
+                "id": 2,
+                "question": "Name a type of nut:",
+                "options": [
+                  "Apple",
+                  "Almond",
+                  "Carrot",
+                  "Cheese"
+                ],
+                "correct_answer": "B",
+                "explanation": "Almond"
+              },
+              {
+                "id": 3,
+                "question": "What nutrients do nuts provide?",
+                "options": [
+                  "Only water",
+                  "Healthy fats and protein",
+                  "Only sugar",
+                  "No nutrients"
+                ],
+                "correct_answer": "B",
+                "explanation": "Healthy fats and protein"
+              },
+              {
+                "id": 4,
+                "question": "What part of the body do nuts help?",
+                "options": [
+                  "Only teeth",
+                  "Brain and overall energy",
+                  "Only hair",
+                  "Nothing"
+                ],
+                "correct_answer": "B",
+                "explanation": "Brain and overall energy"
+              }
+            ],
+            "level": "beginner",
+            "category": "fats"
+        },
+        "salmon": {
+            "name": "Salmon",
+            "learning": {
+              "summary": "Salmon is a pink fish that lives in both oceans and rivers. It's famous for being rich in omega-3 fatty acids, which are very healthy fats that help your heart and brain. Salmon swim upstream to lay their eggs and are caught wild or raised on fish farms.",
+              "key_facts": [
+                "Pink fish that lives in oceans and rivers",
+                "Rich in omega-3 fatty acids",
+                "Good for heart and brain health",
+                "Swims upstream to lay eggs",
+                "Can be wild-caught or farm-raised"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What color is salmon?",
+                "options": [
+                  "Blue",
+                  "Pink",
+                  "Green",
+                  "Yellow"
+                ],
+                "correct_answer": "B",
+                "explanation": "Pink"
+              },
+              {
+                "id": 2,
+                "question": "Where does salmon live?",
+                "options": [
+                  "Only in lakes",
+                  "In oceans and rivers",
+                  "Only on land",
+                  "In trees"
+                ],
+                "correct_answer": "B",
+                "explanation": "In oceans and rivers"
+              },
+              {
+                "id": 3,
+                "question": "What healthy fats does salmon contain?",
+                "options": [
+                  "No fats",
+                  "Omega-3 fatty acids",
+                  "Only bad fats",
+                  "Sugar"
+                ],
+                "correct_answer": "B",
+                "explanation": "Omega-3 fatty acids"
+              },
+              {
+                "id": 4,
+                "question": "What do salmon do to lay eggs?",
+                "options": [
+                  "Stay in one place",
+                  "Swim upstream",
+                  "Fly in the air",
+                  "Dig holes"
+                ],
+                "correct_answer": "B",
+                "explanation": "Swim upstream"
+              }
+            ],
+            "level": "beginner",
+            "category": "fats"
+        } 
+      }
+    }
+  }
+}
