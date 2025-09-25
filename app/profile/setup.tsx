@@ -25,6 +25,7 @@ import { colors } from '../../constants/colors';
 import { config } from '../../constants/config';
 import { useUserStore } from '../../stores/userStore';
 import { cameraService } from '../../utils/cameraService';
+import getFoodImageSource from '../../utils/imageUtils';
 import MessageHandler from '../../utils/messageHandler';
 import { shadowPresets } from '../../utils/shadowUtils';
 
@@ -43,9 +44,12 @@ interface ProfileData {
   age: string;
   gender: string;
   restrictions: string[];
-  fruits: string[];
   vegetables: string[];
+  fruits: string[];
   proteins: string[];
+  dairy: string[];
+  carbohydrates: string[];
+  fats: string[];
 }
 
 interface AvatarStepProps extends StepProps {
@@ -75,7 +79,7 @@ interface StepProps {
 }
 
 interface FoodSelectionStepProps extends StepProps {
-  type: 'fruits' | 'vegetables' | 'proteins';
+  type: 'vegetables' | 'fruits' | 'proteins' | 'dairy' | 'carbohydrates' | 'fats';
   foods: Food[];
 }
 
@@ -210,37 +214,85 @@ const Dropdown: React.FC<DropdownProps> = ({
 // Food data
 const foodData = {
   fruits: [
-    { id: 'apple', name: 'Apple', image: require('../../assets/images/foods/apple.png') },
-    { id: 'banana', name: 'Banana', image: require('../../assets/images/foods/banana.png') },
-    { id: 'orange', name: 'Orange', image: require('../../assets/images/foods/orange.png') },
-    { id: 'strawberry', name: 'Strawberry', image: require('../../assets/images/foods/strawberry.png') },
-    { id: 'grapes', name: 'Grapes', image: require('../../assets/images/foods/grapes.png') },
-    { id: 'watermelon', name: 'Watermelon', image: require('../../assets/images/foods/watermelon.png') },
-    { id: 'mango', name: 'Mango', image: require('../../assets/images/foods/mango.png') },
-    { id: 'pear', name: 'Pear', image: require('../../assets/images/foods/pear.png') },
-    { id: 'peach', name: 'Peach', image: require('../../assets/images/foods/peach.png') },
+    { id: 'apple', name: 'Apple', image: getFoodImageSource('apple') },
+    { id: 'apricot', name: 'Apricot', image: getFoodImageSource('apricot') },
+    { id: 'banana', name: 'Banana', image: getFoodImageSource('banana') },
+    { id: 'blueberry', name: 'Blueberry', image: getFoodImageSource('blueberry') },
+    { id: 'blackberry', name: 'Blackberry', image: getFoodImageSource('blackberry') },
+    { id: 'cantaloupe', name: 'Cantaloupe', image: getFoodImageSource('cantaloupe') },
+    { id: 'cherry', name: 'Cherry', image: getFoodImageSource('cherry') },
+    { id: 'fig', name: 'Fig', image: getFoodImageSource('fig') },
+    { id: 'grape', name: 'Grape', image: getFoodImageSource('grape') },
+    { id: 'grapefruit', name: 'Grapefruit', image: getFoodImageSource('grapefruit') },
+    { id: 'kiwi', name: 'Kiwi', image: getFoodImageSource('kiwi') },
+    { id: 'lemon', name: 'Lemon', image: getFoodImageSource('lemon') },
+    { id: 'lime', name: 'Lime', image: getFoodImageSource('lime') },
+    { id: 'mango', name: 'Mango', image: getFoodImageSource('mango') },
+    { id: 'nectarine', name: 'Nectarine', image: getFoodImageSource('nectarine') },
+    { id: 'olive', name: 'Olive', image: getFoodImageSource('olive') },
+    { id: 'papaya', name: 'Papaya', image: getFoodImageSource('papaya') },
+    { id: 'pomegranate', name: 'Pomegranate', image: getFoodImageSource('pomegranate') },
+    { id: 'peach', name: 'Peach', image: getFoodImageSource('peach') },
+    { id: 'orange', name: 'Orange', image: getFoodImageSource('orange') },
+    { id: 'plum', name: 'Plum', image: getFoodImageSource('plum') },
+    { id: 'strawberry', name: 'Strawberry', image: getFoodImageSource('strawberry') },
+    { id: 'pear', name: 'Pear', image: getFoodImageSource('pear') },
+    { id: 'tangerine', name: 'Tangerine', image: getFoodImageSource('tangerine') },
+    { id: 'watermelon', name: 'Watermelon', image: getFoodImageSource('watermelon') },
   ],
   vegetables: [
-    { id: 'carrot', name: 'Carrots', image: require('../../assets/images/foods/carrot.png') },
-    { id: 'broccoli', name: 'Broccoli', image: require('../../assets/images/foods/broccoli.png') },
-    { id: 'sweetpotato', name: 'Sweet Potatoes', image: require('../../assets/images/foods/sweetpotato.png') },
-    { id: 'peas', name: 'Peas', image: require('../../assets/images/foods/peas.png') },
-    { id: 'corn', name: 'Corn', image: require('../../assets/images/foods/corn.png') },
-    { id: 'cucumber', name: 'Cucumber', image: require('../../assets/images/foods/cucumber.png') },
-    { id: 'bellpepper', name: 'Bell Peppers', image: require('../../assets/images/foods/bellpepper.png') },
-    { id: 'spinach', name: 'Spinach', image: require('../../assets/images/foods/spinach.png') },
-    { id: 'tomato', name: 'Tomatoes', image: require('../../assets/images/foods/tomato.png') },
+    { id: 'asparagus', name: 'Asparagus', image: getFoodImageSource('asparagus') },
+    { id: 'beet', name: 'Beet', image: getFoodImageSource('beet') },
+    { id: 'broccoli', name: 'Broccoli', image: getFoodImageSource('broccoli') },
+    { id: 'bell_pepper', name: 'Bell Pepper', image: getFoodImageSource('bell_pepper') },
+    { id: 'cabbage', name: 'Cabbage', image: getFoodImageSource('cabbage') },
+    { id: 'cauliflower', name: 'Cauliflower', image: getFoodImageSource('cauliflower') },
+    { id: 'carrot', name: 'Carrot', image: getFoodImageSource('carrot') },
+    { id: 'cucumber', name: 'Cucumber', image: getFoodImageSource('cucumber') },
+    { id: 'eggplant', name: 'Eggplant', image: getFoodImageSource('eggplant') },
+    { id: 'garlic', name: 'Garlic', image: getFoodImageSource('garlic') },
+    { id: 'mushroom', name: 'Mushroom', image: getFoodImageSource('mushroom') },
+    { id: 'onion', name: 'Onion', image: getFoodImageSource('onion') },
+    { id: 'pepper', name: 'Pepper', image: getFoodImageSource('pepper') },
+    { id: 'potato', name: 'Potato', image: getFoodImageSource('potato') },
+    { id: 'radish', name: 'Radish', image: getFoodImageSource('radish') },
+    { id: 'spinach', name: 'Spinach', image: getFoodImageSource('spinach') },
+    { id: 'tomato', name: 'Tomato', image: getFoodImageSource('tomato') },
+    { id: 'zucchini', name: 'Zucchini', image: getFoodImageSource('zucchini') },
   ],
   proteins: [
-    { id: 'chicken', name: 'Chicken', image: require('../../assets/images/foods/chicken.png') },
-    { id: 'fish', name: 'Fish', image: require('../../assets/images/foods/fish.png') },
-    { id: 'eggs', name: 'Eggs', image: require('../../assets/images/foods/eggs.png') },
-    { id: 'beans', name: 'Beans', image: require('../../assets/images/foods/beans.png') },
-    { id: 'lentils', name: 'Lentils', image: require('../../assets/images/foods/lentils.png') },
-    { id: 'tofu', name: 'Tofu', image: require('../../assets/images/foods/tofu.png') },
-    { id: 'beef', name: 'Lean Beef', image: require('../../assets/images/foods/beef.png') },
-    { id: 'turkey', name: 'Turkey', image: require('../../assets/images/foods/turkey.png') },
-    { id: 'nuts', name: 'Nuts', image: require('../../assets/images/foods/nuts.png') },
+    { id: 'chicken', name: 'Chicken', image: getFoodImageSource('chicken') },
+    { id: 'egg', name: 'Egg', image: getFoodImageSource('egg') },
+    { id: 'fish', name: 'Fish', image: getFoodImageSource('fish') },
+    { id: 'almond', name: 'Almond', image: getFoodImageSource('almond') },
+    { id: 'pea', name: 'Pea', image: getFoodImageSource('pea') },
+    { id: 'beef', name: 'Beef', image: getFoodImageSource('beef') },
+    { id: 'tofu', name: 'Tofu', image: getFoodImageSource('tofu') },
+  ],
+  dairy: [
+    { id: 'milk', name: 'Milk', image: getFoodImageSource('milk') },
+    { id: 'cheese', name: 'Cheese', image: getFoodImageSource('cheese') },
+    { id: 'yogurt', name: 'Yogurt', image: getFoodImageSource('yogurt') },
+    { id: 'cream', name: 'Cream', image: getFoodImageSource('cream') },
+    { id: 'cottage_cheese', name: 'Cottage Cheese', image: getFoodImageSource('cottage_cheese') },
+    { id: 'ice_cream', name: 'Ice Cream', image: getFoodImageSource('ice_cream') },
+  ],
+  carbohydrates: [
+    { id: 'rice', name: 'Rice', image: getFoodImageSource('rice') },
+    { id: 'pasta', name: 'Pasta', image: getFoodImageSource('pasta') },
+    { id: 'butternut', name: 'Butternut', image: getFoodImageSource('butternut') },
+    { id: 'corn', name: 'Corn', image: getFoodImageSource('corn') },
+    { id: 'pumpkin', name: 'Pumpkin', image: getFoodImageSource('pumpkin') },
+    { id: 'oats', name: 'Oats', image: getFoodImageSource('oats') },
+    { id: 'quinoa', name: 'Quinoa', image: getFoodImageSource('quinoa') },
+    { id: 'sweet_potato', name: 'Sweet Potato', image: getFoodImageSource('sweet_potato') },
+  ],
+  fats: [
+    { id: 'butter', name: 'Butter', image: getFoodImageSource('butter') },
+    { id: 'coconut', name: 'Coconut', image: getFoodImageSource('coconut') },
+    { id: 'chocolate', name: 'Chocolate', image: getFoodImageSource('chocolate') },
+    { id: 'nut', name: 'Nut', image: getFoodImageSource('nut') },
+    { id: 'salmon', name: 'Salmon', image: getFoodImageSource('salmon') },
   ]
 };
 
@@ -255,7 +307,10 @@ const ProfileSetupScreen = () => {
     restrictions: [],
     fruits: [],
     vegetables: [],
-    proteins: []
+    proteins: [],
+    dairy: [],
+    carbohydrates: [],
+    fats: []
   });
   
   const progress = useSharedValue(0);
@@ -279,9 +334,12 @@ const ProfileSetupScreen = () => {
     'age',
     'gender',
     'restrictions',
-    'fruits',
     'vegetables',
-    'proteins'
+    'fruits',
+    'proteins',
+    'dairy',
+    'carbohydrates',
+    'fats'
   ];
   
   const handleNext = async () => {
@@ -326,6 +384,9 @@ const ProfileSetupScreen = () => {
         vegetables: profileData.vegetables,
         fruits: profileData.fruits,
         proteins: profileData.proteins,
+        dairy: profileData.dairy,
+        carbohydrates: profileData.carbohydrates,
+        fats: profileData.fats,
       };
 
       console.log('Child data2:', childData);
@@ -389,6 +450,27 @@ const ProfileSetupScreen = () => {
           profileData={profileData} 
           setProfileData={setProfileData}
           foods={foodData.proteins}
+        />;
+      case 'dairy':
+        return <FoodSelectionStep 
+          type="dairy" 
+          profileData={profileData} 
+          setProfileData={setProfileData}
+          foods={foodData.dairy}
+        />;
+      case 'carbohydrates':
+        return <FoodSelectionStep 
+          type="carbohydrates" 
+          profileData={profileData} 
+          setProfileData={setProfileData}
+          foods={foodData.carbohydrates}
+        />;
+      case 'fats':
+        return <FoodSelectionStep 
+          type="fats" 
+          profileData={profileData} 
+          setProfileData={setProfileData}
+          foods={foodData.fats}
         />;
       default:
         return null;

@@ -208,11 +208,12 @@ export const nutritionUtils = {
 
   getFoodCategory(food) {
     const categories = {
-      fruits: ['apple', 'banana', 'orange', 'grape', 'strawberry', 'pear'],
-      vegetables: ['carrot', 'broccoli', 'spinach', 'tomato', 'cucumber', 'potato'],
-      proteins: ['chicken', 'fish', 'beef', 'eggs', 'beans', 'nuts'],
-      dairy: ['milk', 'cheese', 'yogurt', 'butter'],
-      grains: ['rice', 'bread', 'pasta', 'oats', 'quinoa'],
+      vegetables: ['asparagus', 'beet', 'broccoli', 'bell_pepper','cabbage', 'cauliflower', 'carrot', 'cucumber', 'eggplant', 'garlic', 'mushroom', 'onion', 'pepper', 'potato', 'radish', 'spinach', 'tomato', 'zucchini'],
+      fruits: ['apple', 'apricot', 'banana', 'blueberry', 'blackberry', 'cantaloupe','cherry', 'fig', 'grape', 'grapefruit', 'kiwi', 'lemon', 'lime', 'mango', 'nectarine', 'olive', 'papaya', 'pomegranate', 'peach', 'orange', 'plum', 'strawberry', 'pear', 'tangerine', 'watermelon'],
+      proteins: ['chicken', 'egg', 'fish', 'almond', 'pea', 'beef', 'tofu'],
+      carbohydrates: ['butternut', 'corn', 'rice', 'pasta', 'pumpkin', 'potato', 'oats', 'quinoa', 'sweet_potato'],
+      dairy: ['milk', 'cheese', 'yogurt', 'cream', 'cottage_cheese', 'ice_cream'],
+      fats: ['butter', 'coconut', 'chocolate', 'nut', 'salmon'],
     };
 
     for (const [category, foods] of Object.entries(categories)) {

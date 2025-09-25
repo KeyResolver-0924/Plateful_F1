@@ -50,11 +50,12 @@ const MealLoggingScreen: React.FC = () => {
   ];
 
   const categories: Category[] = [
-    { id: 'fruits', name: 'Fruits', icon: '🍎' },
     { id: 'vegetables', name: 'Vegetables', icon: '🥕' },
+    { id: 'fruits', name: 'Fruits', icon: '🍎' },
     { id: 'proteins', name: 'Proteins', icon: '🍗' },
-    { id: 'grains', name: 'Grains', icon: '🌾' },
     { id: 'dairy', name: 'Dairy', icon: '🥛' },
+    { id: 'carbohydrates', name: 'Carbohydrates', icon: '🍚' },
+    { id: 'fats', name: 'Fats', icon: '🧈' },
   ];
 
   React.useEffect(() => {

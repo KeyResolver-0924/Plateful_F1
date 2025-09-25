@@ -1,7 +1,7 @@
 import { ApiResponse } from './apiService';
 import MessageHandler, { MessageConfig } from './messageHandler';
 
-export interface ApiHandlerConfig extends MessageConfig {
+export interface ApiHandlerConfig extends Omit<MessageConfig, 'onSuccess' | 'onError'> {
   showLoading?: boolean;
   onSuccess?: (data: any) => void;
   onError?: (error: any) => void;
@@ -25,7 +25,7 @@ export class ApiHandler {
       onError,
       onFinally
     } = config;
-
+    let finalResponse: ApiResponse<T> | null = null;
     try {
       const response = await apiCall();
       
@@ -34,14 +34,13 @@ export class ApiHandler {
         if (showSuccess) {
           const message = successMessage || response.message || 'Operation completed successfully!';
           MessageHandler.showSuccess(message, 'Success', () => {
-            if (onSuccess) onSuccess(response.data);
+            if (onSuccess) onSuccess(response.data as unknown as T);
           });
         } else if (onSuccess) {
-          onSuccess(response.data);
+          onSuccess(response.data as unknown as T);
         }
         
-        if (onFinally) onFinally();
-        return response;
+        finalResponse = response;
       } else {
         // Error case
         if (showError) {
@@ -53,8 +52,7 @@ export class ApiHandler {
           onError(response);
         }
         
-        if (onFinally) onFinally();
-        return response;
+        finalResponse = response;
       }
     } catch (error) {
       // Handle caught errors
@@ -69,9 +67,11 @@ export class ApiHandler {
         onError(error);
       }
       
+      finalResponse = { success: false, message: 'Request failed', error } as unknown as ApiResponse<T>;
+    } finally {
       if (onFinally) onFinally();
-      return null;
     }
+    return finalResponse;
   }
 
   /**

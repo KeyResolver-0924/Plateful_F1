@@ -216,25 +216,6 @@ const LearningModuleTab: React.FC<LearningModuleTabProps> = ({ navigation }) => 
   const getAllFoods = (): FoodItem[] => {
     const foods: FoodItem[] = [];
     
-    // Add fruits
-    if (foodGuideData.categories?.fruits?.foods) {
-      Object.keys(foodGuideData.categories.fruits.foods).forEach(fruitName => {
-        const fruitData = foodGuideData.categories.fruits.foods[fruitName as keyof typeof foodGuideData.categories.fruits.foods];
-        foods.push({
-          id: fruitName,
-          name: fruitData.name || fruitName.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()),
-          category: 'fruits',
-          description: fruitData.learning?.summary || '',
-          image: '',
-          nutrition: (fruitData as any).nutrition_per_medium || (fruitData as any).nutrition_per_cup,
-          how_grown: (fruitData as any).how_grown,
-          how_to_eat: (fruitData as any).how_to_eat,
-          quiz: fruitData.quiz,
-          key_facts: fruitData.learning?.key_facts || [],
-        });
-      });
-    }
-
     // Add vegetables
     if (foodGuideData.categories?.vegetables?.foods) {
       Object.keys(foodGuideData.categories.vegetables.foods).forEach(vegName => {
@@ -253,7 +234,42 @@ const LearningModuleTab: React.FC<LearningModuleTabProps> = ({ navigation }) => 
         });
       });
     }
-
+    // Add fruits
+    if (foodGuideData.categories?.fruits?.foods) {
+      Object.keys(foodGuideData.categories.fruits.foods).forEach(fruitName => {
+        const fruitData = foodGuideData.categories.fruits.foods[fruitName as keyof typeof foodGuideData.categories.fruits.foods];
+        foods.push({
+          id: fruitName,
+          name: fruitData.name || fruitName.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()),
+          category: 'fruits',
+          description: fruitData.learning?.summary || '',
+          image: '',
+          nutrition: (fruitData as any).nutrition_per_medium || (fruitData as any).nutrition_per_cup,
+          how_grown: (fruitData as any).how_grown,
+          how_to_eat: (fruitData as any).how_to_eat,
+          quiz: fruitData.quiz,
+          key_facts: fruitData.learning?.key_facts || [],
+        });
+      });
+    }
+    // Add carbohydrates
+    if (foodGuideData.categories?.carbohydrates?.foods) {
+      Object.keys(foodGuideData.categories.carbohydrates.foods).forEach(carbohydrateName => {
+        const carbohydrateData = foodGuideData.categories.carbohydrates.foods[carbohydrateName as keyof typeof foodGuideData.categories.carbohydrates.foods];
+        foods.push({
+          id: carbohydrateName,
+          name: carbohydrateData.name || carbohydrateName.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()),
+          category: 'carbohydrates',
+          description: carbohydrateData.learning?.summary || '',
+          image: '',
+          nutrition: (carbohydrateData as any).nutrition_per_medium || (carbohydrateData as any).nutrition_per_cup,
+          how_grown: (carbohydrateData as any).how_grown,
+          how_to_eat: (carbohydrateData as any).how_to_eat,
+          quiz: carbohydrateData.quiz,
+          key_facts: carbohydrateData.learning?.key_facts || [],
+        });
+      });
+    }
     // Add proteins
     if (foodGuideData.categories?.proteins?.foods) {
       Object.keys(foodGuideData.categories.proteins.foods).forEach(proteinName => {
@@ -270,6 +286,42 @@ const LearningModuleTab: React.FC<LearningModuleTabProps> = ({ navigation }) => 
           how_to_eat: (proteinData as any).how_to_eat,
           quiz: proteinData.quiz,
           key_facts: proteinData.learning?.key_facts || [],
+        });
+      });
+    }
+    // Add fats
+    if (foodGuideData.categories?.fats?.foods) {
+      Object.keys(foodGuideData.categories.fats.foods).forEach(fatName => {
+        const fatData = foodGuideData.categories.fats.foods[fatName as keyof typeof foodGuideData.categories.fats.foods];
+        foods.push({
+          id: fatName,
+          name: fatData.name || fatName.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()),
+          category: 'fats',
+          description: fatData.learning?.summary || '',
+          image: '',
+          nutrition: (fatData as any).nutrition_per_medium || (fatData as any).nutrition_per_cup,
+          how_grown: (fatData as any).how_grown,
+          how_to_eat: (fatData as any).how_to_eat,
+          quiz: fatData.quiz,
+          key_facts: fatData.learning?.key_facts || [],
+        });
+      });
+    }
+    // Add dairy
+    if (foodGuideData.categories?.dairy?.foods) {
+      Object.keys(foodGuideData.categories.dairy.foods).forEach(dairyName => {
+        const dairyData = foodGuideData.categories.dairy.foods[dairyName as keyof typeof foodGuideData.categories.dairy.foods];
+        foods.push({
+          id: dairyName,
+          name: dairyData.name || dairyName.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()),
+          category: 'dairy',
+          description: dairyData.learning?.summary || '',
+          image: '',
+          nutrition: (dairyData as any).nutrition_per_medium || (dairyData as any).nutrition_per_cup,
+          how_grown: (dairyData as any).how_grown,
+          how_to_eat: (dairyData as any).how_to_eat,
+          quiz: dairyData.quiz,
+          key_facts: dairyData.learning?.key_facts || [],
         });
       });
     }

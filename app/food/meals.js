@@ -158,11 +158,12 @@ const MealLoggingScreen = ({ navigation }) => {
   ];
 
   const categories = [
-    { id: 'fruits', name: 'Fruits', icon: '🍎' },
     { id: 'vegetables', name: 'Vegetables', icon: '🥕' },
+    { id: 'fruits', name: 'Fruits', icon: '🍎' },
+    { id: 'carbohydrates', name: 'Carbohydrates', icon: '🍚' },
+    { id: 'fats', name: 'Fats', icon: '🧈' },
     { id: 'proteins', name: 'Proteins', icon: '🍗' },
     { id: 'dairy', name: 'Dairy', icon: '🥛' },
-    { id: 'fats', name: 'Fats', icon: '🥑' },
   ];
 
   const takePicture = async () => {

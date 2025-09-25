@@ -37,9 +37,12 @@ const FoodSelectionScreen = () => {
   const getCategoryData = (cat: string) => {
     const foods = getFoodsByCategory(cat as keyof typeof getFoodsByCategory);
     const titles = {
-      fats: 'What Fats have been Introduced?',
+      vegetables: 'What Vegetables have been Introduced?',
+      fruits: 'What Fruits have been Introduced?',
+      carbohydrates: 'What Carbohydrates have been Introduced?',
+      proteins: 'What Proteins are out of scope for your Child?',
       dairy: 'What Dairy Has been Introduced?',
-      proteins: 'What Proteins are out of scope for your Child?'
+      fats: 'What Fats have been Introduced?',
     };
     
     return {
@@ -64,19 +67,46 @@ const FoodSelectionScreen = () => {
     // onComplete?.(categoryData.items.map((item: any) => item.id));
     
     // Navigate to next step
-    if (category === 'fats') {
+    if (category === 'vegetables') {
       router.push({
         pathname: './(tabs)/food/selection',
         params: {
-          category: 'dairy',
+          category: 'fruits',
           step: (step || 0) + 1
         }
       });
-    } else if (category === 'dairy') {
+    }
+    if (category === 'fruits') {
+      router.push({
+        pathname: './(tabs)/food/selection',
+        params: {
+          category: 'carbohydrates',
+          step: (step || 0) + 1
+        }
+      });
+    }
+    if (category === 'carbohydrates') {
       router.push({
         pathname: './(tabs)/food/selection',
         params: {
           category: 'proteins',
+          step: (step || 0) + 1
+        }
+      });
+    }
+    if (category === 'proteins') {
+      router.push({
+        pathname: './(tabs)/food/selection',
+        params: {
+          category: 'fats',
+          step: (step || 0) + 1
+        }
+      });
+    } else if (category === 'fats') {
+      router.push({
+        pathname: './(tabs)/food/selection',
+        params: {
+          category: 'dairy',
           step: (step || 0) + 1
         }
       });

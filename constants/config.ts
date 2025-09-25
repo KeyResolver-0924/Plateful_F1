@@ -34,11 +34,12 @@ export interface ImageUploadConfig {
 }
 
 export interface FoodCategories {
-  fruits: string;
   vegetables: string;
+  fruits: string;
   proteins: string;
-  grains: string;
+  carbohydrates: string;
   dairy: string;
+  fats: string;
 }
 
 export interface Config {
@@ -99,7 +100,8 @@ export const config: Config = {
     fruits: 'Fruits',
     vegetables: 'Vegetables',
     proteins: 'Proteins',
-    grains: 'Grains',
+    carbohydrates: 'Carbohydrates',
+    fats: 'Fats',
     dairy: 'Dairy'
   },
   
