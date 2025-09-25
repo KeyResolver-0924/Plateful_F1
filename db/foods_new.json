@@ -16,6 +16,7 @@
         "asparagus": {
           "name": "Asparagus",
           "video" : "assets/videos/Vegetable/Asparagus.mp4",
+          "image" : "assets/images/Food/Vegetable/asparagus.png",
           "learning": {
             "summary": "Asparagus are green spears that emerge from the ground in spring! They're young shoots that take 2-3 years to grow before first harvest. Asparagus comes in green, purple, and white varieties.",
             "key_facts": [
@@ -66,6 +67,7 @@
         "beet": {
           "name": "Beet",
           "video" : "assets/videos/Vegetable/Beet.mp4",
+          "image" : "assets/images/Food/Vegetable/beet.png",
           "learning": {
             "summary": "Beets are round root vegetables with deep red color and leafy green tops! They grow underground and have a sweet, earthy flavor. Both the root and leaves are edible.",
             "key_facts": [
@@ -116,6 +118,7 @@
         "broccoli": {
           "name": "Broccoli",
           "video" : "assets/videos/Vegetable/Broccoli.mp4",
+          "image" : "assets/images/Food/Vegetable/broccoli.png",
           "learning": {
             "summary": "Broccoli looks like tiny green trees and is actually flowers we eat before they bloom! It grows in cool weather and is packed with vitamins C and K.",
             "key_facts": [
@@ -166,6 +169,7 @@
         "bell_pepper": {
           "name": "Bell Pepper",
           "video" : "assets/videos/Vegetable/Bellpepper.mp4",
+          "image" : "assets/images/Food/Vegetable/bellpepper.png",
           "learning": {
             "summary": "Bell peppers are colorful, sweet peppers shaped like bells! They start green and change to red, yellow, or orange as they ripen. They're very high in vitamin C.",
             "key_facts": [
@@ -216,6 +220,7 @@
         "carrot": {
           "name": "Carrot",
           "video" : "assets/videos/Vegetable/Carrot.mp4",
+          "image" : "assets/images/Food/Vegetable/carrot.png",
           "learning": {
             "summary": "Carrots are orange root vegetables that grow underground with green leafy tops above! They're crunchy, sweet, and packed with beta-carotene for healthy eyes.",
             "key_facts": [
@@ -266,6 +271,7 @@
         "cabbage": {
           "name": "Cabbage",
           "video" : "assets/videos/Vegetable/Cabbage.mp4",
+          "image" : "assets/images/Food/Vegetable/cabbage.png",
           "learning": {
             "summary": "Cabbage forms tight, round heads of layered leaves! It comes in green, purple, and white varieties and can be eaten raw or cooked. The leaves grow in tight layers.",
             "key_facts": [
@@ -316,6 +322,7 @@
         "cauliflower": {
           "name": "Cauliflower",
           "video" : "assets/videos/Vegetable/Cauliflower.mp4",
+          "image" : "assets/images/Food/Vegetable/cauliflower.png",
           "learning": {
             "summary": "Cauliflower looks like white broccoli and is also a flower we eat before it blooms! It grows in cool weather and has a mild, slightly sweet flavor. It can be white, purple, or orange.",
             "key_facts": [
@@ -366,6 +373,7 @@
         "cucumber": {
           "name": "Cucumber",
           "video" : "assets/videos/Vegetable/Cucumber.mp4",
+          "image" : "assets/images/Food/Vegetable/cucumber.png",
           "learning": {
             "summary": "Cucumbers are cool, refreshing vegetables that are mostly water! They grow on vines and have a mild flavor with crunchy texture. Perfect for hot summer days!",
             "key_facts": [
@@ -416,6 +424,7 @@
         "eggplant": {
           "name": "Eggplant",
           "video" : "assets/videos/Vegetable/Eggplant.mp4",
+          "image" : "assets/images/Food/Vegetable/eggplant.png",
           "learning": {
             "summary": "Eggplants are purple, egg-shaped vegetables that grow on plants! They have a spongy texture that absorbs flavors well when cooking. Eggplants need warm weather to grow.",
             "key_facts": [
@@ -466,6 +475,7 @@
         "garlic": {
           "name": "Garlic",
           "video" : "assets/videos/Vegetable/Garlic.mp4",
+          "image" : "assets/images/Food/Vegetable/garlic.png",
           "learning": {
             "summary": "Garlic grows underground as bulbs made up of individual cloves! It has a strong, pungent flavor and is used to add taste to many dishes. Garlic is also known for its health benefits.",
             "key_facts": [
@@ -516,6 +526,7 @@
         "mushroom": {
           "name": "Mushroom",
           "video" : "assets/videos/Vegetable/Mushroom.mp4",
+          "image" : "assets/images/Food/Vegetable/mushroom.png",
           "learning": {
             "summary": "Mushrooms are actually fungi, not plants! They grow in dark, moist places and come in many varieties. Some mushrooms are safe to eat while others are not, so only eat store-bought ones!",
             "key_facts": [
@@ -566,6 +577,7 @@
         "onion": {
           "name": "Onion",
           "video" : "assets/videos/Vegetable/Onion.mp4",
+          "image" : "assets/images/Food/Vegetable/onion.png",
           "learning": {
             "summary": "Onions grow underground as bulbs made of many layers! They have a strong flavor and are used in cooking all over the world. Onions can make you cry when you cut them!",
             "key_facts": [
@@ -615,6 +627,7 @@
         },
         "pepper": {
           "name": "Pepper",
+          "image" : "assets/images/Food/Vegetable/pepper.png",
           "learning": {
             "summary": "Peppers come in many varieties from sweet to very hot! They grow on plants and change colors as they ripen. Hot peppers contain capsaicin which makes them spicy.",
             "key_facts": [
@@ -665,6 +678,7 @@
         "radish": {
           "name": "Radish",
           "video" : "assets/videos/Vegetable/Radish.mp4",
+          "image" : "assets/images/Food/Vegetable/radish.png",
           "learning": {
             "summary": "Radishes are small, round root vegetables with a peppery, spicy taste! They grow quickly underground and come in red, white, and purple varieties. They're crunchy and often eaten raw.",
             "key_facts": [
@@ -714,6 +728,7 @@
         },
         "spinach": {
           "name": "Spinach",
+          "image" : "assets/images/Food/Vegetable/spinach.png",
           "learning": {
             "summary": "Spinach has dark green leaves packed with iron and vitamins! It grows quickly in cool weather and can be harvested as baby leaves or full-size. Great for strong muscles!",
             "key_facts": [
@@ -764,6 +779,7 @@
         "tomato": {
           "name": "Tomato",
           "video" : "assets/videos/Vegetable/Tomato.mp4",
+          "image" : "assets/images/Food/Vegetable/tomato.png",
           "learning": {
             "summary": "Tomatoes are actually fruits, not vegetables, because they have seeds inside! They start green and turn red when ripe. Tomatoes need lots of sunlight and warm weather to grow.",
             "key_facts": [
@@ -814,6 +830,7 @@
         "zucchini": {
           "name": "Zucchini",
           "video" : "assets/videos/Vegetable/Zucchini.mp4",
+          "image" : "assets/images/Food/Vegetable/zucchini.png",
           "learning": {
             "summary": "Zucchini is a summer squash that grows on large plants with big leaves! It has green skin and white flesh inside. Zucchini grows very quickly and can become quite large if left on the plant.",
             "key_facts": [
@@ -871,6 +888,7 @@
         "apple": {
           "name": "Apple",
           "video" : "assets/videos/Fruit/Apple.mp4",
+          "image" : "assets/images/Food/Fruit/apple.png",
           "learning": {
             "summary": "Apples are crunchy fruits that grow on trees in orchards! They bloom with flowers in spring and ripen in fall. Apples come in many varieties and are packed with fiber and vitamin C.",
             "key_facts": [
@@ -921,6 +939,7 @@
         "apricot": {
           "name": "Apricot",
           "video" : "assets/videos/Fruit/Apricot.mp4",
+          "image" : "assets/images/Food/Fruit/apricot.png",
           "learning": {
             "summary": "Apricots are small, orange fruits with smooth skin and sweet-tart flavor! They grow on trees and are like tiny peaches without fuzz. Apricots are high in vitamin A and beta-carotene.",
             "key_facts": [
@@ -968,59 +987,161 @@
           "level": "beginner",
           "category": "fruits"
         },
+        "avocado": {
+          "name": "Avocado",
+          "video" : "assets/videos/Fruit/Avocado.mp4",
+          "image" : "assets/images/Food/Fruit/avocado.png",
+          "learning": {
+            "summary": "Avocados are creamy fruits that grow on trees in warm climates! They have a green skin and a soft, buttery flesh inside. Avocados are high in healthy fats and fiber.",
+            "key_facts": [
+              "Grow on trees in warm climates",
+              "Green skin and soft, buttery flesh",
+              "High in healthy fats and fiber",
+              "Can be eaten fresh or cooked"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color is avocado skin?",
+              "options": ["Green", "Red", "Yellow", "Purple"],
+              "correct_answer": "A",
+              "explanation": "Green",
+              "hint": "Avocados are the same color as grass and leaves!"
+            },
+            {
+              "id": 2,
+              "question": "What color is avocado flesh?",
+              "options": ["Green", "Red", "Yellow", "Purple"],
+              "correct_answer": "A",
+              "explanation": "Green",
+              "hint": "Avocados are the same color as grass and leaves!"
+            },
+            {
+              "id": 3,
+              "question": "What color is avocado flesh?",
+              "options": ["Green", "Red", "Yellow", "Purple"],
+              "correct_answer": "A",
+              "explanation": "Green",
+              "hint": "Avocados are the same color as grass and leaves!"
+            },
+            {
+              "id": 4,
+              "question": "What color is avocado flesh?",
+              "options": ["Green", "Red", "Yellow", "Purple"],
+              "correct_answer": "A",
+              "explanation": "Green",
+              "hint": "Avocados are the same color as grass and leaves!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
+        },
+        "almond": {
+          "name": "Almond",
+          "video" : "assets/videos/Fruit/Almond.mp4",
+          "image" : "assets/images/Food/Fruit/almond.png",
+          "learning": {
+            "summary": "Almonds are small, round nuts that grow on trees in warm climates! They have a brown skin and a sweet, nutty flavor. Almonds are high in healthy fats and fiber.",
+            "key_facts": [
+              "Grow on trees in warm climates",
+              "Brown skin and sweet, nutty flavor",
+              "High in healthy fats and fiber",
+              "Can be eaten raw or made into almond butter"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color is almond skin?",
+              "options": ["Brown", "Red", "Yellow", "Purple"],
+              "correct_answer": "A",
+              "explanation": "Brown",
+              "hint": "Almonds are the same color as grass and leaves!"
+            },
+            {
+              "id": 2,
+              "question": "What color is almond flesh?",
+              "options": ["Brown", "Red", "Yellow", "Purple"],
+              "correct_answer": "A",
+              "explanation": "Brown",
+              "hint": "Almonds are the same color as grass and leaves!"
+            },
+            {
+              "id": 3,
+              "question": "What color is almond flesh?",
+              "options": ["Brown", "Red", "Yellow", "Purple"],
+              "correct_answer": "A",
+              "explanation": "Brown",
+              "hint": "Almonds are the same color as grass and leaves!"
+            },
+            {
+              "id": 4,
+              "question": "What color is almond flesh?",
+              "options": ["Brown", "Red", "Yellow", "Purple"],
+              "correct_answer": "A",
+              "explanation": "Brown",
+              "hint": "Almonds are the same color as grass and leaves!"
+            }
+          ],         
+          "level": "beginner",
+          "category": "fruits"
+        },
         "banana": {
-  "name": "Banana",
-  "video" : "assets/videos/Fruit/Banana.mp4",
-  "learning": {
-    "summary": "Bananas are sweet, soft fruits that grow in tropical places around the world! They grow in bunches on tall plants that look like trees. Bananas are yellow when ripe and are packed with potassium and natural energy.",
-    "key_facts": [
-      "Grow in bunches on banana plants",
-      "Yellow when ripe, green when unripe",
-      "High in potassium and energy",
-      "Grow in warm, tropical climates",
-      "Have a peel you remove before eating"
-    ]
-  },
-  "quiz": [
-    {
-      "id": 1,
-      "question": "What color are ripe bananas?",
-      "options": ["Red", "Yellow", "Blue", "Purple"],
-      "correct_answer": "B",
-      "explanation": "Yellow",
-      "hint": "Ripe bananas are the same color as the sun!"
-    },
-    {
-      "id": 2,
-      "question": "What important nutrient are bananas famous for?",
-      "options": ["Vitamin D", "Potassium", "Iron", "Calcium"],
-      "correct_answer": "B",
-      "explanation": "Potassium",
-      "hint": "This nutrient is great for your muscles and heart!"
-    },
-    {
-      "id": 3,
-      "question": "How do bananas grow?",
-      "options": ["Underground", "In bunches on plants", "On vines", "In the ocean"],
-      "correct_answer": "B",
-      "explanation": "In bunches on plants",
-      "hint": "Many bananas grow together like a bunch of grapes!"
-    },
-    {
-      "id": 4,
-      "question": "Where do bananas grow best?",
-      "options": ["Cold, snowy places", "Warm, tropical places", "Desert areas", "Underground caves"],
-      "correct_answer": "B",
-      "explanation": "Warm, tropical places",
-      "hint": "Bananas love hot, humid weather near the equator!"
-    }
-  ],
-  "level": "beginner",
-  "category": "fruits"
+          "name": "Banana",
+          "video" : "assets/videos/Fruit/Banana.mp4",
+          "image" : "assets/images/Food/Fruit/banana.png",
+          "learning": {
+            "summary": "Bananas are sweet, soft fruits that grow in tropical places around the world! They grow in bunches on tall plants that look like trees. Bananas are yellow when ripe and are packed with potassium and natural energy.",
+            "key_facts": [
+              "Grow in bunches on banana plants",
+              "Yellow when ripe, green when unripe",
+              "High in potassium and energy",
+              "Grow in warm, tropical climates",
+              "Have a peel you remove before eating"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What color are ripe bananas?",
+              "options": ["Red", "Yellow", "Blue", "Purple"],
+              "correct_answer": "B",
+              "explanation": "Yellow",
+              "hint": "Ripe bananas are the same color as the sun!"
+            },
+            {
+              "id": 2,
+              "question": "What important nutrient are bananas famous for?",
+              "options": ["Vitamin D", "Potassium", "Iron", "Calcium"],
+              "correct_answer": "B",
+              "explanation": "Potassium",
+              "hint": "This nutrient is great for your muscles and heart!"
+            },
+            {
+              "id": 3,
+              "question": "How do bananas grow?",
+              "options": ["Underground", "In bunches on plants", "On vines", "In the ocean"],
+              "correct_answer": "B",
+              "explanation": "In bunches on plants",
+              "hint": "Many bananas grow together like a bunch of grapes!"
+            },
+            {
+              "id": 4,
+              "question": "Where do bananas grow best?",
+              "options": ["Cold, snowy places", "Warm, tropical places", "Desert areas", "Underground caves"],
+              "correct_answer": "B",
+              "explanation": "Warm, tropical places",
+              "hint": "Bananas love hot, humid weather near the equator!"
+            }
+          ],
+          "level": "beginner",
+          "category": "fruits"
         },
         "blueberry": {
           "name": "Blueberry",
           "video" : "assets/videos/Fruit/Blueberry.mp4",
+          "image" : "assets/images/Food/Fruit/blueberry.png",
           "learning": {
             "summary": "Blueberries are small, round blue fruits that grow on bushes! They're considered a superfood because they're packed with antioxidants that help your brain stay sharp.",
             "key_facts": [
@@ -1071,6 +1192,7 @@
         "blackberry": {
           "name": "Blackberry",
           "video" : "assets/videos/Fruit/Blackberry.mp4",
+          "image" : "assets/images/Food/Fruit/blackberry.png",
           "learning": {
             "summary": "Blackberries are dark purple-black berries that grow on thorny bushes! They're made up of many tiny drupelets clustered together. Blackberries are high in vitamin C and fiber.",
             "key_facts": [
@@ -1121,6 +1243,7 @@
         "cantaloupe": {
           "name": "Cantaloupe",
           "video" : "assets/videos/Fruit/Canta.mp4",
+          "image" : "assets/images/Food/Fruit/cantaloupe.png",
           "learning": {
             "summary": "Cantaloupe is a sweet, orange melon with a netted skin! It grows on vines along the ground and is very high in vitamin A and C. The flesh is juicy and refreshing.",
             "key_facts": [
@@ -1171,6 +1294,7 @@
         "cherry": {
           "name": "Cherry",
           "video" : "assets/videos/Fruit/Cherry.mp4",
+          "image" : "assets/images/Food/Fruit/cherry.png",
           "learning": {
             "summary": "Cherries are small, round fruits that can be sweet or tart! They grow on trees with beautiful white or pink blossoms in spring. Cherries have a hard pit in the center.",
             "key_facts": [
@@ -1221,6 +1345,7 @@
         "fig": {
           "name": "Fig",
           "video" : "assets/videos/Fruit/Figs.mp4",
+          "image" : "assets/images/Food/Fruit/fig.png",
           "learning": {
             "summary": "Figs are unique fruits with soft, sweet flesh and tiny seeds inside! They grow on trees and have been eaten for thousands of years. Figs can be eaten fresh or dried.",
             "key_facts": [
@@ -1271,6 +1396,7 @@
         "grape": {
           "name": "Grapes",
           "video" : "assets/videos/Fruit/Grapes.mp4",
+          "image" : "assets/images/Food/Fruit/grape.png",
           "learning": {
             "summary": "Grapes are small, round fruits that grow in clusters on climbing vines! They come in green, red, and purple colors and can be sweet or tart. Grapes are great for heart health.",
             "key_facts": [
@@ -1321,6 +1447,7 @@
         "grapefruit": {
           "name": "Grapefruit",
           "video" : "assets/videos/Fruit/Grapefruit.mp4",
+          "image" : "assets/images/Food/Fruit/grapefruit.png",
           "learning": {
             "summary": "Grapefruit is a large citrus fruit with a slightly bitter, tart taste! It has pink or white flesh inside and is very high in vitamin C. Grapefruit grows on trees in warm climates.",
             "key_facts": [
@@ -1371,6 +1498,7 @@
         "kiwi": {
           "name": "Kiwi",
           "video" : "assets/videos/Fruit/Kiwi.mp4",
+          "image" : "assets/images/Food/Fruit/kiwi.png",
           "learning": {
             "summary": "Kiwi fruits are small, brown, fuzzy fruits with bright green flesh inside dotted with tiny black seeds! They have a sweet-tart flavor and are packed with vitamin C.",
             "key_facts": [
@@ -1421,7 +1549,8 @@
         "lemon": {
           "name": "Lemon",
           "video" : "assets/videos/Fruit/Lemon.mp4",
-          "learning": {
+          "image" : "assets/images/Food/Fruit/lemon.png",
+           "learning": {
             "summary": "Lemons are bright yellow citrus fruits with very tart, acidic flavor! They're packed with vitamin C and are essential for cooking and beverages. Lemon trees bloom with fragrant white flowers.",
             "key_facts": [
               "Bright yellow citrus fruits",
@@ -1471,6 +1600,7 @@
         "lime": {
           "name": "Lime",
           "video" : "assets/videos/Fruit/Limes.mp4",
+          "image" : "assets/images/Food/Fruit/lime.png",
           "learning": {
             "summary": "Limes are small, green citrus fruits with a tart, acidic flavor! They're used in cooking and drinks around the world. Limes are high in vitamin C and citric acid.",
             "key_facts": [
@@ -1521,6 +1651,7 @@
         "mango": {
           "name": "Mango",
           "video" : "assets/videos/Fruit/Mango.mp4",
+          "image" : "assets/images/Food/Fruit/mango.png",
           "learning": {
             "summary": "Mangoes are tropical fruits called the 'king of fruits'! They have sweet, creamy orange flesh and grow on tall trees in warm climates. Mangoes are very high in vitamins A and C.",
             "key_facts": [
@@ -1571,6 +1702,7 @@
         "nectarine": {
           "name": "Nectarine",
           "video" : "assets/videos/Fruit/Nectarine.mp4",
+          "image" : "assets/images/Food/Fruit/nectarine.png",
           "learning": {
             "summary": "Nectarines are like peaches but with smooth skin instead of fuzzy! They have sweet, juicy flesh and a hard pit in the center. Nectarines are high in vitamins A and C.",
             "key_facts": [
@@ -1916,11 +2048,13 @@
             }
           ],
           "level": "beginner",
+          "image" : "assets/images/Food/Fruit/plum.png",
           "category": "fruits"
         },
         "plum": {
           "name": "Plum",
           "video": "assets/videos/Fruit/Plum.mp4",
+          "image" : "assets/images/Food/Fruit/plum.png",
           "learning": {
             "summary": "Plums are smooth-skinned fruits with sweet, juicy flesh and a hard pit in the center! They come in purple, red, and yellow varieties. Plums are high in vitamins and antioxidants.",
             "key_facts": [
@@ -1971,6 +2105,7 @@
         "strawberry": {
           "name": "Strawberry",
           "video": "assets/videos/Fruit/Strawberry.mp4",
+          "image" : "assets/images/Food/Fruit/strawberry.png",
           "learning": {
             "summary": "Strawberries are heart-shaped red berries with seeds on the outside! They grow on low plants and are packed with vitamin C and antioxidants. Strawberries bloom with white flowers in spring.",
             "key_facts": [
@@ -2021,6 +2156,7 @@
         "tangerine": {
           "name": "Tangerine",
           "video": "assets/videos/Fruit/Tangerine.mp4",
+          "image" : "assets/images/Food/Fruit/tangerine.png",
           "learning": {
             "summary": "Tangerines are small, sweet citrus fruits that are easy to peel! They're similar to oranges but smaller and sweeter. Tangerines are high in vitamin C and perfect for snacking.",
             "key_facts": [
@@ -2071,6 +2207,7 @@
         "watermelon": {
           "name": "Watermelon",
           "video": "assets/videos/Fruit/Watermelon.mp4",
+          "image" : "assets/images/Food/Fruit/watermelon.png",
           "learning": {
             "summary": "Watermelons are huge, round fruits with green rinds and juicy red flesh inside! They're mostly water and perfect for hot summer days. Watermelon seeds can be black or white.",
             "key_facts": [
@@ -2127,6 +2264,7 @@
       "foods": {
         "chicken": {
           "name": "Chicken",
+          "image" : "assets/images/Food/Protein/chicken.png",
           "video" : "assets/videos/Protein/chicken.mp4",
           "learning": {
             "summary": "Chicken is lean white meat that provides complete protein with all essential amino acids. Chickens are raised on farms where they're fed grain-based diets and cared for safely.",
@@ -2177,6 +2315,7 @@
         },
         "egg": {
           "name": "Eggs",
+          "image" : "assets/images/Food/Protein/egg.png",
           "learning": {
             "summary": "Eggs are complete protein packages from chickens! They have two main parts - the white provides protein while the yolk contains healthy fats and vitamins.",
             "key_facts": [
@@ -2226,6 +2365,7 @@
         },
         "fish": {
           "name": "Fish",
+          "image" : "assets/images/Food/Protein/fish.png",
           "learning": {
             "summary": "Fish provides excellent lean protein and healthy omega-3 fatty acids! Different types offer varying flavors from mild to rich. Fish can be caught wild or farm-raised.",
             "key_facts": [
@@ -2275,6 +2415,7 @@
         },
         "almond": {
           "name": "Almonds",
+          "image" : "assets/images/Food/Protein/almond.png",
           "learning": {
             "summary": "Almonds are crunchy nuts that grow on trees with beautiful pink spring blossoms! They're packed with plant protein, healthy fats, and vitamin E for healthy skin.",
             "key_facts": [
@@ -2325,6 +2466,7 @@
         "pea": {
           "name": "Peas",
           "video" : "assets/videos/Protein/pea.mp4",
+          "image" : "assets/images/Food/Protein/pea.png",
           "learning": {
             "summary": "Peas are small, round green vegetables that grow in pods! They're sweet, provide good plant protein, and their plants climb up supports with white or purple flowers.",
             "key_facts": [
@@ -2374,6 +2516,7 @@
         },
         "tofu": {
           "name": "Tofu",
+          "image" : "assets/images/Food/Protein/tofu.png",
           "learning": {
             "summary": "Tofu is made from soybeans and has a mild flavor that absorbs other tastes! It's a complete plant protein that comes in different textures from soft to extra-firm.",
             "key_facts": [
@@ -2423,6 +2566,7 @@
         },
         "beef": {
           "name": "Beef",
+          "image" : "assets/images/Food/Protein/beef.png",
           "learning": {
             "summary": "Beef comes from cattle and provides complete protein with essential nutrients like iron and B vitamins! Choose lean cuts for the healthiest option.",
             "key_facts": [
@@ -2479,7 +2623,8 @@
       "foods": {
         "butternut": {
           "name": "Butternut Squash",
-          "video" : "../assets/videos/Carbohydrate/Butternut.mp4",
+          "image" : "assets/images/Food/Carbohydrate/butternut.png",
+          "video" : "assets/videos/Carbohydrate/Butternut.mp4",
           "learning": {
             "summary": "Butternut squash is a winter squash with sweet, orange flesh that's rich in complex carbohydrates. It grows on vines and has a creamy, nutty flavor when cooked.",
             "key_facts": [
@@ -2530,6 +2675,7 @@
         "corn": {
           "name": "Corn",
           "video" : "assets/videos/Carbohydrate/corn.mp4",
+          "image" : "assets/images/Food/Carbohydrate/corn.png",
           "learning": {
             "summary": "Corn grows on tall stalks with kernels arranged on cobs! Each kernel is a seed packed with starch and natural sugars for energy. Corn comes in yellow, white, and colorful varieties.",
             "key_facts": [
@@ -2580,6 +2726,7 @@
         "rice": {
           "name": "Rice",
           "video" : "assets/videos/Carbohydrate/rice.mp4",
+          "image" : "assets/images/Food/Carbohydrate/rice.png",
           "learning": {
             "summary": "Rice is a grain that grows in flooded fields called paddies. It's a staple food providing energy-rich carbohydrates for billions of people worldwide.",
             "key_facts": [
@@ -2629,6 +2776,7 @@
         },
         "pasta": {
           "name": "Pasta",
+          "image" : "assets/images/Food/Carbohydrate/pasta.png",
           "learning": {
             "summary": "Pasta is made from wheat flour and water, formed into hundreds of different shapes! It provides energy-rich carbohydrates and is cooked in boiling water until tender.",
             "key_facts": [
@@ -2678,6 +2826,7 @@
         },
         "pumpkin": {
           "name": "Pumpkin",
+          "image" : "assets/images/Food/Carbohydrate/pumpkin.png",
           "learning": {
             "summary": "Pumpkins are large, orange winter squashes that grow on vines! They're rich in carbohydrates and beta-carotene. Pumpkins can be carved for Halloween or cooked for food.",
             "key_facts": [
@@ -2727,6 +2876,7 @@
         },
         "potato": {
           "name": "Potato",
+          "image" : "assets/images/Food/Carbohydrate/potato.png",
           "learning": {
             "summary": "Potatoes grow underground as tubers and are packed with starchy carbohydrates for energy! They have skin on the outside and can be cooked in many different ways.",
             "key_facts": [
@@ -2776,6 +2926,7 @@
         },
         "oats": {
           "name": "Oats",
+          "image" : "assets/images/Food/Carbohydrate/oat.png",
           "learning": {
             "summary": "Oats are whole grains that provide sustained energy from complex carbohydrates! They're often eaten as oatmeal for breakfast and are high in fiber.",
             "key_facts": [
@@ -2825,6 +2976,7 @@
         },
         "quinoa": {
           "name": "Quinoa",
+          "image" : "assets/images/Food/Carbohydrate/quinoa.png",
           "learning": {
             "summary": "Quinoa is a special seed that's cooked like a grain and provides both carbohydrates and complete protein! It comes from South America and has a nutty flavor.",
             "key_facts": [
@@ -2875,6 +3027,7 @@
         "sweet_potato": {
           "name": "Sweet Potato",
           "video" : "assets/videos/Carbohydrate/Sweetpotato.mp4",
+          "image" : "assets/images/Food/Carbohydrate/sweetpotato.png",
           "learning": {
             "summary": "Sweet potatoes are orange root vegetables that grow underground and are naturally sweet! They're rich in complex carbohydrates and very high in vitamin A.",
             "key_facts": [
@@ -2924,308 +3077,6 @@
         }
       }
     },
-    "dairy": {
-      "name": "Dairy",
-      "description": "Foods that come from milk and help build strong bones and teeth",
-      "color": "#A8E6CF",
-      "foods": {
-        "cheese": {
-            "name": "Cheese",
-            "learning": {
-              "summary": "Cheese is made from milk that's been curdled and aged! It comes in many varieties like cheddar, mozzarella, and swiss. Cheese is rich in protein and calcium, making it both delicious and nutritious.",
-              "key_facts": [
-                "Made from curdled milk",
-                "High in protein and calcium",
-                "Comes in many varieties",
-                "Can be soft or hard",
-                "Great for cooking and eating"
-              ]
-            },
-            "quiz": [
-              {
-                "id": 1,
-                "question": "What is cheese made from?",
-                "options": ["Water", "Milk", "Eggs", "Flour"],
-                "correct_answer": "B",
-                "explanation": "Milk",
-                "hint": "Cheese starts with the white liquid we get from cows!"
-              },
-              {
-                "id": 2,
-                "question": "What nutrients is cheese rich in?",
-                "options": ["Sugar and fat", "Protein and calcium", "Water and salt", "Vitamins only"],
-                "correct_answer": "B",
-                "explanation": "Protein and calcium",
-                "hint": "Cheese helps build strong muscles and bones!"
-              },
-              {
-                "id": 3,
-                "question": "Which is a type of cheese?",
-                "options": ["Apple", "Cheddar", "Bread", "Rice"],
-                "correct_answer": "B",
-                "explanation": "Cheddar",
-                "hint": "This orange cheese is very popular!"
-              },
-              {
-                "id": 4,
-                "question": "How is milk turned into cheese?",
-                "options": ["By freezing", "By curdling", "By boiling", "By mixing with sugar"],
-                "correct_answer": "B",
-                "explanation": "By curdling",
-                "hint": "The milk gets thick and chunky before becoming cheese!"
-              }
-            ],
-            "level": "beginner",
-            "category": "dairy"
-        },
-        "cream": {
-            "name": "Cream",
-            "learning": {
-              "summary": "Cream is the rich, fatty part of milk that rises to the top! It's thick and smooth, perfect for making desserts, coffee drinks, and sauces. Cream comes in different types like heavy cream and light cream.",
-              "key_facts": [
-                "Fatty part of milk",
-                "Rises to the top naturally",
-                "Thick and smooth texture",
-                "Used in desserts and cooking",
-                "Comes in heavy and light varieties"
-              ]
-            },
-            "quiz": [
-              {
-                "id": 1,
-                "question": "What part of milk is cream?",
-                "options": ["The water part", "The fatty part", "The protein part", "The sugar part"],
-                "correct_answer": "B",
-                "explanation": "The fatty part",
-                "hint": "Cream is the richest part of milk!"
-              },
-              {
-                "id": 2,
-                "question": "Where does cream naturally go in milk?",
-                "options": ["Sinks to bottom", "Rises to the top", "Stays in middle", "Disappears"],
-                "correct_answer": "B",
-                "explanation": "Rises to the top",
-                "hint": "Fat is lighter than water, so it floats up!"
-              },
-              {
-                "id": 3,
-                "question": "What is cream's texture like?",
-                "options": ["Thin like water", "Thick and smooth", "Crunchy", "Fizzy"],
-                "correct_answer": "B",
-                "explanation": "Thick and smooth",
-                "hint": "Cream is much thicker than regular milk!"
-              },
-              {
-                "id": 4,
-                "question": "What can cream be used for?",
-                "options": ["Only drinking", "Making desserts and coffee", "Building houses", "Cleaning"],
-                "correct_answer": "B",
-                "explanation": "Making desserts and coffee",
-                "hint": "Cream makes things taste rich and creamy!"
-              }
-            ],
-            "level": "beginner",
-            "category": "dairy"
-        },
-        "cottage_cheese": {
-            "name": "Cottage Cheese",
-            "learning": {
-              "summary": "Cottage cheese is a soft, white cheese with small curds that look like tiny lumps! It's made from milk that's been curdled gently. Cottage cheese is high in protein and has a mild, creamy taste.",
-              "key_facts": [
-                "Soft cheese with small curds",
-                "Made from gently curdled milk",
-                "High in protein",
-                "Mild, creamy taste",
-                "White color with lumpy texture"
-              ]
-            },
-            "quiz": [
-              {
-                "id": 1,
-                "question": "What does cottage cheese look like?",
-                "options": ["Smooth and yellow", "Small white lumps", "Hard and orange", "Liquid"],
-                "correct_answer": "B",
-                "explanation": "Small white lumps",
-                "hint": "The lumps are called curds!"
-              },
-              {
-                "id": 2,
-                "question": "How is cottage cheese made?",
-                "options": ["By freezing milk", "By gently curdling milk", "By boiling eggs", "By mixing flour"],
-                "correct_answer": "B",
-                "explanation": "By gently curdling milk",
-                "hint": "The milk is curdled more gently than for hard cheeses!"
-              },
-              {
-                "id": 3,
-                "question": "What nutrient is cottage cheese high in?",
-                "options": ["Sugar", "Protein", "Salt only", "Water"],
-                "correct_answer": "B",
-                "explanation": "Protein",
-                "hint": "This nutrient helps build strong muscles!"
-              },
-              {
-                "id": 4,
-                "question": "What does cottage cheese taste like?",
-                "options": ["Very sour", "Mild and creamy", "Spicy hot", "Very sweet"],
-                "correct_answer": "B",
-                "explanation": "Mild and creamy",
-                "hint": "Cottage cheese has a gentle, not strong flavor!"
-              }
-            ],
-            "level": "beginner",
-            "category": "dairy"
-        },
-        "ice_cream": {
-            "name": "Ice Cream",
-            "learning": {
-              "summary": "Ice cream is a frozen treat made from milk, cream, and sugar! It's churned while freezing to make it smooth and creamy. Ice cream comes in many flavors like vanilla, chocolate, and strawberry.",
-              "key_facts": [
-                "Frozen dessert made from dairy",
-                "Contains milk, cream, and sugar",
-                "Churned while freezing",
-                "Smooth and creamy texture",
-                "Comes in many flavors"
-              ]
-            },
-            "quiz": [
-              {
-                "id": 1,
-                "question": "What is ice cream made from?",
-                "options": ["Only water", "Milk, cream, and sugar", "Only eggs", "Only flour"],
-                "correct_answer": "B",
-                "explanation": "Milk, cream, and sugar",
-                "hint": "Ice cream is made from dairy products plus something sweet!"
-              },
-              {
-                "id": 2,
-                "question": "How is ice cream different from just frozen milk?",
-                "options": ["It's not churned", "It's churned while freezing", "It has no sugar", "It's not cold"],
-                "correct_answer": "B",
-                "explanation": "It's churned while freezing",
-                "hint": "Churning makes ice cream smooth instead of icy!"
-              },
-              {
-                "id": 3,
-                "question": "What temperature is ice cream served at?",
-                "options": ["Hot", "Room temperature", "Frozen/cold", "Warm"],
-                "correct_answer": "C",
-                "explanation": "Frozen/cold",
-                "hint": "Ice cream needs to stay cold or it melts!"
-              },
-              {
-                "id": 4,
-                "question": "Name a common ice cream flavor:",
-                "options": ["Vanilla", "Onion", "Pepper", "Garlic"],
-                "correct_answer": "A",
-                "explanation": "Vanilla",
-                "hint": "This flavor is white and very popular!"
-              }
-            ],
-            "level": "beginner",
-            "category": "dairy"
-        },
-        "milk": {
-            "name": "Milk",
-            "video": "assets/videos/Dairy/Milk.mp4",
-            "learning": {
-              "summary": "Milk is a white liquid that comes from cows and other animals! It's full of important nutrients like protein, calcium, and vitamins. Milk helps us grow strong bones and teeth, and we use it for drinking, cereal, and making other dairy products.",
-              "key_facts": [
-                "White liquid from cows",
-                "Rich in protein and calcium",
-                "Helps build strong bones and teeth",
-                "Contains important vitamins",
-                "Used to make other dairy products"
-              ]
-            },
-            "quiz": [
-              {
-                "id": 1,
-                "question": "What color is milk?",
-                "options": ["Blue", "White", "Green", "Red"],
-                "correct_answer": "B",
-                "explanation": "White",
-                "hint": "Milk is the color of snow!"
-              },
-              {
-                "id": 2,
-                "question": "What animal commonly gives us milk?",
-                "options": ["Fish", "Cows", "Birds", "Cats"],
-                "correct_answer": "B",
-                "explanation": "Cows",
-                "hint": "This big farm animal says 'moo'!"
-              },
-              {
-                "id": 3,
-                "question": "What does milk help make strong?",
-                "options": ["Hair only", "Bones and teeth", "Clothes", "Shoes"],
-                "correct_answer": "B",
-                "explanation": "Bones and teeth",
-                "hint": "Milk has calcium which is great for your skeleton!"
-              },
-              {
-                "id": 4,
-                "question": "What can milk be used for?",
-                "options": ["Only washing", "Drinking and making cereal", "Painting walls", "Cleaning cars"],
-                "correct_answer": "B",
-                "explanation": "Drinking and making cereal",
-                "hint": "Think about breakfast time!"
-              }
-            ],
-            "level": "beginner",
-            "category": "dairy"
-        },
-        "yogurt": {
-            "name": "Yogurt",
-            "learning": {
-              "summary": "Yogurt is made from milk that has been fermented with good bacteria! These helpful bacteria make the milk thick and tangy. Yogurt is creamy, healthy, and comes in many flavors. It's great for your digestive system!",
-              "key_facts": [
-                "Made from fermented milk",
-                "Contains good bacteria",
-                "Thick and tangy taste",
-                "Creamy texture",
-                "Good for digestive health"
-              ]
-            },
-            "quiz": [
-              {
-                "id": 1,
-                "question": "How is yogurt made?",
-                "options": ["By freezing milk", "By fermenting milk with bacteria", "By boiling water", "By mixing sugar"],
-                "correct_answer": "B",
-                "explanation": "By fermenting milk with bacteria",
-                "hint": "Good bacteria help turn milk into yogurt!"
-              },
-              {
-                "id": 2,
-                "question": "What does yogurt taste like?",
-                "options": ["Very sweet", "Tangy and creamy", "Spicy hot", "Like water"],
-                "correct_answer": "B",
-                "explanation": "Tangy and creamy",
-                "hint": "Yogurt has a slightly sour but pleasant taste!"
-              },
-              {
-                "id": 3,
-                "question": "What makes yogurt good for you?",
-                "options": ["Bad bacteria", "Good bacteria", "No bacteria", "Sugar only"],
-                "correct_answer": "B",
-                "explanation": "Good bacteria",
-                "hint": "These helpful bacteria are called probiotics!"
-              },
-              {
-                "id": 4,
-                "question": "What part of your body does yogurt help?",
-                "options": ["Only your hair", "Your digestive system", "Only your feet", "Only your hands"],
-                "correct_answer": "B",
-                "explanation": "Your digestive system",
-                "hint": "Yogurt helps your stomach and intestines work better!"
-              }
-            ],
-            "level": "beginner",
-            "category": "dairy"
-        }
-      }
-    },
     "fats": {
       "name": "Healthy Fats",
       "description": "Foods with good fats that give you energy and help your body work properly",
@@ -3234,6 +3085,7 @@
         "coconut": {
           "name": "Coconut",
           "video": "assets/videos/Fruit/Coconut.mp4",
+          "image" : "assets/images/Food/Fruit/coconut.png",
           "learning": {
             "summary": "Coconuts are large, brown, fibrous fruits that grow on palm trees! Inside is white coconut meat and coconut water. Coconuts are high in healthy fats and can be eaten fresh or dried.",
             "key_facts": [
@@ -3283,6 +3135,7 @@
         },
         "butter": {
             "name": "Butter",
+            "image" : "assets/images/Food/Dairy/butter.png",
             "learning": {
               "summary": "Butter is made from cream that's churned until it becomes thick and creamy. It's rich in saturated fats and adds delicious flavor to foods. Butter is used for cooking, baking, and spreading on bread. It's solid at room temperature but melts easily when heated.",
               "key_facts": [
@@ -3348,6 +3201,7 @@
         },
         "chocolate": {
             "name": "Chocolate",
+            "image" : "assets/images/Food/Dairy/chocolate.png",
             "learning": {
               "summary": "Chocolate comes from cacao beans that grow in pods on cacao trees. The beans are processed and mixed with sugar and milk to make different types of chocolate. Dark chocolate has healthy antioxidants and some fats, while milk chocolate is sweeter and creamier.",
               "key_facts": [
@@ -3413,6 +3267,7 @@
         },
         "nut": {
             "name": "Nut",
+            "image" : "assets/images/Food/Dairy/nut.png",
             "learning": {
               "summary": "Nuts are seeds with hard shells that grow on trees and plants. They include almonds, walnuts, cashews, and peanuts. Nuts are packed with healthy fats, protein, and vitamins that give your body energy and help your brain work well. They make great snacks and can be used in cooking.",
               "key_facts": [
@@ -3478,6 +3333,7 @@
         },
         "salmon": {
             "name": "Salmon",
+            "image" : "assets/images/Food/Dairy/salmon.png",
             "learning": {
               "summary": "Salmon is a pink fish that lives in both oceans and rivers. It's famous for being rich in omega-3 fatty acids, which are very healthy fats that help your heart and brain. Salmon swim upstream to lay their eggs and are caught wild or raised on fish farms.",
               "key_facts": [
@@ -3541,6 +3397,364 @@
             "level": "beginner",
             "category": "fats"
         } 
+      }
+    },
+    "dairy": {
+      "name": "Dairy",
+      "description": "Foods that come from milk and help build strong bones and teeth",
+      "color": "#A8E6CF",
+      "foods": {
+        "butter": {
+          "name": "Butter",
+          "image" : "assets/images/Food/Dairy/butter.png",
+          "learning": {
+            "summary": "Butter is made from cream that's churned until it becomes thick and creamy! It's rich in fat and adds flavor to foods. Butter is used for cooking, baking, and spreading on bread.",
+            "key_facts": [
+              "Made from churned cream",
+              "Rich in fats for energy",
+              "Adds flavor to foods",
+              "Used for cooking and baking",
+              "Creamy, spreadable texture"
+            ]
+          },
+          "quiz": [
+            {
+              "id": 1,
+              "question": "What is butter made from?",
+              "options": ["Water", "Cream", "Oil", "Sugar"],
+              "correct_answer": "B",
+              "explanation": "Cream",
+              "hint": "Butter comes from the fatty part of milk!"
+            },
+            {
+              "id": 2,
+              "question": "How is butter made?",
+              "options": ["By heating", "By churning cream", "By freezing", "By adding sugar"],
+              "correct_answer": "B",
+              "explanation": "By churning cream",
+              "hint": "Making butter involves mixing cream until it gets thick!"
+            },
+            {
+              "id": 3,
+              "question": "What does butter add to food?",
+              "options": ["Color only", "Flavor and richness", "Water", "Vitamins only"],
+              "correct_answer": "B",
+              "explanation": "Flavor and richness",
+              "hint": "Butter makes food taste richer and more delicious!"
+            },
+            {
+              "id": 4,
+              "question": "What is butter's texture like?",
+              "options": ["Hard like ice", "Creamy and spreadable", "Liquid like water", "Crunchy"],
+              "correct_answer": "B",
+              "explanation": "Creamy and spreadable",
+              "hint": "Butter is soft enough to spread on toast!"
+            }
+          ],
+          "level": "beginner",
+          "category": "dairy"
+        },
+        "cheese": {
+            "name": "Cheese",
+            "image" : "assets/images/Food/Dairy/cheese.png",
+            "learning": {
+              "summary": "Cheese is made from milk that's been curdled and aged! It comes in many varieties like cheddar, mozzarella, and swiss. Cheese is rich in protein and calcium, making it both delicious and nutritious.",
+              "key_facts": [
+                "Made from curdled milk",
+                "High in protein and calcium",
+                "Comes in many varieties",
+                "Can be soft or hard",
+                "Great for cooking and eating"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What is cheese made from?",
+                "options": ["Water", "Milk", "Eggs", "Flour"],
+                "correct_answer": "B",
+                "explanation": "Milk",
+                "hint": "Cheese starts with the white liquid we get from cows!"
+              },
+              {
+                "id": 2,
+                "question": "What nutrients is cheese rich in?",
+                "options": ["Sugar and fat", "Protein and calcium", "Water and salt", "Vitamins only"],
+                "correct_answer": "B",
+                "explanation": "Protein and calcium",
+                "hint": "Cheese helps build strong muscles and bones!"
+              },
+              {
+                "id": 3,
+                "question": "Which is a type of cheese?",
+                "options": ["Apple", "Cheddar", "Bread", "Rice"],
+                "correct_answer": "B",
+                "explanation": "Cheddar",
+                "hint": "This orange cheese is very popular!"
+              },
+              {
+                "id": 4,
+                "question": "How is milk turned into cheese?",
+                "options": ["By freezing", "By curdling", "By boiling", "By mixing with sugar"],
+                "correct_answer": "B",
+                "explanation": "By curdling",
+                "hint": "The milk gets thick and chunky before becoming cheese!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "cream": {
+            "name": "Cream",
+            "image" : "assets/images/Food/Dairy/cream.png",
+            "learning": {
+              "summary": "Cream is the rich, fatty part of milk that rises to the top! It's thick and smooth, perfect for making desserts, coffee drinks, and sauces. Cream comes in different types like heavy cream and light cream.",
+              "key_facts": [
+                "Fatty part of milk",
+                "Rises to the top naturally",
+                "Thick and smooth texture",
+                "Used in desserts and cooking",
+                "Comes in heavy and light varieties"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What part of milk is cream?",
+                "options": ["The water part", "The fatty part", "The protein part", "The sugar part"],
+                "correct_answer": "B",
+                "explanation": "The fatty part",
+                "hint": "Cream is the richest part of milk!"
+              },
+              {
+                "id": 2,
+                "question": "Where does cream naturally go in milk?",
+                "options": ["Sinks to bottom", "Rises to the top", "Stays in middle", "Disappears"],
+                "correct_answer": "B",
+                "explanation": "Rises to the top",
+                "hint": "Fat is lighter than water, so it floats up!"
+              },
+              {
+                "id": 3,
+                "question": "What is cream's texture like?",
+                "options": ["Thin like water", "Thick and smooth", "Crunchy", "Fizzy"],
+                "correct_answer": "B",
+                "explanation": "Thick and smooth",
+                "hint": "Cream is much thicker than regular milk!"
+              },
+              {
+                "id": 4,
+                "question": "What can cream be used for?",
+                "options": ["Only drinking", "Making desserts and coffee", "Building houses", "Cleaning"],
+                "correct_answer": "B",
+                "explanation": "Making desserts and coffee",
+                "hint": "Cream makes things taste rich and creamy!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "cottage_cheese": {
+            "name": "Cottage Cheese",
+            "image" : "assets/images/Food/Dairy/cottagecheese.png",
+            "learning": {
+              "summary": "Cottage cheese is a soft, white cheese with small curds that look like tiny lumps! It's made from milk that's been curdled gently. Cottage cheese is high in protein and has a mild, creamy taste.",
+              "key_facts": [
+                "Soft cheese with small curds",
+                "Made from gently curdled milk",
+                "High in protein",
+                "Mild, creamy taste",
+                "White color with lumpy texture"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What does cottage cheese look like?",
+                "options": ["Smooth and yellow", "Small white lumps", "Hard and orange", "Liquid"],
+                "correct_answer": "B",
+                "explanation": "Small white lumps",
+                "hint": "The lumps are called curds!"
+              },
+              {
+                "id": 2,
+                "question": "How is cottage cheese made?",
+                "options": ["By freezing milk", "By gently curdling milk", "By boiling eggs", "By mixing flour"],
+                "correct_answer": "B",
+                "explanation": "By gently curdling milk",
+                "hint": "The milk is curdled more gently than for hard cheeses!"
+              },
+              {
+                "id": 3,
+                "question": "What nutrient is cottage cheese high in?",
+                "options": ["Sugar", "Protein", "Salt only", "Water"],
+                "correct_answer": "B",
+                "explanation": "Protein",
+                "hint": "This nutrient helps build strong muscles!"
+              },
+              {
+                "id": 4,
+                "question": "What does cottage cheese taste like?",
+                "options": ["Very sour", "Mild and creamy", "Spicy hot", "Very sweet"],
+                "correct_answer": "B",
+                "explanation": "Mild and creamy",
+                "hint": "Cottage cheese has a gentle, not strong flavor!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "ice_cream": {
+            "name": "Ice Cream",
+            "image" : "assets/images/Food/Dairy/icecream.png",
+            "learning": {
+              "summary": "Ice cream is a frozen treat made from milk, cream, and sugar! It's churned while freezing to make it smooth and creamy. Ice cream comes in many flavors like vanilla, chocolate, and strawberry.",
+              "key_facts": [
+                "Frozen dessert made from dairy",
+                "Contains milk, cream, and sugar",
+                "Churned while freezing",
+                "Smooth and creamy texture",
+                "Comes in many flavors"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What is ice cream made from?",
+                "options": ["Only water", "Milk, cream, and sugar", "Only eggs", "Only flour"],
+                "correct_answer": "B",
+                "explanation": "Milk, cream, and sugar",
+                "hint": "Ice cream is made from dairy products plus something sweet!"
+              },
+              {
+                "id": 2,
+                "question": "How is ice cream different from just frozen milk?",
+                "options": ["It's not churned", "It's churned while freezing", "It has no sugar", "It's not cold"],
+                "correct_answer": "B",
+                "explanation": "It's churned while freezing",
+                "hint": "Churning makes ice cream smooth instead of icy!"
+              },
+              {
+                "id": 3,
+                "question": "What temperature is ice cream served at?",
+                "options": ["Hot", "Room temperature", "Frozen/cold", "Warm"],
+                "correct_answer": "C",
+                "explanation": "Frozen/cold",
+                "hint": "Ice cream needs to stay cold or it melts!"
+              },
+              {
+                "id": 4,
+                "question": "Name a common ice cream flavor:",
+                "options": ["Vanilla", "Onion", "Pepper", "Garlic"],
+                "correct_answer": "A",
+                "explanation": "Vanilla",
+                "hint": "This flavor is white and very popular!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "milk": {
+            "name": "Milk",
+            "video": "assets/videos/Dairy/Milk.mp4",
+            "image" : "assets/images/Food/Dairy/milk.png",
+            "learning": {
+              "summary": "Milk is a white liquid that comes from cows and other animals! It's full of important nutrients like protein, calcium, and vitamins. Milk helps us grow strong bones and teeth, and we use it for drinking, cereal, and making other dairy products.",
+              "key_facts": [
+                "White liquid from cows",
+                "Rich in protein and calcium",
+                "Helps build strong bones and teeth",
+                "Contains important vitamins",
+                "Used to make other dairy products"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "What color is milk?",
+                "options": ["Blue", "White", "Green", "Red"],
+                "correct_answer": "B",
+                "explanation": "White",
+                "hint": "Milk is the color of snow!"
+              },
+              {
+                "id": 2,
+                "question": "What animal commonly gives us milk?",
+                "options": ["Fish", "Cows", "Birds", "Cats"],
+                "correct_answer": "B",
+                "explanation": "Cows",
+                "hint": "This big farm animal says 'moo'!"
+              },
+              {
+                "id": 3,
+                "question": "What does milk help make strong?",
+                "options": ["Hair only", "Bones and teeth", "Clothes", "Shoes"],
+                "correct_answer": "B",
+                "explanation": "Bones and teeth",
+                "hint": "Milk has calcium which is great for your skeleton!"
+              },
+              {
+                "id": 4,
+                "question": "What can milk be used for?",
+                "options": ["Only washing", "Drinking and making cereal", "Painting walls", "Cleaning cars"],
+                "correct_answer": "B",
+                "explanation": "Drinking and making cereal",
+                "hint": "Think about breakfast time!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        },
+        "yogurt": {
+            "name": "Yogurt",
+            "image" : "assets/images/Food/Dairy/yogurt.png",
+            "learning": {
+              "summary": "Yogurt is made from milk that has been fermented with good bacteria! These helpful bacteria make the milk thick and tangy. Yogurt is creamy, healthy, and comes in many flavors. It's great for your digestive system!",
+              "key_facts": [
+                "Made from fermented milk",
+                "Contains good bacteria",
+                "Thick and tangy taste",
+                "Creamy texture",
+                "Good for digestive health"
+              ]
+            },
+            "quiz": [
+              {
+                "id": 1,
+                "question": "How is yogurt made?",
+                "options": ["By freezing milk", "By fermenting milk with bacteria", "By boiling water", "By mixing sugar"],
+                "correct_answer": "B",
+                "explanation": "By fermenting milk with bacteria",
+                "hint": "Good bacteria help turn milk into yogurt!"
+              },
+              {
+                "id": 2,
+                "question": "What does yogurt taste like?",
+                "options": ["Very sweet", "Tangy and creamy", "Spicy hot", "Like water"],
+                "correct_answer": "B",
+                "explanation": "Tangy and creamy",
+                "hint": "Yogurt has a slightly sour but pleasant taste!"
+              },
+              {
+                "id": 3,
+                "question": "What makes yogurt good for you?",
+                "options": ["Bad bacteria", "Good bacteria", "No bacteria", "Sugar only"],
+                "correct_answer": "B",
+                "explanation": "Good bacteria",
+                "hint": "These helpful bacteria are called probiotics!"
+              },
+              {
+                "id": 4,
+                "question": "What part of your body does yogurt help?",
+                "options": ["Only your hair", "Your digestive system", "Only your feet", "Only your hands"],
+                "correct_answer": "B",
+                "explanation": "Your digestive system",
+                "hint": "Yogurt helps your stomach and intestines work better!"
+              }
+            ],
+            "level": "beginner",
+            "category": "dairy"
+        }
       }
     }
   }

@@ -1,6 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import React from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import getFoodImageSource from '../../../../utils/imageUtils';
 
 interface QuestionCardProps {
   question: string;
@@ -19,17 +20,8 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
   onQuestionPress,
   onReadQuestion,
 }) => {
-  // Get category image
-  const getCategoryImage = (category: string) => {
-    const normalizedCategory = category?.toLowerCase();
-    if (normalizedCategory?.includes('fruit')) return require('../../../../assets/images/foods/fruits.png');
-    if (normalizedCategory?.includes('vegetable') || normalizedCategory?.includes('veggie')) return require('../../../../assets/images/foods/broccoli.png');
-    if (normalizedCategory?.includes('protein') || normalizedCategory?.includes('meat')) return require('../../../../assets/images/foods/chicken.png');
-    if (normalizedCategory?.includes('grain') || normalizedCategory?.includes('bread') || normalizedCategory?.includes('rice')) return require('../../../../assets/images/foods/rice.png');
-    if (normalizedCategory?.includes('dairy') || normalizedCategory?.includes('milk') || normalizedCategory?.includes('cheese')) return require('../../../../assets/images/foods/milk.png');
-    if (normalizedCategory?.includes('nut')) return require('../../../../assets/images/foods/nuts.png');
-    return require('../../../../assets/images/foods/meal.png');
-  };
+  // Get corresponding food item image directly from utils
+  const getCategoryImage = (category: string) => getFoodImageSource(category);
 
   const categoryImage = getCategoryImage(category);
   const isCurrentlySpeaking = isSpeaking && currentSpeakingText === question;
