@@ -1,7 +1,7 @@
 // API Configuration
 export const API_CONFIG = {
   // Base URL for API calls
-  BASE_URL: process.env.EXPO_PUBLIC_API_URL || 'http://192.168.142.31:5000/api',
+  BASE_URL: process.env.EXPO_PUBLIC_API_URL || 'http://192.168.142.29:5000/api',
   
   // API endpoints
   ENDPOINTS: {

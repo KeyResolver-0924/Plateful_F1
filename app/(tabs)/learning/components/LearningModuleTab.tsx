@@ -622,19 +622,19 @@ const LearningModuleTab: React.FC<LearningModuleTabProps> = ({ navigation }) => 
             </Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={[styles.categoryButton, selectedCategory === 'fruits' && styles.categoryButtonActive]}
-            onPress={() => setSelectedCategory('fruits')}
-          >
-            <Text style={[styles.categoryText, selectedCategory === 'fruits' && styles.categoryTextActive]}>
-              Fruits
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
             style={[styles.categoryButton, selectedCategory === 'vegetables' && styles.categoryButtonActive]}
             onPress={() => setSelectedCategory('vegetables')}
           >
             <Text style={[styles.categoryText, selectedCategory === 'vegetables' && styles.categoryTextActive]}>
               Vegetables
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.categoryButton, selectedCategory === 'fruits' && styles.categoryButtonActive]}
+            onPress={() => setSelectedCategory('fruits')}
+          >
+            <Text style={[styles.categoryText, selectedCategory === 'fruits' && styles.categoryTextActive]}>
+              Fruits
             </Text>
           </TouchableOpacity>
           <TouchableOpacity
@@ -645,6 +645,31 @@ const LearningModuleTab: React.FC<LearningModuleTabProps> = ({ navigation }) => 
               Proteins
             </Text>
           </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.categoryButton, selectedCategory === 'carbohydrates' && styles.categoryButtonActive]}
+            onPress={() => setSelectedCategory('carbohydrates')}
+          >
+            <Text style={[styles.categoryText, selectedCategory === 'carbohydrates' && styles.categoryTextActive]}>
+              Carbohydrates
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.categoryButton, selectedCategory === 'dairy' && styles.categoryButtonActive]}
+            onPress={() => setSelectedCategory('dairy')}
+          >
+            <Text style={[styles.categoryText, selectedCategory === 'dairy' && styles.categoryTextActive]}>
+              Dairy
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.categoryButton, selectedCategory === 'fats' && styles.categoryButtonActive]}
+            onPress={() => setSelectedCategory('fats')}
+          >
+            <Text style={[styles.categoryText, selectedCategory === 'fats' && styles.categoryTextActive]}>
+              Fats
+            </Text>
+          </TouchableOpacity>
+
         </ScrollView>
       </View>
 
