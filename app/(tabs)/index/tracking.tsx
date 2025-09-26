@@ -294,20 +294,26 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const { profile, selectedChildId } = useUserStore();
   const { addMeal, meals, getMeal } = useMealStore();
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     console.log('Tracking - Initial load effect, selectedChildId:', selectedChildId);
     if (selectedChildId) {
       console.log('Tracking - Initial load calling getMeal with childId:', selectedChildId);
-      getMeal(selectedChildId);
+      getMeal(selectedChildId).catch(error => {
+        console.error('Error loading meals:', error);
+      });
     }
   }, []); // Only run on mount
 
   // Effect for when selectedChildId changes
   useEffect(() => {
     if (selectedChildId) {
-      getMeal(selectedChildId);
+      getMeal(selectedChildId).catch(error => {
+        console.error('Error loading meals for child:', error);
+      });
     }
-  }, [selectedChildId]); // Only depend on selectedChildId, not getMeal
+  }, [selectedChildId, getMeal]); // Include getMeal in dependencies
   
   // Reset tracking state when switching children
   useEffect(() => {
@@ -500,8 +506,12 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
   const saveMealDataToBackend = useCallback(async () => {
     if (!selectedChildId) {
       console.log('No child selected: >>--->', selectedChildId);
+      setError('No child selected. Please select a child first.');
       return;
     }
+
+    setIsLoading(true);
+    setError(null);
 
     const backendData = {
       childId: selectedChildId,
@@ -514,13 +524,27 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
       const result = await addMeal(backendData as any);
       console.log('result: >>--->', result);
 
+      // If we get here without throwing, the meal was saved successfully
       setShowSuccessModal(false);
       setShowPairingModal(true);
       
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error saving meal data:', error);
+      
+      // Handle specific error types
+      if (error?.error?.includes('404')) {
+        setError('Server endpoint not found. Please check your connection and try again.');
+      } else if (error?.error?.includes('500')) {
+        setError('Server error. Please try again later.');
+      } else if (error?.error?.includes('timeout')) {
+        setError('Request timeout. Please check your connection and try again.');
+      } else {
+        setError(`Network error: ${error?.error || error?.message || 'Please check your connection and try again.'}`);
+      }
+    } finally {
+      setIsLoading(false);
     }
-  }, [mealData, selectedChildId]);
+  }, [mealData, selectedChildId, addMeal]);
 
   // Function to get meal summary
   const getMealSummary = useMemo(() => {
@@ -596,9 +620,10 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
               />
             ) : (
               <Button
-                title="Save All Meals"
+                title={isLoading ? "Saving..." : "Save All Meals"}
                 onPress={saveMealDataToBackend}
                 style={styles.saveAllButton}
+                disabled={isLoading}
               />
             )}
           </View>
@@ -719,6 +744,17 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
           <Text style={styles.warningInfo}>
             Please select a child first to see allowed foods
           </Text>
+        )}
+        {error && (
+          <View style={styles.errorContainer}>
+            <Text style={styles.errorText}>{error}</Text>
+            <TouchableOpacity 
+              style={styles.retryButton}
+              onPress={() => setError(null)}
+            >
+              <Text style={styles.retryButtonText}>Dismiss</Text>
+            </TouchableOpacity>
+          </View>
         )}
 
         <ScrollView 
@@ -1257,6 +1293,36 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     borderTopColor: colors.border,
     zIndex: 99,
+  },
+  // Error handling styles
+  errorContainer: {
+    backgroundColor: colors.error + '10',
+    borderColor: colors.error,
+    borderWidth: 1,
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 16,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  errorText: {
+    color: colors.error,
+    fontSize: 14,
+    fontWeight: '500',
+    flex: 1,
+    marginRight: 12,
+  },
+  retryButton: {
+    backgroundColor: colors.error,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 8,
+  },
+  retryButtonText: {
+    color: colors.text.inverse,
+    fontSize: 12,
+    fontWeight: '600',
   },
 });
 
