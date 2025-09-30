@@ -22,9 +22,10 @@ import Animated, {
 } from 'react-native-reanimated';
 import Button from '../../../components/common/Button';
 import { colors } from '../../../constants/colors';
-import { getAllFoods } from '../../../db/foods';
+import { useFoodStore } from '../../../stores/foodStore';
 import { useMealStore } from '../../../stores/mealStore';
 import { useUserStore } from '../../../stores/userStore';
+import { apiService } from '../../../utils/apiService';
 
 const { width } = Dimensions.get('window');
 
@@ -82,7 +83,7 @@ const FoodItem = React.memo(({
         >
           <View style={styles.foodImageContainer}>
             <Image 
-              source={food.icon} 
+              source={food.image ? { uri: food.image } : require('../../../assets/images/logo/1.png')} 
               style={[
                 styles.foodImage,
                 !food.isAllowed && styles.foodImageDisabled
@@ -230,7 +231,7 @@ const AmountModal = React.memo(({
                     <View key={foodId} style={styles.amountItem}>
                       <View style={styles.amountItemLeft}>
                         <Image 
-                          source={food?.icon} 
+                          source={food?.image ? { uri: food.image } : require('../../../assets/images/logo/1.png')} 
                           style={styles.amountFoodImage}
                           resizeMode="contain"
                         />
@@ -294,8 +295,35 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const { profile, selectedChildId } = useUserStore();
   const { addMeal, meals, getMeal } = useMealStore();
+  const { foods: storeFoods, setFoods, isLoading: foodsLoading, setLoading: setFoodsLoading, setError: setFoodsError } = useFoodStore();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  
+  // Load foods from backend on mount if not already loaded
+  useEffect(() => {
+    let isActive = true;
+    const loadFoods = async () => {
+      try {
+        if (!storeFoods || storeFoods.length === 0) {
+          setFoodsLoading(true);
+          const res = await apiService.getFoods();
+          if (isActive && res.success && Array.isArray(res.data)) {
+            setFoods(res.data as any);
+          } else if (isActive && !res.success) {
+            setFoodsError(res.error || 'Failed to load foods');
+          }
+        }
+      } catch (e: any) {
+        if (isActive) setFoodsError(e?.message || 'Failed to load foods');
+      } finally {
+        if (isActive) setFoodsLoading(false);
+      }
+    };
+    loadFoods();
+    return () => {
+      isActive = false;
+    };
+  }, []);
   useEffect(() => {
     console.log('Tracking - Initial load effect, selectedChildId:', selectedChildId);
     if (selectedChildId) {
@@ -341,9 +369,9 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
     { id: 'snack', name: 'Snack' }
   ];
 
-  // Get all foods from database and filter based on selected child's allowed foods
+  // Get all foods from backend store and filter based on selected child's allowed foods
   const foods = useMemo(() => {
-    const allFoods = getAllFoods();
+    const allFoods = storeFoods || [];
     
     if (!selectedChild) {
       return allFoods; // Show all foods if no child is selected
@@ -390,7 +418,7 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
     }
     
     return filteredFoods;
-  }, [selectedChild, searchQuery]);
+  }, [selectedChild, searchQuery, storeFoods]);
 
   // Memoize the toggle function to prevent recreation
   const handleFoodToggle = useCallback((foodId: string) => {

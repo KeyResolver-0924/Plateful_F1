@@ -12,6 +12,8 @@ export interface FoodItem {
   vitamins: string[];
   minerals: string[];
   image?: string;
+  // Computed client-side flag used in tracking UI
+  isAllowed?: boolean;
 }
 
 export interface FoodState {

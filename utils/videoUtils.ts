@@ -2,7 +2,7 @@
 // Static map of known video assets keyed by the relative path values used in db/foods.json
 // Metro requires static require paths; keep this list in sync with assets/videos/**
 const videoSourceMap: Record<string, any> = {
-  'assets/videos/Protein/chicken.mp4': require('../assets/videos/Protein/chicken.mp4'),
+  'assets/videos/Protein/Chicken.mp4': require('../assets/videos/Protein/Chicken.mp4'),
   'assets/videos/Fruit/Apple.mp4': require('../assets/videos/Fruit/Apple.mp4'),
 
 };

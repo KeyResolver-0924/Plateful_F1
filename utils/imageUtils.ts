@@ -2,6 +2,7 @@ import { ImageSourcePropType } from 'react-native';
 
 // Map normalized food names to their static image requires
 const foodImageMap: Record<string, ImageSourcePropType> = {
+  //Food category
   // Vegetables
   asparagus: require('../assets/images/Food/Vegetable/asparagus.png'),
   beet: require('../assets/images/Food/Vegetable/beet.png'),
