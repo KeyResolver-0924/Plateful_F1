@@ -6,7 +6,7 @@
     "total_categories": 6,
     "total_foods": 67,
     "difficulty_level": "Beginner to Intermediate"
-  },
+     },
   "categories": {
     "vegetables": {
       "name": "Vegetables",

@@ -17,7 +17,9 @@ import Animated, {
   withSpring
 } from 'react-native-reanimated';
 import { colors } from '../../constants/colors';
-import { getFoodsByCategory } from '../../constants/foods';
+import { useEffect } from 'react';
+import { useFoodStore } from '../../stores/foodStore';
+import { apiService } from '../../utils/apiService';
 
 const { width } = Dimensions.get('window');
 
@@ -33,9 +35,35 @@ const FoodSelectionScreen = () => {
   const step = params.step ? parseInt(params.step as string) : 0;
   const [selectedItems, setSelectedItems] = useState<string[]>([]);
   
-  // Get food data from database based on category
+  const { foods, setFoods, setLoading: setFoodsLoading, setError: setFoodsError, getFoodsByCategory } = useFoodStore();
+
+  // fetch foods if empty
+  useEffect(() => {
+    let mounted = true;
+    const load = async () => {
+      try {
+        if (!foods || foods.length === 0) {
+          setFoodsLoading(true);
+          const res = await apiService.getFoods();
+          if (mounted && res.success && Array.isArray(res.data)) {
+            setFoods(res.data as any);
+          } else if (mounted && !res.success) {
+            setFoodsError(res.error || 'Failed to load foods');
+          }
+        }
+      } catch (e: any) {
+        if (mounted) setFoodsError(e?.message || 'Failed to load foods');
+      } finally {
+        if (mounted) setFoodsLoading(false);
+      }
+    };
+    load();
+    return () => { mounted = false; };
+  }, [foods, setFoods, setFoodsError, setFoodsLoading]);
+
+  // Get food data from backend by category
   const getCategoryData = (cat: string) => {
-    const foods = getFoodsByCategory(cat as keyof typeof getFoodsByCategory);
+    const items = getFoodsByCategory(cat);
     const titles = {
       vegetables: 'What Vegetables have been Introduced?',
       fruits: 'What Fruits have been Introduced?',
@@ -47,7 +75,7 @@ const FoodSelectionScreen = () => {
     
     return {
       title: (titles as any)[cat] || 'Select Foods',
-      items: foods
+      items
     };
   };
   
