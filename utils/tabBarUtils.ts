@@ -4,9 +4,7 @@ import { usePathname } from 'expo-router';
 export const HIDDEN_TAB_PAGES = [
   '/auth/sign-in',
   '/auth/sign-up',
-  '/auth/otp',
   '/auth/onboarding',
-  '/auth/verification-success',
   '/splash',
   '/food/selection',
   '/food/report',

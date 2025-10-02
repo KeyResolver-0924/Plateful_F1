@@ -26,7 +26,6 @@ export interface AuthResponse {
     id: string;
     name: string;
     email: string;
-    phone?: string;
     role: string;
     isVerified: boolean;
     avatar?: string;
@@ -40,7 +39,6 @@ export interface UserProfile {
   id: string;
   name: string;
   email: string;
-  phone?: string;
   role: string;
   isVerified: boolean;
   avatar?: string;
@@ -110,9 +108,23 @@ class ApiService {
       } else if (endpoint.startsWith('/children')) {
         // Child profile data
         const userStore = useUserStore.getState();
-        // Update children in user profile
-        if (data && Array.isArray(data) && userStore.profile) {
+        // If server returned full children list
+        if (Array.isArray(data) && userStore.profile) {
           userStore.setProfile({ ...userStore.profile, children: data });
+        }
+        // If server returned a single child object (e.g., after POST /children)
+        if (data && typeof data === 'object' && !Array.isArray(data)) {
+          const currentProfile = userStore.profile;
+          const child: any = data;
+          if (currentProfile && child && child.id) {
+            const currentChildren = currentProfile.children || [];
+            const mergedChildren = [
+              ...currentChildren.filter((c: any) => c.id !== child.id),
+              child,
+            ];
+            userStore.setProfile({ ...currentProfile, children: mergedChildren });
+            userStore.selectChild(child.id);
+          }
         }
       } else if (endpoint.startsWith('/meals')) {
         // Meal data
@@ -282,7 +294,6 @@ class ApiService {
     name: string;
     email: string;
     password: string;
-    phone?: string;
   }): Promise<ApiResponse<AuthResponse>> {
     console.log('userData: >>--->', userData);
     
@@ -343,6 +354,7 @@ class ApiService {
   }
 
   async addChild(childData: any): Promise<ApiResponse<any>> {
+    console.log('childData: >>--->', childData);
     return this.request<any>('/children', {
       method: 'POST',
       body: JSON.stringify(childData),

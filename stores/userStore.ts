@@ -23,7 +23,6 @@ export interface UserProfile {
   id: string;
   name: string;
   email: string;
-  phone?: string;
   avatar?: string;
   role: string;
   isVerified: boolean;
@@ -116,18 +115,40 @@ export const useUserStore = create<UserStore>((set, get) => ({
     console.log('Child data3:', childData);
     set({ isLoading: true, error: null });
     try {
+      console.log('Child data4');
       const response = await apiService.addChild(childData);
       
       if (response.success && response.data) {
-        // Refresh the profile to get updated children
-        const profileResponse = await apiService.getCurrentUser();
-        if (profileResponse.success && profileResponse.data) {
+        // Optimistically merge the new child into local store
+        const currentProfile = get().profile;
+        const returnedChild = response.data as unknown as ChildProfile;
+        if (currentProfile && returnedChild) {
+          const existingChildren = currentProfile.children || [];
+          const mergedChildren = [
+            ...existingChildren.filter(c => c.id !== returnedChild.id),
+            returnedChild,
+          ];
           set({ 
-            profile: profileResponse.data,
-            selectedChildId: response.data.id,
-            isLoading: false 
+            profile: { ...currentProfile, children: mergedChildren },
+            selectedChildId: returnedChild.id,
+            childProfile: returnedChild,
+          });
+        } else if (returnedChild) {
+          // No profile yet, set a minimal one with this child
+          set({
+            profile: { ...(currentProfile as any), children: [returnedChild] } as any,
+            selectedChildId: returnedChild.id,
+            childProfile: returnedChild,
           });
         }
+
+        // Also attempt to refresh the profile to align with server state
+        const profileResponse = await apiService.getCurrentUser();
+        if (profileResponse.success && profileResponse.data) {
+          set({ profile: profileResponse.data });
+        }
+
+        set({ isLoading: false });
         
         // Show success message
         MessageHandler.showSuccess('Child profile created successfully!');

@@ -4,8 +4,7 @@ import MessageHandler from '../utils/messageHandler';
 
 export interface User {
   id: string;
-  email: string;
-  phone?: string;
+  email: string;    
   name: string;
   password?: string;
   avatar?: string;
@@ -29,11 +28,8 @@ export interface AuthState {
 
 export interface AuthActions {
   login: (email: string, password: string) => Promise<AuthResponse | undefined>;
-  loginWithPhone: (phone: string, otp: string) => Promise<void>;
   register: (userData: Partial<User> & { password: string }) => Promise<AuthResponse | undefined>;
   logout: () => void;
-  verifyOTP: (phone: string, otp: string) => Promise<void>;
-  resendOTP: (phone: string) => Promise<void>;
   setUser: (user: User) => void;
   setToken: (token: string) => void;
   setLoading: (loading: boolean) => void;
@@ -95,18 +91,6 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
     }
   },
 
-  loginWithPhone: async (phone: string, otp: string) => {
-    set({ isLoading: true, error: null });
-    try {
-      // TODO: Implement phone login with OTP when backend endpoint is ready
-      throw new Error('Phone login not implemented yet');
-    } catch (error) {
-      set({
-        error: error instanceof Error ? error.message : 'Phone login failed',
-        isLoading: false,
-      });
-    }
-  },
   register: async (userData) => {
     set({ isLoading: true, error: null });
     try {
@@ -118,7 +102,6 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
         name: userData.name,
         email: userData.email,
         password: userData.password,
-        phone: userData.phone,
       });
 
       if (response.success && response.data) {
@@ -172,31 +155,7 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
     }
   },
 
-  verifyOTP: async (phone: string, otp: string) => {
-    set({ isLoading: true, error: null });
-    try {
-      // TODO: Implement OTP verification when backend endpoint is ready
-      throw new Error('OTP verification not implemented yet');
-    } catch (error) {
-      set({
-        error: error instanceof Error ? error.message : 'OTP verification failed',
-        isLoading: false,
-      });
-    }
-  },
 
-  resendOTP: async (phone: string) => {
-    set({ isLoading: true, error: null });
-    try {
-      // TODO: Implement OTP resend when backend endpoint is ready
-      throw new Error('OTP resend not implemented yet');
-    } catch (error) {
-      set({
-        error: error instanceof Error ? error.message : 'OTP resend failed',
-        isLoading: false,
-      });
-    }
-  },
 
   setUser: (user: User) => set({ user }),
   setToken: (token: string) => set({ token }),

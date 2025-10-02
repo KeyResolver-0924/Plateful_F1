@@ -2,23 +2,23 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import {
-  Dimensions,
-  Image,
-  Modal,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  View
+    Dimensions,
+    Image,
+    Modal,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    TouchableWithoutFeedback,
+    View
 } from 'react-native';
 import Animated, {
-  FadeIn,
-  FadeInUp,
-  useAnimatedStyle,
-  useSharedValue,
-  withSpring
+    FadeIn,
+    FadeInUp,
+    useAnimatedStyle,
+    useSharedValue,
+    withSpring
 } from 'react-native-reanimated';
 import Button from '../../../components/common/Button';
 import { colors } from '../../../constants/colors';
@@ -359,8 +359,8 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
   
   console.log('selectedChildId1: >>--->', meals);
 
-  const childProfile = (profile as any)?.data?.user?.children || profile?.children;
-  const selectedChild = childProfile.find((child: any) => child.id === selectedChildId) || childProfile[0];
+  const childProfile = (profile as any)?.data?.user?.children || profile?.children || [];
+  const selectedChild = childProfile?.find((child: any) => child.id === selectedChildId) || childProfile?.[0];
   
   const mealTypes = [
     { id: 'breakfast', name: 'Break Fast' },
@@ -378,9 +378,9 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
     }
     
     // Get the child's allowed foods
-    const allowedFruits = selectedChild.fruits || [];
-    const allowedVegetables = selectedChild.vegetables || [];
-    const allowedProteins = selectedChild.proteins || [];
+    const allowedFruits = selectedChild?.fruits || [];
+    const allowedVegetables = selectedChild?.vegetables || [];
+    const allowedProteins = selectedChild?.proteins || [];
     
     // Filter foods based on what the child is allowed to eat
     let filteredFoods = allFoods.map(food => {
@@ -513,7 +513,7 @@ const MealTrackingScreen = ({ navigation }: { navigation: NavigationProps }) => 
       }));
       
       // Mark meal as completed
-      setCompletedMeals(prev => new Set([...prev, selectedMealType]));
+      setCompletedMeals(prev => new Set(Array.from(prev).concat(selectedMealType)));
       
       console.log('Meal Data Saved:', {
         mealType: selectedMealType,
