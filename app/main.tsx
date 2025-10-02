@@ -27,7 +27,6 @@ const { width } = Dimensions.get('window');
 interface UserData {
   name: string;
   email?: string;
-  phoneNumber?: string;
 }
 
 const MainScreen: React.FC = () => {

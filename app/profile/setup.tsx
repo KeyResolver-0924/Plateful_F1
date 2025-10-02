@@ -342,35 +342,102 @@ const ProfileSetupScreen = () => {
     'fats'
   ];
   
+  // Step-by-step validation to prevent proceeding without required inputs
+  const validateStep = (stepKey: string): boolean => {
+    switch (stepKey) {
+      case 'childName':
+        if (!profileData.childName.trim()) {
+          MessageHandler.showError("Please enter your child's name");
+          return false;
+        }
+        return true;
+      case 'avatar':
+        if (!profileData.avatar) {
+          MessageHandler.showError("Please select an avatar for your child");
+          return false;
+        }
+        return true;
+      case 'age':
+        if (!profileData.age) {
+          MessageHandler.showError("Please select your child's age");
+          return false;
+        }
+        return true;
+      case 'gender':
+        if (!profileData.gender) {
+          MessageHandler.showError("Please select your child's gender");
+          return false;
+        }
+        return true;
+      case 'restrictions':
+        // Optional: user may skip selecting restrictions
+        return true;
+      case 'vegetables':
+        if (!Array.isArray(profileData.vegetables) || profileData.vegetables.length === 0) {
+          MessageHandler.showError('Please select at least one vegetable');
+          return false;
+        }
+        return true;
+      case 'fruits':
+        if (!Array.isArray(profileData.fruits) || profileData.fruits.length === 0) {
+          MessageHandler.showError('Please select at least one fruit');
+          return false;
+        }
+        return true;
+      case 'proteins':
+        if (!Array.isArray(profileData.proteins) || profileData.proteins.length === 0) {
+          MessageHandler.showError('Please select at least one protein');
+          return false;
+        }
+        return true;
+      case 'dairy':
+        if (!Array.isArray(profileData.dairy) || profileData.dairy.length === 0) {
+          MessageHandler.showError('Please select at least one dairy');
+          return false;
+        }
+        return true;
+      case 'carbohydrates':
+        if (!Array.isArray(profileData.carbohydrates) || profileData.carbohydrates.length === 0) {
+          MessageHandler.showError('Please select at least one carbohydrate');
+          return false;
+        }
+        return true;
+      case 'fats':
+        if (!Array.isArray(profileData.fats) || profileData.fats.length === 0) {
+          MessageHandler.showError('Please select at least one fat');
+          return false;
+        }
+        return true;
+      default:
+        return true;
+    }
+  };
+  
   const handleNext = async () => {
+    // Validate current step before proceeding
+    const currentStepKey = steps[currentStep];
+    const isValid = validateStep(currentStepKey);
+    if (!isValid) {
+      return;
+    }
     if (currentStep < steps.length - 1) {
+      console.log('handleNext', currentStep + 1);
       setCurrentStep(currentStep + 1);
       progress.value = withSpring((currentStep + 1) / steps.length);
     } else {
+      console.log('handleNext', 'create child profile');
       await handleCreateChildProfile();
     }
   };
   
   const handleCreateChildProfile = async () => {
     try {
-      if (!profileData.childName.trim()) {
-        MessageHandler.showError('Please enter your child\'s name');
-        return;
-      }
-      
-      if (!profileData.avatar) {
-        MessageHandler.showError('Please select an avatar for your child');
-        return;
-      }
-      
-      if (!profileData.age) {
-        MessageHandler.showError('Please select your child\'s age');
-        return;
-      }
-      
-      if (!profileData.gender) {
-        MessageHandler.showError('Please select your child\'s gender');
-        return;
+      // Final comprehensive validation (defensive)
+      const requiredSteps: string[] = steps;
+      for (const step of requiredSteps) {
+        if (!validateStep(step)) {
+          return;
+        }
       }
       
       console.log('Child data1:', profileData);

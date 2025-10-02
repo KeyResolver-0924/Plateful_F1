@@ -3,17 +3,17 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
 import {
-  Alert,
-  Image,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View
+    Alert,
+    Image,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    View
 } from 'react-native';
 import Animated, {
-  FadeInUp
+    FadeInUp
 } from 'react-native-reanimated';
 import HeaderProfile from '../../../components/common/HeaderProfile';
 import { colors } from '../../../constants/colors';
@@ -50,7 +50,6 @@ interface preferencesType {
 interface UserProfile {
   name: string;
   email: string;
-  phone: string;
   avatar: any;
   children: ChildProfile[];
   role: string;
@@ -96,7 +95,6 @@ const ProfileScreen = () => {
   const userProfile = user?.user || {
     name: 'Loading...',
     email: 'Loading...',
-    phone: 'Loading...',
     avatar: 'user',
     children: [],
     role: 'Loading...',
@@ -270,19 +268,6 @@ const ProfileScreen = () => {
                 />
               ) : (
                 <Text style={styles.detailValue}>{userProfile.email}</Text>
-              )}
-            </View>
-            <View style={styles.detailRow}>
-              <Text style={styles.detailLabel}>Phone:</Text>
-              {isEditing ? (
-                <TextInput
-                  style={styles.editInput}
-                  value={editingUser.phone}
-                  onChangeText={(text) => setEditingUser({...editingUser, phone: text})}
-                  keyboardType="phone-pad"
-                />
-              ) : (
-                <Text style={styles.detailValue}>{userProfile.phone}</Text>
               )}
             </View>
             <View style={styles.detailRow}>

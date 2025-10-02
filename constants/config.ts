@@ -20,13 +20,6 @@ export interface AnimationConfig {
     accelerate: string;
   };
 }
-
-export interface OtpConfig {
-  length: number;
-  resendDelay: number;
-  expiryTime: number;
-}
-
 export interface ImageUploadConfig {
   maxSize: number;
   allowedTypes: string[];
@@ -49,7 +42,6 @@ export interface Config {
   GOOGLE_ANDROID_CLIENT_ID: string;
   GOOGLE_WEB_CLIENT_ID: string;
   animation: AnimationConfig;
-  otp: OtpConfig;
   imageUpload: ImageUploadConfig;
   foodCategories: FoodCategories;
   ageRanges: AgeRange[];
@@ -59,8 +51,8 @@ export interface Config {
 export const config: Config = {
   APP_NAME: 'PlateFul',
   API_BASE_URL: process.env.EXPO_PUBLIC_API_URL || (process.env.NODE_ENV === 'development' 
-    ? 'http://192.168.142.29:5000/api'  // Use the same IP as in constants/api.ts
-    : 'https://api.platefull.com/api'),
+    ? 'https://plateful.info/api'  // Use the same IP as in constants/api.ts
+    : 'https://plateful.info/api'),
   
   // Google OAuth Configuration
   GOOGLE_IOS_CLIENT_ID: 'YOUR_IOS_CLIENT_ID',
@@ -81,12 +73,6 @@ export const config: Config = {
     }
   },
   
-  // OTP Configuration
-  otp: {
-    length: 4,
-    resendDelay: 180, // 3 minutes in seconds
-    expiryTime: 300 // 5 minutes in seconds
-  },
   
   // Image Upload Configuration
   imageUpload: {

@@ -66,10 +66,6 @@ export const validators = {
     return re.test(password);
   },
 
-  phone(phone) {
-    const re = /^\+?[1-9]\d{1,14}$/;
-    return re.test(phone.replace(/\s/g, ''));
-  },
 
   name(name) {
     return name && name.trim().length >= 2;

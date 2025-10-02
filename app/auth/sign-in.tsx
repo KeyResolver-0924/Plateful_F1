@@ -131,12 +131,6 @@ const SignInScreen = () => {
           showsVerticalScrollIndicator={false}
           contentContainerStyle={styles.scrollContent}
         >
-          <View style={styles.formHeader}>
-            <Text style={styles.formTitle}>Welcome Back!</Text>
-            <Text style={styles.formSubtitle}>
-              Sign in with your phone number
-            </Text>
-          </View>
           
           <View style={styles.form}>
             <Input

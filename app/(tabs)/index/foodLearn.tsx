@@ -5,14 +5,14 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
 import {
-  Dimensions,
-  FlatList,
-  Image,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View
+    Dimensions,
+    FlatList,
+    Image,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View
 } from 'react-native';
 import { colors } from '../../../constants/colors';
 import { getFoodImageSource } from '../../../utils/imageUtils';
@@ -34,12 +34,12 @@ const FoodLearn = () => {
   });
   const { profile, selectedChildId } = useUserStore();
 
-  const childProfile = (profile as any)?.data?.user?.children || profile?.children;
-  const selectedChild = childProfile.find((child: any) => child.id === selectedChildId) || childProfile[0];
+  const childProfile = (profile as any)?.data?.user?.children || profile?.children || [];
+  const selectedChild = childProfile?.find((child: any) => child.id === selectedChildId) || childProfile?.[0];
 
-  const allowedFruits = selectedChild.fruits || [];
-  const allowedVegetables = selectedChild.vegetables || [];
-  const allowedProteins = selectedChild.proteins || [];
+  const allowedFruits = selectedChild?.fruits || [];
+  const allowedVegetables = selectedChild?.vegetables || [];
+  const allowedProteins = selectedChild?.proteins || [];
 
   // Reset selected category and food data when switching children
   useEffect(() => {
